@@ -1,1 +1,7 @@
 # Movie-Industry-Analytics-Pipeline
+
+Api: https://developer.themoviedb.org/docs/getting-started
+
+API Read Access Token: eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIzOTg2ZGVlZmEwOGVkY2E3Y2I5ODNhNzYyMjFhMDQ1NSIsIm5iZiI6MTc3MjYyNDM0MS40Njg5OTk5LCJzdWIiOiI2OWE4MTlkNTI1Yjc3ZjQxODBjNmNkNDYiLCJzY29wZXMiOlsiYXBpX3JlYWQiXSwidmVyc2lvbiI6MX0.WyBlsnZ2mMC0lrPnRmk9aTZshFx4dtvJw6FH_JAgerI
+
+API Key: 3986deefa08edca7cb983a76221a0455
