@@ -50,74 +50,39 @@ def save_raw_data(data, page_num):
     
     print(f"Raw data saved to {file_path}")
 
-# def safe_request(url, params, retries=3):
-#     for i in range(retries):
-#         try:
-#             response = requests.get(url, params=params)
-#             response.raise_for_status()  
-#             return response
-#         except requests.exceptions.RequestException as e:
-#             logging.error(f"Error on attempt {i+1}: {e}")
-#             time.sleep(2 ** i)
-
-#     logging.error(f"Failed to fetch data after {retries} attempts.")
-#     return None
-
-# def safe_request(url, params, retries=3):
-#     for i in range(retries):
-#         try:
-#             response = requests.get(url, params=params)
-#             response.raise_for_status()  # Will raise an HTTPError for bad responses
-            
-#             # Log the successful API request
-#             logging.info(f"Successfully fetched data from {url} (Page {params['page']})")
-            
-#             return response
-            
-#         except requests.exceptions.RequestException as e:
-#             logging.error(f"Error on attempt {i + 1}: {e}")
-#             logging.error(f"Response: {response.text}")  # Log the full response if an error occurs
-            
-#             time.sleep(2 ** i)  # Exponential backoff for retries
-
-#     logging.error(f"Failed after {retries} attempts.")
-#     return None
 def safe_request(url, params, retries=3):
     for i in range(retries):
         try:
             response = requests.get(url, params=params)
-            response.raise_for_status()  # Raise an HTTPError for bad responses
+            response.raise_for_status()  # Will raise an HTTPError for bad responses
             
-            # Log successful API request
             logging.info(f"Successfully fetched data from {url} (Page {params['page']})")
-            return response
-
-        except requests.exceptions.RequestException as e:
-            # Log error details for the first failed request attempt
-            logging.error(f"Error on attempt {i + 1}: {e}")
             
-            if response:
-                logging.error(f"Response status code: {response.status_code}")
-                logging.error(f"Response content: {response.text}")  # Log the full response
-
+            return response
+            
+        except requests.exceptions.RequestException as e:
+            logging.error(f"Error on attempt {i + 1}: {e}")
+            logging.error(f"Response: {response.text}")  # Log the full response if an error occurs
+            
             time.sleep(2 ** i)  # Exponential backoff for retries
 
     logging.error(f"Failed after {retries} attempts.")
     return None
+
 # Example of how to fetch movies 
 # movies = fetch_movies(pages=3)
 # print(movies) 
 
-if __name__ == "__main__":
-    movies = fetch_movies(pages=3)  
-    print(f"Fetched {len(movies)} movies.")
-    if movies:
-        print("Here are some movie titles:")
-        for movie in movies[:5]:  
-            print(movie["title"])
+# if __name__ == "__main__":
+#     movies = fetch_movies(pages=3)  
+#     print(f"Fetched {len(movies)} movies.")
+#     if movies:
+#         print("Here are some movie titles:")
+#         for movie in movies[:5]:  
+#             print(movie["title"])
     
 
-# if __name__ == "__main__":
-#     movies = fetch_movies(pages=3) 
-#     for page_num, movie_data in enumerate(movies, start=1):
-#         save_raw_data(movie_data, page_num)  
+if __name__ == "__main__":
+    movies = fetch_movies(pages=3) 
+    for page_num, movie_data in enumerate(movies, start=1):
+        save_raw_data(movie_data, page_num)  
