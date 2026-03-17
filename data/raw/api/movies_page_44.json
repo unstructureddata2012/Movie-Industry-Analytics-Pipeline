@@ -1,0 +1,20 @@
+{
+    "adult": false,
+    "backdrop_path": "/swxhEJsAWms6X1fDZ4HdbvYBSf9.jpg",
+    "genre_ids": [
+        12,
+        35,
+        27
+    ],
+    "id": 1234731,
+    "original_language": "en",
+    "original_title": "Anaconda",
+    "overview": "A group of friends facing mid-life crises head to the rainforest with the intention of remaking their favorite movie from their youth, only to find themselves in a fight for their lives against natural disasters, giant snakes and violent criminals.",
+    "popularity": 57.9358,
+    "poster_path": "/qxMv3HwAB3XPuwNLMhVRg795Ktp.jpg",
+    "release_date": "2025-12-24",
+    "title": "Anaconda",
+    "video": false,
+    "vote_average": 5.835,
+    "vote_count": 789
+}

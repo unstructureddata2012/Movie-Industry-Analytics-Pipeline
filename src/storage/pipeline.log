@@ -1,0 +1,4 @@
+2026-03-17 23:23:48,209 - INFO - Fetching page 1
+2026-03-17 23:23:48,209 - ERROR - API request failed
+2026-03-17 23:23:48,279 - INFO - Started uploading movies_page_1.json to S3 bucket movie-pipeline-bucket
+2026-03-17 23:23:48,302 - INFO - Successfully uploaded movies_page_1.json to movie-pipeline-bucket

@@ -1,0 +1,21 @@
+{
+    "adult": false,
+    "backdrop_path": "/tn95fumbkVAgXjOuw9CQOg0aYQz.jpg",
+    "genre_ids": [
+        28,
+        80,
+        18,
+        53
+    ],
+    "id": 1419406,
+    "original_language": "zh",
+    "original_title": "The Shadow's Edge",
+    "overview": "Macau Police brings the tracking expert police officer out of retirement to help catch a dangerous group of professional thieves.",
+    "popularity": 78.6013,
+    "poster_path": "/e0RU6KpdnrqFxDKlI3NOqN8nHL6.jpg",
+    "release_date": "2025-08-16",
+    "title": "The Shadow's Edge",
+    "video": false,
+    "vote_average": 7.21,
+    "vote_count": 497
+}

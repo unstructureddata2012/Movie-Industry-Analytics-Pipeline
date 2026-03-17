@@ -1,0 +1,19 @@
+{
+    "adult": false,
+    "backdrop_path": "/vSQSYd2zZTqc0zmHImwWEGGluMI.jpg",
+    "genre_ids": [
+        10749,
+        18
+    ],
+    "id": 1316092,
+    "original_language": "en",
+    "original_title": "\"Wuthering Heights\"",
+    "overview": "Tragedy strikes when Heathcliff falls in love with Catherine Earnshaw, a woman from a wealthy family in 18th-century England.",
+    "popularity": 106.4394,
+    "poster_path": "/3YBce6dTh1D5oCMITXk2S5QhPt.jpg",
+    "release_date": "2026-02-11",
+    "title": "\"Wuthering Heights\"",
+    "video": false,
+    "vote_average": 6.4,
+    "vote_count": 516
+}

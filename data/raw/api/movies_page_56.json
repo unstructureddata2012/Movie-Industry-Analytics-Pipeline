@@ -1,0 +1,19 @@
+{
+    "adult": false,
+    "backdrop_path": "/iXXPaQPfQowpQ5UvhsHLj9BgFhe.jpg",
+    "genre_ids": [
+        27,
+        878
+    ],
+    "id": 126889,
+    "original_language": "en",
+    "original_title": "Alien: Covenant",
+    "overview": "The crew of the colony ship Covenant, bound for a remote planet on the far side of the galaxy, discovers what they think is an uncharted paradise but is actually a dark, dangerous world.",
+    "popularity": 49.8742,
+    "poster_path": "/zecMELPbU5YMQpC81Z8ImaaXuf9.jpg",
+    "release_date": "2017-05-09",
+    "title": "Alien: Covenant",
+    "video": false,
+    "vote_average": 6.171,
+    "vote_count": 9291
+}

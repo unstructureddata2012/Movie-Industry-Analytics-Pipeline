@@ -1,0 +1,20 @@
+{
+    "adult": false,
+    "backdrop_path": "/yHlVD4zBJ2MMevQo2uVb8m8LWOm.jpg",
+    "genre_ids": [
+        27,
+        878,
+        35
+    ],
+    "id": 696393,
+    "original_language": "en",
+    "original_title": "Cold Storage",
+    "overview": "When a mutating, highly contagious fungus escapes a sealed facility, two employees \u2013 joined by a grizzled bioterror operative \u2013 must survive the wildest night shift ever to save humanity from extinction.",
+    "popularity": 63.1731,
+    "poster_path": "/3HA2iiq982e01EKXJvPFyfMADVM.jpg",
+    "release_date": "2026-01-22",
+    "title": "Cold Storage",
+    "video": false,
+    "vote_average": 6.682,
+    "vote_count": 198
+}

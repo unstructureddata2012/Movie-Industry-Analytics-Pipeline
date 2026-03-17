@@ -1,0 +1,20 @@
+{
+    "adult": false,
+    "backdrop_path": "/u6YE4rlEWOiYoqhPJuNvt5GHxgu.jpg",
+    "genre_ids": [
+        28,
+        80,
+        53
+    ],
+    "id": 1290821,
+    "original_language": "en",
+    "original_title": "Shelter",
+    "overview": "A man living in self-imposed exile on a remote island rescues a young girl from a violent storm, setting off a chain of events that forces him out of seclusion to protect her from enemies tied to his past.",
+    "popularity": 298.5287,
+    "poster_path": "/buPFnHZ3xQy6vZEHxbHgL1Pc6CR.jpg",
+    "release_date": "2026-01-28",
+    "title": "Shelter",
+    "video": false,
+    "vote_average": 6.601,
+    "vote_count": 308
+}

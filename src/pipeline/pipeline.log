@@ -1,0 +1,12 @@
+2026-03-17 23:28:30,018 - INFO - Fetching page 1
+2026-03-17 23:28:30,018 - ERROR - API request failed
+2026-03-17 23:28:30,939 - INFO - Pipeline finished successfully
+2026-03-17 23:33:34,569 - INFO - Fetching page 1
+2026-03-17 23:33:34,569 - ERROR - API request failed
+2026-03-17 23:33:35,180 - INFO - Pipeline finished successfully
+2026-03-17 23:47:20,307 - INFO - Fetching page 1
+2026-03-17 23:47:20,308 - ERROR - API request failed
+2026-03-17 23:47:20,609 - INFO - Successfully fetched data from https://api.themoviedb.org/3/movie/popular (Page 1)
+2026-03-17 23:47:20,742 - INFO - Successfully fetched data from https://api.themoviedb.org/3/movie/popular (Page 2)
+2026-03-17 23:47:20,876 - INFO - Successfully fetched data from https://api.themoviedb.org/3/movie/popular (Page 3)
+2026-03-17 23:47:20,895 - INFO - Pipeline finished successfully

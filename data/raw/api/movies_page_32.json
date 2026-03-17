@@ -1,0 +1,20 @@
+{
+    "adult": false,
+    "backdrop_path": "/eJ0HooOOD1uzI39CfOQNWIiWKlJ.jpg",
+    "genre_ids": [
+        28,
+        18,
+        53
+    ],
+    "id": 1387382,
+    "original_language": "en",
+    "original_title": "Hunting Season",
+    "overview": "When a reclusive survivalist and his daughter rescue a mysterious, wounded woman from a river, they become entangled in a deadly web of violence and revenge, forcing them to confront a brutal criminal to survive.",
+    "popularity": 69.4423,
+    "poster_path": "/cbryTyaWdqrKpQCw6K7zm2jrB5v.jpg",
+    "release_date": "2025-12-05",
+    "title": "Hunting Season",
+    "video": false,
+    "vote_average": 7.01,
+    "vote_count": 152
+}

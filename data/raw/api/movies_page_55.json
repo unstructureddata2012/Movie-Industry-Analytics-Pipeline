@@ -1,0 +1,20 @@
+{
+    "adult": false,
+    "backdrop_path": "/1qwhYqg7YEZajh3Q4biqbuQoDq8.jpg",
+    "genre_ids": [
+        16,
+        35,
+        10751
+    ],
+    "id": 1297842,
+    "original_language": "en",
+    "original_title": "GOAT",
+    "overview": "A small goat with big dreams gets a once-in-a-lifetime shot to join the pros and play roarball, a high-intensity, co-ed, full-contact sport dominated by the fastest, fiercest animals in the world.",
+    "popularity": 50.006,
+    "poster_path": "/wfuqMlaExcoYiUEvKfVpUTt1v4u.jpg",
+    "release_date": "2026-02-11",
+    "title": "GOAT",
+    "video": false,
+    "vote_average": 7.6,
+    "vote_count": 110
+}

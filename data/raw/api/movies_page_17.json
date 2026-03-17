@@ -1,0 +1,20 @@
+{
+    "adult": false,
+    "backdrop_path": "/drRxbu2OHG0DEENptZ8wI5f0uEU.jpg",
+    "genre_ids": [
+        878,
+        28,
+        35
+    ],
+    "id": 1119449,
+    "original_language": "en",
+    "original_title": "Good Luck, Have Fun, Don't Die",
+    "overview": "A 'Man from the Future' arrives at an LA diner where he must recruit the precise combination of disgruntled patrons to join him on a one-night quest to save the world from the terminal threat of a rogue artificial intelligence.",
+    "popularity": 102.3336,
+    "poster_path": "/rWcfOdY7TU6lTdazWj0ebDZnAfO.jpg",
+    "release_date": "2026-02-13",
+    "title": "Good Luck, Have Fun, Don't Die",
+    "video": false,
+    "vote_average": 6.991,
+    "vote_count": 161
+}

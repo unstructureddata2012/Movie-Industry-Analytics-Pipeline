@@ -1,0 +1,20 @@
+{
+    "adult": false,
+    "backdrop_path": "/6yeVcxFR0j08vlv2OlL6zbewm4D.jpg",
+    "genre_ids": [
+        28,
+        878,
+        53
+    ],
+    "id": 1265609,
+    "original_language": "en",
+    "original_title": "War Machine",
+    "overview": "On one last grueling mission during Army Ranger training, a combat engineer must lead his unit in a fight against a giant otherworldly killing machine.",
+    "popularity": 472.8603,
+    "poster_path": "/tlPgDzwIE7VYYIIAGCTUOnN4wI1.jpg",
+    "release_date": "2026-02-12",
+    "title": "War Machine",
+    "video": false,
+    "vote_average": 7.218,
+    "vote_count": 872
+}

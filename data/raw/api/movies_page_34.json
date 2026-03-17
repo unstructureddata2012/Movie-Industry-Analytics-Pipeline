@@ -1,0 +1,20 @@
+{
+    "adult": false,
+    "backdrop_path": "/4BC3dC3Bz8241rSuYHoccEsoM0h.jpg",
+    "genre_ids": [
+        878,
+        35,
+        18
+    ],
+    "id": 929831,
+    "original_language": "fr",
+    "original_title": "L'Empire",
+    "overview": "In a quiet fishing village on northern France's Opal Coast, the birth of a peculiar child sparks a hidden war between extraterrestrial forces of good and evil.",
+    "popularity": 65.4697,
+    "poster_path": "/2GQ5GMsx7Ri4gJsMDU2aDLbMg1S.jpg",
+    "release_date": "2024-02-21",
+    "title": "The Empire",
+    "video": false,
+    "vote_average": 4.789,
+    "vote_count": 97
+}

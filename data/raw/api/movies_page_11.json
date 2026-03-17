@@ -1,0 +1,19 @@
+{
+    "adult": false,
+    "backdrop_path": "/1gLFGrxHqQebqLWpISmoFR6XWtJ.jpg",
+    "genre_ids": [
+        28,
+        53
+    ],
+    "id": 1088434,
+    "original_language": "en",
+    "original_title": "Hellfire",
+    "overview": "A drifter with a mysterious past arrives in a small town and finds the residents in the grip of a ruthless crime boss and realizes he has to help them.",
+    "popularity": 115.2882,
+    "poster_path": "/tQti9QTf13MfzNpXguijgNh7ojE.jpg",
+    "release_date": "2026-02-05",
+    "title": "Hellfire",
+    "video": false,
+    "vote_average": 6.904,
+    "vote_count": 57
+}

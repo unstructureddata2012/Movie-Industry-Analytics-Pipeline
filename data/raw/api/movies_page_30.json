@@ -1,0 +1,20 @@
+{
+    "adult": false,
+    "backdrop_path": "/73BClq9FOcrWrutnpiqhCNEWEwJ.jpg",
+    "genre_ids": [
+        18,
+        10749,
+        36
+    ],
+    "id": 858024,
+    "original_language": "en",
+    "original_title": "Hamnet",
+    "overview": "The powerful story of love and loss that inspired the creation of Shakespeare's timeless masterpiece, Hamlet.",
+    "popularity": 73.8492,
+    "poster_path": "/vbeyOZm2bvBXcbgPD3v6o94epPX.jpg",
+    "release_date": "2025-11-26",
+    "title": "Hamnet",
+    "video": false,
+    "vote_average": 7.714,
+    "vote_count": 1024
+}
