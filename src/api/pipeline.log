@@ -3,3 +3,8 @@
 2026-03-17 23:43:35,460 - INFO - Successfully fetched data from https://api.themoviedb.org/3/movie/popular (Page 1)
 2026-03-17 23:43:35,599 - INFO - Successfully fetched data from https://api.themoviedb.org/3/movie/popular (Page 2)
 2026-03-17 23:43:35,737 - INFO - Successfully fetched data from https://api.themoviedb.org/3/movie/popular (Page 3)
+2026-03-18 11:50:50,307 - INFO - Fetching page 1
+2026-03-18 11:50:50,307 - ERROR - API request failed
+2026-03-18 11:50:50,594 - INFO - Successfully fetched data from https://api.themoviedb.org/3/movie/popular (Page 1)
+2026-03-18 11:50:50,868 - INFO - Successfully fetched data from https://api.themoviedb.org/3/movie/popular (Page 2)
+2026-03-18 11:50:51,152 - INFO - Successfully fetched data from https://api.themoviedb.org/3/movie/popular (Page 3)

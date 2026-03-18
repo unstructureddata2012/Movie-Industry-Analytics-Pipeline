@@ -1,20 +1,20 @@
 {
     "adult": false,
-    "backdrop_path": "/nAxGnGHOsfzufThz20zgmRwKur3.jpg",
+    "backdrop_path": "/u9jE0R1nvkmdWu3bt7Op8joPywa.jpg",
     "genre_ids": [
-        27,
-        28,
-        53
+        12,
+        53,
+        878
     ],
-    "id": 1233413,
+    "id": 840464,
     "original_language": "en",
-    "original_title": "Sinners",
-    "overview": "Trying to leave their troubled lives behind, twin brothers return to their hometown to start again, only to discover that an even greater evil is waiting to welcome them back.",
-    "popularity": 132.4123,
-    "poster_path": "/fWPgbnt2LSqkQ6cdQc0SZN9CpLm.jpg",
-    "release_date": "2025-04-16",
-    "title": "Sinners",
+    "original_title": "Greenland 2: Migration",
+    "overview": "Having found the safety of the Greenland bunker after the comet Clarke decimated the Earth, the Garrity family must now risk everything to embark on a perilous journey across the wasteland of Europe to find a new home.",
+    "popularity": 133.9738,
+    "poster_path": "/z2tqCJLsw6uEJ8nJV8BsQXGa3dr.jpg",
+    "release_date": "2026-01-07",
+    "title": "Greenland 2: Migration",
     "video": false,
-    "vote_average": 7.474,
-    "vote_count": 4012
+    "vote_average": 6.414,
+    "vote_count": 619
 }

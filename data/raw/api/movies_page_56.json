@@ -1,19 +1,20 @@
 {
     "adult": false,
-    "backdrop_path": "/iXXPaQPfQowpQ5UvhsHLj9BgFhe.jpg",
+    "backdrop_path": "/hHDNOlATHhre4eZ7aYz5cdyJLik.jpg",
     "genre_ids": [
         27,
+        53,
         878
     ],
-    "id": 126889,
+    "id": 1272837,
     "original_language": "en",
-    "original_title": "Alien: Covenant",
-    "overview": "The crew of the colony ship Covenant, bound for a remote planet on the far side of the galaxy, discovers what they think is an uncharted paradise but is actually a dark, dangerous world.",
-    "popularity": 49.8742,
-    "poster_path": "/zecMELPbU5YMQpC81Z8ImaaXuf9.jpg",
-    "release_date": "2017-05-09",
-    "title": "Alien: Covenant",
+    "original_title": "28 Years Later: The Bone Temple",
+    "overview": "Dr. Kelson finds himself in a shocking new relationship - with consequences that could change the world as they know it - and Spike's encounter with Jimmy Crystal becomes a nightmare he can't escape.",
+    "popularity": 49.9617,
+    "poster_path": "/kK1BGkG3KAvWB0WMV1DfOx9yTMZ.jpg",
+    "release_date": "2026-01-14",
+    "title": "28 Years Later: The Bone Temple",
     "video": false,
-    "vote_average": 6.171,
-    "vote_count": 9291
+    "vote_average": 7.2,
+    "vote_count": 833
 }

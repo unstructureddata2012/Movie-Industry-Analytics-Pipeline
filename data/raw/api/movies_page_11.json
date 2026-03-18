@@ -1,19 +1,20 @@
 {
     "adult": false,
-    "backdrop_path": "/1gLFGrxHqQebqLWpISmoFR6XWtJ.jpg",
+    "backdrop_path": "/7HKpc11uQfxnw0Y8tRUYn1fsKqE.jpg",
     "genre_ids": [
+        878,
         28,
         53
     ],
-    "id": 1088434,
+    "id": 1236153,
     "original_language": "en",
-    "original_title": "Hellfire",
-    "overview": "A drifter with a mysterious past arrives in a small town and finds the residents in the grip of a ruthless crime boss and realizes he has to help them.",
-    "popularity": 115.2882,
-    "poster_path": "/tQti9QTf13MfzNpXguijgNh7ojE.jpg",
-    "release_date": "2026-02-05",
-    "title": "Hellfire",
+    "original_title": "Mercy",
+    "overview": "In the near future, a detective stands on trial accused of murdering his wife. He has ninety minutes to prove his innocence to the advanced AI Judge he once championed, before it determines his fate.",
+    "popularity": 124.256,
+    "poster_path": "/pyok1kZJCfyuFapYXzHcy7BLlQa.jpg",
+    "release_date": "2026-01-20",
+    "title": "Mercy",
     "video": false,
-    "vote_average": 6.904,
-    "vote_count": 57
+    "vote_average": 7.085,
+    "vote_count": 743
 }

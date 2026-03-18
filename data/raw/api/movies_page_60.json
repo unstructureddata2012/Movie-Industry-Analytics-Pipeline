@@ -1,19 +1,18 @@
 {
     "adult": false,
-    "backdrop_path": "/fTG8itSb1a4O2BgUMjXdwO64qTz.jpg",
+    "backdrop_path": "/1OGpHtpa58vmIOUyHVQJOSKjkJQ.jpg",
     "genre_ids": [
-        10749,
-        35
+        37
     ],
-    "id": 1291335,
+    "id": 4934,
     "original_language": "en",
-    "original_title": "Solo Mio",
-    "overview": "After Matt's dreams of a picturesque Italian wedding are shattered when his fianc\u00e9e leaves him at the altar, he embarks on his planned honeymoon across Italy alone, immersing himself in the country's vibrant culture, food, and beauty, meeting Gia along the way.",
-    "popularity": 49.403,
-    "poster_path": "/efSsZJaddeq0LOABZqpCXdMxv9P.jpg",
-    "release_date": "2026-02-05",
-    "title": "Solo Mio",
+    "original_title": "Firecreek",
+    "overview": "A peace-loving, part-time sheriff in the small town of Firecreek must take a stand when a gang of vicious outlaws takes over his town.",
+    "popularity": 34.3902,
+    "poster_path": "/zypuu5aEoyM5tadMAkbNm3Kccq9.jpg",
+    "release_date": "1968-01-24",
+    "title": "Firecreek",
     "video": false,
-    "vote_average": 7.068,
-    "vote_count": 59
+    "vote_average": 6.322,
+    "vote_count": 73
 }

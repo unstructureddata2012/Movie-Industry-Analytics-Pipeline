@@ -1,20 +1,19 @@
 {
     "adult": false,
-    "backdrop_path": "/sdZSjtGUTSN8B3al5o0f2WoQfQQ.jpg",
+    "backdrop_path": "/yJi6g0CnsqANLNuVaRX28tZxeHX.jpg",
     "genre_ids": [
-        878,
-        12,
-        14
+        27,
+        9648
     ],
-    "id": 83533,
+    "id": 1193501,
     "original_language": "en",
-    "original_title": "Avatar: Fire and Ash",
-    "overview": "In the wake of the devastating war against the RDA and the loss of their eldest son, Jake Sully and Neytiri face a new threat on Pandora: the Ash People, a violent and power-hungry Na'vi tribe led by the ruthless Varang. Jake's family must fight for their survival and the future of Pandora in a conflict that pushes them to their emotional and physical limits.",
-    "popularity": 107.3607,
-    "poster_path": "/bRBeSHfGHwkEpImlhxPmOcUsaeg.jpg",
-    "release_date": "2025-12-17",
-    "title": "Avatar: Fire and Ash",
+    "original_title": "Whistle",
+    "overview": "A misfit group of unwitting high school students stumble upon a cursed object, an ancient Aztec Death Whistle. They discover that blowing the whistle and the terrifying sound it emits will summon their future deaths to hunt them down.",
+    "popularity": 99.534,
+    "poster_path": "/ieOiiCBbf0SNwR39iiA2xnGOnab.jpg",
+    "release_date": "2026-01-20",
+    "title": "Whistle",
     "video": false,
-    "vote_average": 7.3,
-    "vote_count": 1893
+    "vote_average": 6.1,
+    "vote_count": 152
 }

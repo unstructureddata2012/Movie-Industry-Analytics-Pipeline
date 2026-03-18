@@ -1,19 +1,20 @@
 {
     "adult": false,
-    "backdrop_path": "/lmns2jlRmATs8OGWKcCkgrbHLM4.jpg",
+    "backdrop_path": "/drRxbu2OHG0DEENptZ8wI5f0uEU.jpg",
     "genre_ids": [
+        878,
         28,
-        18
+        35
     ],
-    "id": 1634301,
-    "original_language": "te",
-    "original_title": "Vanaveera",
-    "overview": "A descendant of the Vanara clan is pushed into conflict when a modern-day Ravana seizes his only bike for an election rally. What starts as a petty injustice soon erupts into a fierce fight for self-respect and dignity.",
-    "popularity": 102.0585,
-    "poster_path": "/oBYExKI8E3bTzQjPkofhpV2EJon.jpg",
+    "id": 1119449,
+    "original_language": "en",
+    "original_title": "Good Luck, Have Fun, Don't Die",
+    "overview": "A 'Man from the Future' arrives at an LA diner where he must recruit the precise combination of disgruntled patrons to join him on a one-night quest to save the world from the terminal threat of a rogue artificial intelligence.",
+    "popularity": 89.3431,
+    "poster_path": "/rWcfOdY7TU6lTdazWj0ebDZnAfO.jpg",
     "release_date": "2026-02-13",
-    "title": "Vanaveera",
+    "title": "Good Luck, Have Fun, Don't Die",
     "video": false,
-    "vote_average": 7.0,
-    "vote_count": 3
+    "vote_average": 6.985,
+    "vote_count": 169
 }

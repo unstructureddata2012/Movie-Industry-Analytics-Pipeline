@@ -1,20 +1,19 @@
 {
     "adult": false,
-    "backdrop_path": "/drRxbu2OHG0DEENptZ8wI5f0uEU.jpg",
+    "backdrop_path": "/52AkwEfQiJl2HuTPMZ2yC5Bdr9I.jpg",
     "genre_ids": [
-        878,
-        28,
-        35
+        80,
+        53
     ],
-    "id": 1119449,
+    "id": 1171145,
     "original_language": "en",
-    "original_title": "Good Luck, Have Fun, Don't Die",
-    "overview": "A 'Man from the Future' arrives at an LA diner where he must recruit the precise combination of disgruntled patrons to join him on a one-night quest to save the world from the terminal threat of a rogue artificial intelligence.",
-    "popularity": 102.3336,
-    "poster_path": "/rWcfOdY7TU6lTdazWj0ebDZnAfO.jpg",
-    "release_date": "2026-02-13",
-    "title": "Good Luck, Have Fun, Don't Die",
+    "original_title": "Crime 101",
+    "overview": "When an elusive thief whose high-stakes heists unfold along the iconic 101 freeway in Los Angeles eyes the score of a lifetime, with hopes of this being his final job, his path collides with a disillusioned insurance broker who is facing her own crossroads. Determined to crack the case, a relentless detective closes in on the operation, raising the stakes even higher.",
+    "popularity": 140.535,
+    "poster_path": "/heMdO64ys1hR896YE2jvTv8JlBX.jpg",
+    "release_date": "2026-02-11",
+    "title": "Crime 101",
     "video": false,
-    "vote_average": 6.991,
-    "vote_count": 161
+    "vote_average": 7.039,
+    "vote_count": 180
 }

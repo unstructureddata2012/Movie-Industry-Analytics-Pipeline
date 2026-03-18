@@ -1,21 +1,20 @@
 {
     "adult": false,
-    "backdrop_path": "/tn95fumbkVAgXjOuw9CQOg0aYQz.jpg",
+    "backdrop_path": "/hz7TdCrpLLt2Dz7S3PS2HG9rpAO.jpg",
     "genre_ids": [
-        28,
-        80,
-        18,
-        53
+        27,
+        9648,
+        80
     ],
-    "id": 1419406,
-    "original_language": "zh",
-    "original_title": "The Shadow's Edge",
-    "overview": "Macau Police brings the tracking expert police officer out of retirement to help catch a dangerous group of professional thieves.",
-    "popularity": 78.6013,
-    "poster_path": "/e0RU6KpdnrqFxDKlI3NOqN8nHL6.jpg",
-    "release_date": "2025-08-16",
-    "title": "The Shadow's Edge",
+    "id": 1159559,
+    "original_language": "en",
+    "original_title": "Scream 7",
+    "overview": "When a new Ghostface killer emerges in the quiet town where Sidney Prescott has built a new life, her darkest fears are realized as her daughter becomes the next target. Determined to protect her family, Sidney must face the horrors of her past to put an end to the bloodshed once and for all.",
+    "popularity": 79.7543,
+    "poster_path": "/jjyuk0edLiW8vOSnlfwWCCLpbh5.jpg",
+    "release_date": "2026-02-25",
+    "title": "Scream 7",
     "video": false,
-    "vote_average": 7.21,
-    "vote_count": 497
+    "vote_average": 6.0,
+    "vote_count": 328
 }

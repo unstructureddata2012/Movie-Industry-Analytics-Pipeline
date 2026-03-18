@@ -1,19 +1,19 @@
 {
     "adult": false,
-    "backdrop_path": "/ibK0sooxQwIeqS9tz4Tj0chyca9.jpg",
+    "backdrop_path": "/lmns2jlRmATs8OGWKcCkgrbHLM4.jpg",
     "genre_ids": [
-        27,
-        53
+        28,
+        18
     ],
-    "id": 1058710,
-    "original_language": "en",
-    "original_title": "Bloodline Killer",
-    "overview": "Moira Cole endeavors to rebuild her shattered life after her family's murder at the hands of her deranged and obsessed cousin.",
-    "popularity": 100.8622,
-    "poster_path": "/wHmzCQwBzT6m8wtZdXHOIITn82B.jpg",
-    "release_date": "2024-04-26",
-    "title": "Bloodline Killer",
+    "id": 1634301,
+    "original_language": "te",
+    "original_title": "Vanaveera",
+    "overview": "A descendant of the Vanara clan is pushed into conflict when a modern-day Ravana seizes his only bike for an election rally. What starts as a petty injustice soon erupts into a fierce fight for self-respect and dignity.",
+    "popularity": 93.9414,
+    "poster_path": "/oBYExKI8E3bTzQjPkofhpV2EJon.jpg",
+    "release_date": "2026-02-13",
+    "title": "Vanaveera",
     "video": false,
-    "vote_average": 5.707,
-    "vote_count": 41
+    "vote_average": 7.0,
+    "vote_count": 3
 }

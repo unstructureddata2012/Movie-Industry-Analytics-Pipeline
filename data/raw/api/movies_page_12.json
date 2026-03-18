@@ -1,21 +1,19 @@
 {
     "adult": false,
-    "backdrop_path": "/cz4vLJrmaV1zJlRYbxqtvLzeLWB.jpg",
+    "backdrop_path": "/1gLFGrxHqQebqLWpISmoFR6XWtJ.jpg",
     "genre_ids": [
         28,
-        35,
-        80,
-        9648
+        53
     ],
-    "id": 1168190,
+    "id": 1088434,
     "original_language": "en",
-    "original_title": "The Wrecking Crew",
-    "overview": "Estranged half-brothers Jonny and James reunite after their father's mysterious death. As they search for the truth, buried secrets reveal a conspiracy threatening to tear their family apart.",
-    "popularity": 113.1466,
-    "poster_path": "/gbVwHl4YPSq6BcC92TQpe7qUTh6.jpg",
-    "release_date": "2026-01-28",
-    "title": "The Wrecking Crew",
+    "original_title": "Hellfire",
+    "overview": "A drifter with a mysterious past arrives in a small town and finds the residents in the grip of a ruthless crime boss and realizes he has to help them.",
+    "popularity": 111.5689,
+    "poster_path": "/tQti9QTf13MfzNpXguijgNh7ojE.jpg",
+    "release_date": "2026-02-05",
+    "title": "Hellfire",
     "video": false,
-    "vote_average": 6.874,
-    "vote_count": 787
+    "vote_average": 6.904,
+    "vote_count": 57
 }

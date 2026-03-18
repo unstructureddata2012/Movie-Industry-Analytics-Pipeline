@@ -1,20 +1,21 @@
 {
     "adult": false,
-    "backdrop_path": "/u9jE0R1nvkmdWu3bt7Op8joPywa.jpg",
+    "backdrop_path": "/2RrLuIfIzGWWIH8IAEo6o0IYHmx.jpg",
     "genre_ids": [
-        12,
-        53,
-        878
+        16,
+        10751,
+        878,
+        35
     ],
-    "id": 840464,
+    "id": 1327819,
     "original_language": "en",
-    "original_title": "Greenland 2: Migration",
-    "overview": "Having found the safety of the Greenland bunker after the comet Clarke decimated the Earth, the Garrity family must now risk everything to embark on a perilous journey across the wasteland of Europe to find a new home.",
-    "popularity": 138.5129,
-    "poster_path": "/z2tqCJLsw6uEJ8nJV8BsQXGa3dr.jpg",
-    "release_date": "2026-01-07",
-    "title": "Greenland 2: Migration",
+    "original_title": "Hoppers",
+    "overview": "Scientists have discovered how to 'hop' human consciousness into lifelike robotic animals, allowing people to communicate with animals as animals. Animal lover Mabel seizes an opportunity to use the technology, uncovering mysteries within the animal world beyond anything she could have imagined.",
+    "popularity": 139.6683,
+    "poster_path": "/xjtWQ2CL1mpmMNwuU5HeS4Iuwuu.jpg",
+    "release_date": "2026-03-04",
+    "title": "Hoppers",
     "video": false,
-    "vote_average": 6.436,
-    "vote_count": 609
+    "vote_average": 7.721,
+    "vote_count": 204
 }

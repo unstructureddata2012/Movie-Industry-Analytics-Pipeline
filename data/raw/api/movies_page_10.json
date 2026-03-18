@@ -1,20 +1,20 @@
 {
     "adult": false,
-    "backdrop_path": "/7HKpc11uQfxnw0Y8tRUYn1fsKqE.jpg",
+    "backdrop_path": "/nAxGnGHOsfzufThz20zgmRwKur3.jpg",
     "genre_ids": [
-        878,
+        27,
         28,
         53
     ],
-    "id": 1236153,
+    "id": 1233413,
     "original_language": "en",
-    "original_title": "Mercy",
-    "overview": "In the near future, a detective stands on trial accused of murdering his wife. He has ninety minutes to prove his innocence to the advanced AI Judge he once championed, before it determines his fate.",
-    "popularity": 127.805,
-    "poster_path": "/pyok1kZJCfyuFapYXzHcy7BLlQa.jpg",
-    "release_date": "2026-01-20",
-    "title": "Mercy",
+    "original_title": "Sinners",
+    "overview": "Trying to leave their troubled lives behind, twin brothers return to their hometown to start again, only to discover that an even greater evil is waiting to welcome them back.",
+    "popularity": 118.9237,
+    "poster_path": "/fWPgbnt2LSqkQ6cdQc0SZN9CpLm.jpg",
+    "release_date": "2025-04-16",
+    "title": "Sinners",
     "video": false,
-    "vote_average": 7.1,
-    "vote_count": 739
+    "vote_average": 7.474,
+    "vote_count": 4032
 }
