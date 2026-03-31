@@ -10,3 +10,17 @@
 2026-03-17 23:47:20,742 - INFO - Successfully fetched data from https://api.themoviedb.org/3/movie/popular (Page 2)
 2026-03-17 23:47:20,876 - INFO - Successfully fetched data from https://api.themoviedb.org/3/movie/popular (Page 3)
 2026-03-17 23:47:20,895 - INFO - Pipeline finished successfully
+2026-03-31 23:24:20,507 - INFO - Fetching page 1
+2026-03-31 23:24:20,507 - ERROR - API request failed
+2026-03-31 23:24:20,980 - INFO - PDF data processed
+2026-03-31 23:24:20,989 - INFO - Word data processed
+2026-03-31 23:24:20,998 - INFO - Excel data processed
+2026-03-31 23:24:20,998 - INFO - Pocinjem web scraping Oscar filmova...
+2026-03-31 23:24:25,480 - INFO - Web scraping finished. Scraped 43 movies.
+2026-03-31 23:24:25,480 - INFO - Pipeline finished successfully
+2026-03-31 23:24:25,480 - INFO - Pocinjem OCR slike...
+2026-03-31 23:24:25,814 - INFO - OCR slike zavrsen.
+2026-03-31 23:24:25,814 - INFO - Pocinjem OCR skeniranog PDF-a...
+2026-03-31 23:24:26,980 - INFO - OCR zavrsen. Obradeno 2 stranica.
+2026-03-31 23:24:26,980 - INFO - Pocinjem multi-page scraping timova...
+2026-03-31 23:24:33,095 - INFO - Multi-page scraping zavrsen. Scraped 75 teams.
