@@ -107,6 +107,11 @@ if __name__ == "__main__":
     # data = scrape_single_page(url)
     # for item in data:
     #     print(item)
-    films = scrape_oscar_films(years=[2010, 2011, 2012])
-    for f in films[:3]:
-        print(f)
+    # films = scrape_oscar_films(years=[2010, 2011, 2012])
+    # for f in films[:3]:
+    #     print(f)
+    base_url = "https://www.scrapethissite.com/pages/forms/"
+    scraped_data = scrape_multiple_pages(base_url, max_pages=3)
+    # Print first few entries to verify
+    for item in scraped_data[:5]:
+        print(item)
