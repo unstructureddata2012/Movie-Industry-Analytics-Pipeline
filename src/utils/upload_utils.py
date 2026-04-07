@@ -16,7 +16,6 @@ SCOPES = os.getenv("SCOPES").split(",")
 
 
 def authenticate_drive():
-    """Authenticate and return the Google Drive service client."""
     creds = None
     if os.path.exists('token.json'):
         creds = Credentials.from_authorized_user_file('token.json', SCOPES)
@@ -53,7 +52,6 @@ def upload_image(local_path, folder_id=FOLDER_ID):
         return None
     
 def upload_batch(metadata_list, folder_id=FOLDER_ID):
-    """Upload thumbnails and WebP versions for all processed images."""
     for meta in metadata_list:
         if meta.get('thumbnail_path'):
             url = upload_image(meta['thumbnail_path'], folder_id)
