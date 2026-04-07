@@ -1,0 +1,64 @@
+2026-04-07 16:23:04,270 [INFO] Batch processing 6 images from data/raw/images
+2026-04-07 16:23:04,344 [INFO] Resized proportionally: 342x513 -> 500x750
+2026-04-07 16:23:04,345 [INFO] Thumbnail saved: data/processed/thumbnails/buPFnHZ3xQy6vZEHxbHgL1Pc6CR_thumb.jpg (85, 128)
+2026-04-07 16:23:04,397 [INFO] WebP: 43KB -> 39KB (7.7% saving)
+2026-04-07 16:23:04,397 [WARNING] No EXIF data found in data/raw/images/buPFnHZ3xQy6vZEHxbHgL1Pc6CR.jpg
+2026-04-07 16:23:04,402 [INFO] Resized proportionally: 342x513 -> 500x750
+2026-04-07 16:23:04,404 [INFO] Thumbnail saved: data/processed/thumbnails/bRBeSHfGHwkEpImlhxPmOcUsaeg_thumb.jpg (85, 128)
+2026-04-07 16:23:04,419 [INFO] WebP: 58KB -> 55KB (4.7% saving)
+2026-04-07 16:23:04,419 [WARNING] No EXIF data found in data/raw/images/bRBeSHfGHwkEpImlhxPmOcUsaeg.jpg
+2026-04-07 16:23:04,423 [INFO] Resized proportionally: 342x513 -> 500x750
+2026-04-07 16:23:04,424 [INFO] Thumbnail saved: data/processed/thumbnails/iGpMm603GUKH2SiXB2S5m4sZ17t_thumb.jpg (85, 128)
+2026-04-07 16:23:04,436 [INFO] WebP: 46KB -> 41KB (10.6% saving)
+2026-04-07 16:23:04,436 [WARNING] No EXIF data found in data/raw/images/iGpMm603GUKH2SiXB2S5m4sZ17t.jpg
+2026-04-07 16:23:04,451 [INFO] Resized proportionally: 1033x1438 -> 500x696
+2026-04-07 16:23:04,459 [INFO] Thumbnail saved: data/processed/thumbnails/test_thumb.jpg (92, 128)
+2026-04-07 16:23:04,538 [INFO] WebP: 187KB -> 217KB (-16.0% saving)
+2026-04-07 16:23:04,542 [INFO] Resized proportionally: 342x513 -> 500x750
+2026-04-07 16:23:04,543 [INFO] Thumbnail saved: data/processed/thumbnails/xjtWQ2CL1mpmMNwuU5HeS4Iuwuu_thumb.jpg (85, 128)
+2026-04-07 16:23:04,554 [INFO] WebP: 32KB -> 26KB (18.1% saving)
+2026-04-07 16:23:04,554 [WARNING] No EXIF data found in data/raw/images/xjtWQ2CL1mpmMNwuU5HeS4Iuwuu.jpg
+2026-04-07 16:23:04,557 [INFO] Resized proportionally: 342x513 -> 500x750
+2026-04-07 16:23:04,558 [INFO] Thumbnail saved: data/processed/thumbnails/tVvpFIoteRHNnoZMhdnwIVwJpCA_thumb.jpg (85, 128)
+2026-04-07 16:23:04,568 [INFO] WebP: 32KB -> 27KB (17.5% saving)
+2026-04-07 16:23:04,568 [WARNING] No EXIF data found in data/raw/images/tVvpFIoteRHNnoZMhdnwIVwJpCA.jpg
+2026-04-07 16:23:04,569 [INFO] Batch complete. Success: 6, Errors: 0
+2026-04-07 20:04:03,055 [INFO] Batch processing 6 images from data/raw/images
+2026-04-07 20:04:03,078 [INFO] Resized proportionally: 342x513 -> 500x750
+2026-04-07 20:04:03,080 [INFO] Thumbnail saved: data/processed/thumbnails/buPFnHZ3xQy6vZEHxbHgL1Pc6CR_thumb.jpg (85, 128)
+2026-04-07 20:04:03,138 [INFO] WebP: 43KB -> 39KB (7.7% saving)
+2026-04-07 20:04:03,138 [WARNING] No EXIF data found in data/raw/images/buPFnHZ3xQy6vZEHxbHgL1Pc6CR.jpg
+2026-04-07 20:04:03,143 [INFO] Resized proportionally: 342x513 -> 500x750
+2026-04-07 20:04:03,146 [INFO] Thumbnail saved: data/processed/thumbnails/bRBeSHfGHwkEpImlhxPmOcUsaeg_thumb.jpg (85, 128)
+2026-04-07 20:04:03,160 [INFO] WebP: 58KB -> 55KB (4.7% saving)
+2026-04-07 20:04:03,161 [WARNING] No EXIF data found in data/raw/images/bRBeSHfGHwkEpImlhxPmOcUsaeg.jpg
+2026-04-07 20:04:03,165 [INFO] Resized proportionally: 342x513 -> 500x750
+2026-04-07 20:04:03,166 [INFO] Thumbnail saved: data/processed/thumbnails/iGpMm603GUKH2SiXB2S5m4sZ17t_thumb.jpg (85, 128)
+2026-04-07 20:04:03,178 [INFO] WebP: 46KB -> 41KB (10.6% saving)
+2026-04-07 20:04:03,178 [WARNING] No EXIF data found in data/raw/images/iGpMm603GUKH2SiXB2S5m4sZ17t.jpg
+2026-04-07 20:04:03,194 [INFO] Resized proportionally: 1033x1438 -> 500x696
+2026-04-07 20:04:03,202 [INFO] Thumbnail saved: data/processed/thumbnails/test_thumb.jpg (92, 128)
+2026-04-07 20:04:03,281 [INFO] WebP: 187KB -> 217KB (-16.0% saving)
+2026-04-07 20:04:03,285 [INFO] Resized proportionally: 342x513 -> 500x750
+2026-04-07 20:04:03,286 [INFO] Thumbnail saved: data/processed/thumbnails/xjtWQ2CL1mpmMNwuU5HeS4Iuwuu_thumb.jpg (85, 128)
+2026-04-07 20:04:03,296 [INFO] WebP: 32KB -> 26KB (18.1% saving)
+2026-04-07 20:04:03,296 [WARNING] No EXIF data found in data/raw/images/xjtWQ2CL1mpmMNwuU5HeS4Iuwuu.jpg
+2026-04-07 20:04:03,300 [INFO] Resized proportionally: 342x513 -> 500x750
+2026-04-07 20:04:03,301 [INFO] Thumbnail saved: data/processed/thumbnails/tVvpFIoteRHNnoZMhdnwIVwJpCA_thumb.jpg (85, 128)
+2026-04-07 20:04:03,311 [INFO] WebP: 32KB -> 27KB (17.5% saving)
+2026-04-07 20:04:03,311 [WARNING] No EXIF data found in data/raw/images/tVvpFIoteRHNnoZMhdnwIVwJpCA.jpg
+2026-04-07 20:04:03,462 [INFO] Please visit this URL to authorize this application: https://accounts.google.com/o/oauth2/auth?response_type=code&client_id=331349678997-mqaolnpsptjekeb1r1hv4jtrrjpvqfh9.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A60033%2F&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fdrive.file&state=eTefQCVO6353XuWsOy5Tn32doIfyBz&code_challenge=Vj_a5Kg4BTMNS6hJDG6dBAidPFwm-0f0UUpIfiKdbzo&code_challenge_method=S256&access_type=offline
+2026-04-07 20:04:08,362 [INFO] "GET /?state=eTefQCVO6353XuWsOy5Tn32doIfyBz&iss=https://accounts.google.com&code=4/0Aci98E-zQ6ipGfDhe0U4p9Bo9uTiQIA5YuRdrFfZbpmzcKAcuyY58Y0ySHqzk1uh88b6CQ&scope=https://www.googleapis.com/auth/drive.file HTTP/1.1" 200 65
+2026-04-07 20:04:08,661 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-04-07 20:04:10,447 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-04-07 20:04:12,280 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-04-07 20:04:14,276 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-04-07 20:04:16,285 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-04-07 20:04:18,105 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-04-07 20:04:19,912 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-04-07 20:04:21,825 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-04-07 20:04:23,895 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-04-07 20:04:25,952 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-04-07 20:04:27,795 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-04-07 20:04:29,496 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-04-07 20:04:31,357 [INFO] Batch complete. Success: 6, Errors: 0

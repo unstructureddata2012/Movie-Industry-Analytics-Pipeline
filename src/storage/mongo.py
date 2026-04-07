@@ -1,9 +1,13 @@
 from pymongo import MongoClient
 from datetime import datetime
+from pathlib import Path
+from PIL import Image
+import os
 
 client = MongoClient("mongodb://localhost:27017/")
 db = client["movie_pipeline"]
 collection = db["raw_movies"]
+image_metadata_collection = db["image_metadata"]
 
 def save_to_mongo(data, source, extra_metadata=None):
     document = {
@@ -13,7 +17,6 @@ def save_to_mongo(data, source, extra_metadata=None):
         "version": 1
     }
 
-    # additional metadata for documents
     if extra_metadata:
         document.update(extra_metadata)
 
@@ -39,3 +42,47 @@ def build_ocr_record(text, source_file, page_number=None):
         "extracted_at": datetime.utcnow(),
         "type": "ocr"
     }
+
+def save_image_metadata(metadata_list):
+    collection = image_metadata_collection
+    for meta in metadata_list:
+        meta['processed_at'] = datetime.utcnow().isoformat()  
+        collection.update_one(
+            {'filename': meta['filename']},  
+            {'$set': meta},  
+            upsert=True  
+        )
+    print(f'Saved {len(metadata_list)} image records to MongoDB')
+
+def get_image_metadata(movie_id=None):
+    query = {'movie_id': movie_id} if movie_id else {}
+    return list(image_metadata_collection.find(query, {'_id': 0}))
+
+def apply_image_metadata(image_path, movie_id=None):
+    img = Image.open(image_path)
+    width, height = img.size
+    file_size = os.path.getsize(image_path)
+
+    metadata = {
+        'filename': Path(image_path).name,
+        'movie_id': movie_id,
+        'width': width,
+        'height': height,
+        'file_size': file_size
+    }
+
+    return metadata 
+
+def process_images_and_save_metadata(image_paths, movie_id=None):
+    metadata_list = []
+    for image_path in image_paths:
+        img_metadata = apply_image_metadata(image_path, movie_id)  
+        metadata_list.append(img_metadata) 
+
+    save_image_metadata(metadata_list) 
+
+images_dir = 'data/raw/images'
+image_files = [f for f in os.listdir(images_dir) if os.path.isfile(os.path.join(images_dir, f))]
+image_files = [f for f in image_files if f.lower().endswith(('.png', '.jpg', '.jpeg', '.gif', '.bmp'))]
+image_paths = [os.path.join(images_dir, image_file) for image_file in image_files]
+process_images_and_save_metadata(image_paths, movie_id="movie123")
