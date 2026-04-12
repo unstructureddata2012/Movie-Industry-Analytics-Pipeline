@@ -65,3 +65,4 @@ def download_movie_posters(movies, dest_dir='data/raw/images', size='w342'):
 
     logger.info(f"Downloaded {len(downloaded)} posters.")
     return downloaded
+
