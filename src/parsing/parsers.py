@@ -17,7 +17,15 @@ def extract_movie_fields(movie):
         "id": movie.get("id"),
         "title": movie.get("title"),
         "release_date": movie.get("release_date"),
-        "popularity": movie.get("popularity")
+        "popularity": movie.get("popularity"),
+        "vote_average": movie.get("vote_average"),
+        "vote_count": movie.get("vote_count"),
+        "original_language": movie.get("original_language"),
+        "overview": movie.get("overview"),
+        "genre_ids": movie.get("genre_ids"),
+        "adult": movie.get("adult"),
+        "video": movie.get("video"),
+        "original_title": movie.get("original_title"),
     }
 
 def parse_csv_file(file_path):
@@ -176,22 +184,22 @@ def extract_summary_from_excel(file_path):
 
     return summary
 if __name__ == "__main__":
-    # parse_json_files()
-    # parse_csv_file("../../data/raw/csv/sample.csv")
-    # parse_xml_file("../../data/raw/xml/sample.xml")
+    parse_json_files()
+    parse_csv_file("../..//data/raw/csv/sample.csv")
+    parse_xml_file("../../data/raw/xml/sample.xml")
 
     # pdf_path = "../../data/raw/pdf/film_two_column.pdf"
-    text_path = "../../data/raw/word/film_two_column.docx"
+    # text_path = "/data/raw/word/film_two_column.docx"
     # text = extract_text_from_pdf(pdf_path)
     # text = extract_text_from_two_column_pdf(pdf_path)
     # text = extract_text_from_two_column_word(text_path)
     # print(text)
-    excel_path = "../../data/raw/excel/movies_excel.xlsx"
+    # excel_path = "../../data/raw/excel/movies_excel.xlsx"
 
-    movies = extract_data_from_excel(excel_path)
-    print(movies)
+    # movies = extract_data_from_excel(excel_path)
+    # print(movies)
 
-    summary = extract_summary_from_excel(excel_path)
-    print(summary)
+    # summary = extract_summary_from_excel(excel_path)
+    # print(summary)
 
 

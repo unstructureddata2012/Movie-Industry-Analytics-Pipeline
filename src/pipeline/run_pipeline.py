@@ -27,8 +27,100 @@ from video_processing.loader       import inspect_video, extract_audio_from_vide
 from video_processing.frame_extractor import extract_keyframes
 
 from pathlib import Path
+import logging
+import numpy as np
+from analytics import (
+    demonstrate_array_creation, vectorized_operations,
+    load_from_mongodb, save_to_csv,
+    chunked_stats, optimise_dtypes, memory_comparison,
+    inspect_shape, extract_release_year, plot_distributions,
+    loc_filter, boolean_filter,
+    extract_genres, top_genres, crime_overview_count,
+    full_quality_report, outlier_report, save_missing_heatmap,
+)
+
+logger = logging.getLogger(__name__)
 
 
+def run_analytics():
+
+    PROCESSED_DIR = Path("data/processed/analytics")
+    PROCESSED_DIR.mkdir(parents=True, exist_ok=True)
+
+    CSV_PATH = str(PROCESSED_DIR / "tmdb_movies.csv")
+    OPT_CSV_PATH = str(PROCESSED_DIR / "tmdb_movies_optimised.csv")
+
+    # ── Part A: NumPy ─────────────────────────
+    arrays = demonstrate_array_creation()
+    logger.info("NumPy arrays created: %s", list(arrays.keys()))
+
+    vote_avg = np.array([7.8, 6.4, 8.1, 5.9, 7.2, 6.0, 8.5, 7.1])
+    vote_count = np.array([2100, 890, 4500, 320, 1750, 540, 6200, 980])
+
+    results = vectorized_operations(vote_avg, vote_count)
+    logger.info(
+        "Vectorized ops: mean=%.2f high_rated=%d",
+        results["stats"]["mean"],
+        results["high_rated"].sum()
+    )
+    df_movies = load_from_mongodb()
+
+    if df_movies is None or df_movies.empty:
+        logging.warning("MongoDB returned empty dataset — skipping Lab 8 analytics")
+        return
+
+    if 'data' in df_movies.columns:
+        import pandas as pd
+        df_movies = pd.json_normalize(df_movies['data'])
+    save_to_csv(df_movies, CSV_PATH)
+
+    # safety check BEFORE chunked read
+    if not os.path.exists(CSV_PATH) or os.path.getsize(CSV_PATH) == 0:
+        raise ValueError(f"CSV file is empty or missing: {CSV_PATH}")
+
+    chunk_results = chunked_stats(CSV_PATH)
+   
+    logger.info(
+        "Chunked mean vote_avg: %.4f over %d rows",
+        chunk_results["global_mean"],
+        chunk_results["total_rows"]
+    )
+
+    df_opt = optimise_dtypes(df_movies)
+    mem = memory_comparison(df_movies, df_opt)
+    logger.info("Memory reduction: %.1f%%", mem["reduction_pct"])
+
+    save_to_csv(df_opt, OPT_CSV_PATH)
+
+    # ── Part C: Explore ───────────────────────
+    shape_info = inspect_shape(df_movies)
+    logger.info("Dataset shape: %dx%d", shape_info["rows"], shape_info["columns"])
+
+    df_movies = extract_release_year(df_movies)
+    plot_distributions(df_movies, str(PROCESSED_DIR / "distributions.png"))
+
+    acclaimed = loc_filter(df_movies, min_vote_avg=8.0)
+    logger.info("Acclaimed movies: %d", len(acclaimed))
+
+    quality_popular = boolean_filter(df_movies)
+    logger.info("Quality+popular: %d movies", len(quality_popular))
+
+    # ── Part D: Regex & Quality ───────────────
+    df_genres = extract_genres(df_movies)
+
+    logger.info("Top genres: %s", top_genres(df_genres, n=10))
+    logger.info("Crime overviews: %d", crime_overview_count(df_movies))
+
+    quality_df = full_quality_report(df_movies)
+    quality_df.to_csv(str(PROCESSED_DIR / "data_quality_report.csv"), index=False)
+
+    save_missing_heatmap(df_movies, str(PROCESSED_DIR / "missing_heatmap.png"))
+
+    outliers = outlier_report(df_movies)
+    logger.info("Outlier report columns: %d", len(outliers))
+
+    logger.info("COMPLETED")
+    
 def run_audio_video_stage():
     logging.info('=== Audio/Video Processing Stage ===')
     db = get_db()
@@ -94,12 +186,12 @@ def run_audio_video_stage():
 
     logging.info('=== Audio/Video Processing Stage Complete ===')
 def run_pipeline():
-    # movies = fetch_movies(3)
+    movies = fetch_movies(3)
 
-    # for movie in movies:
-    #     parsed = extract_movie_fields(movie)
+    for movie in movies:
+        parsed = extract_movie_fields(movie)
 
-    #     save_to_mongo(parsed, "tmdb_api")
+        save_to_mongo(parsed, "tmdb_api")
 
     # pdf_standard = "../../data/raw/pdf/film_standard.pdf"
     # pdf_two_column = "../../data/raw/pdf/film_two_column.pdf"
@@ -241,7 +333,8 @@ def run_pipeline():
     #     logging.info(f"Multi-page scraping zavrsen. Scraped {len(teams)} teams.")
     # except Exception as e:
     #     logging.error(f"Multi-page scraping error: {e}")
-    run_audio_video_stage()
+    # run_audio_video_stage()
+    run_analytics()
     logging.info("Pipeline finished successfully")
     
 if __name__ == "__main__":
