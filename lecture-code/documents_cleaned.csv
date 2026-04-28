@@ -1,0 +1,60 @@
+_id,title,source_type,extracted_at,file_size_kb,language,status,content.text,content.word_count,metadata.author,metadata.pages,metadata.duration_sec,metadata.ocr_confidence
+3d6d5f37ab13117b9f40eb74,Annual Report 2024 — IBU,pdf,2025-02-11 03:00:00,283.4,en,processed,Univerzitet je osnovao program za razmjenu studenata sa 15 partnera.,10,"Hodžić, Amina",48,0.0,0.0
+4bd4f2e5596c6d73a1b09913,Campus Map Scan,image,2024-09-27 21:00:00,517.9,bs,extracted,The algorithm achieved 94.2% accuracy on the test set.,9,"Smith, John",0,0.0,0.61
+ab913cf6186525361ed6a2a6,Lecture Recording — Week 3,audio,2024-10-26 07:00:00,682.3,bs,extracted,Sarajevo's Old Town features Ottoman-era architecture dating to the 15th century.,11,"Kovačević, Marko",0,2586.2,0.0
+ee913316bb2bd7ba2273fbce,IBU Homepage Snapshot,web,2025-02-27 17:00:00,715.3,und,unknown,U izvještaju se navodi da je budžet za 2024. godinu 12.500 KM.,12,"Doe, Jane",0,0.0,0.0
+06fc331d755996ef61435125,Financial Statement Q3,pdf,2024-09-02 05:00:00,203.5,und,reviewed,Die Bibliothek enthält über 50.000 Bände in verschiedenen Sprachen.,9,"Bešić, Adnan",49,0.0,0.0
+7ee2d6b305f90cb01da5fd46,Handwritten Exam Page 1,image,2024-11-26 03:00:00,443.6,bs,extracted,Student enrollment dropped by 8% compared to the previous academic year.,11,,0,0.0,0.73
+d4c489f32c9447770fe55818,Interview with Alumni,audio,2024-11-07 01:00:00,1168.3,en,extracted,Cijena karte za konferenciju iznosi 150 KM po osobi.,9,"Hadžić, Lejla",0,1381.4,0.0
+7ce0d2e02b8b92326c56fd01,Moodle Course Page — IT 2012,web,2025-01-20 09:00:00,588.0,en,extracted,"The web scraping pipeline extracted 2,340 pages in under 10 minutes.",11,"Bešić, Adnan",0,0.0,0.0
+2ca68f659d143465950a101e,Student Enrollment Analysis,pdf,2024-09-18 01:00:00,1029.3,sr,extracted,Ministarstvo obrazovanja je donijelo novu uredbu 15.03.2024 o reformi.,9,"Hodžić, Amina",7,0.0,0.0
+177ed5047a628383caba18d7,Historical Photo Archive,image,2024-12-07 08:00:00,456.8,en,processed,OCR confidence was low due to poor scan quality and handwriting.,11,"Bešić, Adnan",0,0.0,0.68
+691bf404c1bbf74327a9fc2e,Faculty Meeting Minutes Audio,audio,2024-11-08 22:00:00,221.9,bs,processed,Predmet IT 2012 pokriva obradu nestrukturiranih podataka.,7,"Kovačević, Marko",0,2633.0,0.0
+1f2c959799181ce912882411,Wikipedia — Sarajevo,web,2024-10-12 14:00:00,832.0,und,processed,Faculty members published 23 papers in Scopus-indexed journals.,8,"Hodžić, Amina",0,0.0,0.0
+0baf55ef34dc1b898dca3743,Research Ethics Policy,pdf,2024-10-27 21:00:00,989.7,und,processed,"The image resolution is 300 DPI, sufficient for text extraction.",10,"Johnson, Alex",21,0.0,0.0
+2eda14052c64175abbf45222,Whiteboard Notes — ML Lecture,image,2024-12-12 08:00:00,1054.1,bs,extracted,Audio transcription used Whisper large-v3 with word-level timestamps.,8,"Doe, Jane",0,0.0,0.72
+65491465541476e167577529,Student Presentation — Capstone,audio,2025-02-15 15:00:00,332.6,und,processed,This page contains HTML tags that need cleaning.,8,"Tanović, Selma",0,910.5,0.0
+5a9882fc1c5d08820fc72c48,News Article — Education Reform,web,2025-01-22 17:00:00,1079.4,de,unknown,Prosječna ocjena studenata na ispitu bila je 7.3 od 10.,10,"Kovačević, Marko",0,0.0,0.0
+89daedeed1a16618ea27aef9,Curriculum Gap Analysis,pdf,2024-12-12 11:00:00,602.3,sr,extracted,"The MongoDB aggregation pipeline processed 10,000 documents in 3.2 seconds.",10,"Osmanović, Omar",49,0.0,0.0
+d604bb06a07fbcf0788167e4,Receipt Scan — Conference,image,2024-09-13 03:00:00,518.1,hr,processed,Na ovaj link možete pristupiti: https://ibu.edu.ba/programs,6,"Osmanović, Omar",0,0.0,0.62
+2fc04fef57a4fae002c2d92a,Podcast — AI in Education,audio,2024-12-07 19:00:00,1165.9,en,reviewed,"Temperatura u Sarajevu danas je 22°C, oblačno sa mogućnošću kiše.",10,"Hadžić, Lejla",0,3103.0,0.0
+558caf05e2af96cf9e370253,Job Posting — Junior Developer,web,2024-09-03 21:00:00,926.9,bs,reviewed,The neural network has 12 layers with a total of 110M parameters.,12,"Hadžić, Lejla",0,0.0,0.0
+054dfbfceb8d276286fdd9b3,Faculty Performance Review,pdf,2024-11-27 03:00:00,555.4,de,processed,Univerzitet je osnovao program za razmjenu studenata sa 15 partnera.,10,,47,0.0,0.0
+c824b8635db166cb0a163b3a,Building Floor Plan,image,2025-03-04 08:00:00,1096.9,bs,extracted,The algorithm achieved 94.2% accuracy on the test set.,9,"Osmanović, Omar",0,0.0,0.94
+d771b04463d02b747323fa7e,Oral Exam Recording,audio,2024-11-16 20:00:00,200.4,bs,processed,Sarajevo's Old Town features Ottoman-era architecture dating to the 15th century.,11,"Kovačević, Marko",0,2752.2,0.0
+e425d39ae9610b246c05edc2,Blog Post — Study Tips for Students,web,2025-01-17 16:00:00,588.0,en,reviewed,U izvještaju se navodi da je budžet za 2024. godinu 12.500 KM.,12,"Kovačević, Marko",0,0.0,0.0
+2de223b1e98f6be255db31ee,IT Infrastructure Audit,pdf,2024-09-29 11:00:00,304.2,de,extracted,Die Bibliothek enthält über 50.000 Bände in verschiedenen Sprachen.,9,"Doe, Jane",37,0.0,0.0
+591d408b468596c76c6153c3,Student ID Card Scan,image,2024-09-21 02:00:00,923.7,en,extracted,Student enrollment dropped by 8% compared to the previous academic year.,11,"Smith, John",0,0.0,0.65
+f7b18f65baf096ad1e1abfb0,Conference Talk — NLP 2024,audio,2024-12-31 17:00:00,1049.5,hr,extracted,Cijena karte za konferenciju iznosi 150 KM po osobi.,9,"Hodžić, Amina",0,1540.6,0.0
+12b6bcecbee41212003b9ec5,Government Portal — Visa Info,web,2024-10-25 17:00:00,1194.3,sr,unknown,"The web scraping pipeline extracted 2,340 pages in under 10 minutes.",11,"Hodžić, Amina",0,0.0,0.0
+b05df9f03deca3130f42df54,Erasmus Mobility Guide,pdf,2025-02-14 11:00:00,162.8,en,unknown,Ministarstvo obrazovanja je donijelo novu uredbu 15.03.2024 o reformi.,9,"Hadžić, Lejla",15,0.0,0.0
+260da37548d8ea01510fa054,Poster — BHAAAS Conference,image,2024-09-17 10:00:00,291.5,en,extracted,OCR confidence was low due to poor scan quality and handwriting.,11,"Kovačević, Marko",0,0.0,0.69
+ec8114aa1c98f16467a00631,Lab Session Audio — Python,audio,2024-09-19 22:00:00,1088.4,en,extracted,Predmet IT 2012 pokriva obradu nestrukturiranih podataka.,7,"Doe, Jane",0,3098.9,0.0
+8fe395c9bc51ee78495a12a2,Tourism Page — Visit Sarajevo,web,2024-09-19 16:00:00,592.8,sr,processed,Faculty members published 23 papers in Scopus-indexed journals.,8,"Hodžić, Amina",0,0.0,0.0
+402182cd44d84535abbcdf7b,Academic Integrity Policy,pdf,2025-01-17 04:00:00,306.7,en,unknown,"The image resolution is 300 DPI, sufficient for text extraction.",10,"Kovačević, Marko",31,0.0,0.0
+eaa908e524b33cc2fbb9e76d,Diploma Scan Sample,image,2024-12-14 06:00:00,528.6,bs,processed,Audio transcription used Whisper large-v3 with word-level timestamps.,8,"Smith, John",0,0.0,0.77
+04ad69fdf15056241bc16f31,Thesis Defence Recording,audio,2024-12-29 23:00:00,495.1,en,extracted,This page contains HTML tags that need cleaning.,8,"Smith, John",0,1241.3,0.0
+ee66a4ca9765538840cfa541,Stack Overflow — pandas merge,web,2024-09-28 07:00:00,549.4,sr,extracted,Prosječna ocjena studenata na ispitu bila je 7.3 od 10.,10,"Doe, Jane",0,0.0,0.0
+c0ecb5c552a11ec3d1e4e9e6,Data Protection Impact Assessment,pdf,2024-12-18 05:00:00,1051.9,de,processed,"The MongoDB aggregation pipeline processed 10,000 documents in 3.2 seconds.",10,"Tanović, Selma",5,0.0,0.0
+d97895eebd476f1b15f5c870,Library Blueprint,image,2024-12-23 17:00:00,1199.2,bs,processed,Na ovaj link možete pristupiti: https://ibu.edu.ba/programs,6,"Johnson, Alex",0,0.0,0.93
+a3043818dbaf3abeeced339a,Career Fair Panel Discussion,audio,2024-09-24 07:00:00,588.0,hr,unknown,"Temperatura u Sarajevu danas je 22°C, oblačno sa mogućnošću kiše.",10,,0,3116.8,0.0
+0932451482eaaf5345b868fd,GitHub README — Project Template,web,2024-09-16 05:00:00,332.9,und,unknown,The neural network has 12 layers with a total of 110M parameters.,12,"Johnson, Alex",0,0.0,0.0
+e09cdc467b4b6812c77dac81,Strategic Plan 2025–2030,pdf,2025-03-20 14:00:00,1149.6,de,processed,Univerzitet je osnovao program za razmjenu studenata sa 15 partnera.,10,,36,0.0,0.0
+f81c4debdb7cd4982d7e1145,Handwritten Exam Page 2,image,2025-02-17 22:00:00,588.0,en,processed,The algorithm achieved 94.2% accuracy on the test set.,9,"Osmanović, Omar",0,0.0,0.98
+6c5540a906dac3decbeca925,Guest Lecture — Cybersecurity,audio,2025-01-27 23:00:00,390.1,bs,processed,Sarajevo's Old Town features Ottoman-era architecture dating to the 15th century.,11,"Johnson, Alex",0,209.0,0.0
+49643a451d085d081dbb7e8b,Weather Forecast — Sarajevo,web,2025-01-01 16:00:00,1153.7,bs,extracted,U izvještaju se navodi da je budžet za 2024. godinu 12.500 KM.,12,"Osmanović, Omar",0,0.0,0.0
+2c925ccac57e2cdda7c6de09,Laboratory Safety Manual,pdf,2024-09-21 05:00:00,816.8,bs,extracted,Die Bibliothek enthält über 50.000 Bände in verschiedenen Sprachen.,9,"Kovačević, Marko",16,0.0,0.0
+547b341f192a4f1ee3e36b3d,Lab Equipment Photo,image,2024-12-13 03:00:00,721.5,en,extracted,Student enrollment dropped by 8% compared to the previous academic year.,11,"Doe, Jane",0,0.0,0.84
+c22eb196653d879c0af5ce6c,Workshop — Docker Basics,audio,2024-12-17 21:00:00,393.3,en,extracted,Cijena karte za konferenciju iznosi 150 KM po osobi.,9,"Kovačević, Marko",0,960.9,0.0
+712b423612bdff7bd805b5ed,Restaurant Menu — Ćevabdžinica,web,2025-02-19 22:00:00,487.0,und,reviewed,"The web scraping pipeline extracted 2,340 pages in under 10 minutes.",11,"Doe, Jane",0,0.0,0.0
+7f6c6dbe7882404f11163a94,Grant Application NLP-2024,pdf,2025-02-19 20:00:00,1116.2,de,reviewed,Ministarstvo obrazovanja je donijelo novu uredbu 15.03.2024 o reformi.,9,"Tanović, Selma",5,0.0,0.0
+3cfab3ca3290744fce156ec9,Event Flyer — Tech Week,image,2024-09-03 14:00:00,106.4,en,extracted,OCR confidence was low due to poor scan quality and handwriting.,11,"Kovačević, Marko",0,0.0,0.68
+f6b1bbde81061e8df192f031,Advising Session Recording,audio,2024-11-07 04:00:00,456.0,und,processed,Predmet IT 2012 pokriva obradu nestrukturiranih podataka.,7,"Smith, John",0,593.2,0.0
+dc24022d88cecf881b2c7327,E-commerce Product Page,web,2025-01-18 22:00:00,644.2,de,processed,Faculty members published 23 papers in Scopus-indexed journals.,8,"Kovačević, Marko",0,0.0,0.0
+984de6b468f12fb1be5a413a,Thesis Guidelines MSc,pdf,2025-02-18 17:00:00,332.1,de,processed,"The image resolution is 300 DPI, sufficient for text extraction.",10,"Smith, John",7,0.0,0.0
+f6ee1c5abdcbc6fae8010f5c,Certificate Template Scan,image,2025-03-10 17:00:00,733.7,hr,reviewed,Audio transcription used Whisper large-v3 with word-level timestamps.,8,"Hodžić, Amina",0,0.0,0.88
+f72948800c788ccf1d0867f1,Research Seminar Audio,audio,2024-10-23 21:00:00,316.3,de,unknown,This page contains HTML tags that need cleaning.,8,"Hadžić, Lejla",0,3272.1,0.0
+f9f649d8b8bca4e6cec001cc,University Rankings 2024,web,2024-09-14 02:00:00,24.2,und,extracted,Prosječna ocjena studenata na ispitu bila je 7.3 od 10.,10,"Hodžić, Amina",0,0.0,0.0
+92dceca6986e7be7bfbae9c5,Parking Permit Scan,image,2024-12-19 17:00:00,1135.2,en,extracted,Na ovaj link možete pristupiti: https://ibu.edu.ba/programs,6,"Smith, John",0,0.0,0.87
+df1eb74e84c5a259ea3de5a7,Town Hall Meeting Recording,audio,2024-10-09 17:00:00,672.0,en,extracted,"Temperatura u Sarajevu danas je 22°C, oblačno sa mogućnošću kiše.",10,"Bešić, Adnan",0,1564.3,0.0
+614da547480217bf8835087e,Online Course Catalog,web,2024-09-11 09:00:00,267.9,und,reviewed,The neural network has 12 layers with a total of 110M parameters.,12,"Johnson, Alex",0,0.0,0.0
