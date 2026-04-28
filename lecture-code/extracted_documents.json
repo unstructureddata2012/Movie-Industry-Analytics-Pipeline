@@ -1,0 +1,1415 @@
+[
+  {
+    "_id": "507f1f77bcf86cd799439000",
+    "source_type": "pdf",
+    "filename": "sarajevo_tourism_report_2024.pdf",
+    "title": "Sarajevo Tourism Report 2024",
+    "extracted_at": "2025-09-04T10:13:00",
+    "file_size_kb": 1119.9,
+    "language": "de",
+    "status": "processed",
+    "content": {
+      "text": "Abstract: This paper explores NLP techniques for low-resource languages.",
+      "word_count": 9
+    },
+    "metadata": {
+      "pages": 3,
+      "duration_sec": null,
+      "ocr_confidence": null,
+      "author": "Alex Johnson"
+    },
+    "tags": [
+      "report",
+      "tourism"
+    ]
+  },
+  {
+    "_id": "507f1f77bcf86cd799439001",
+    "source_type": "image",
+    "filename": "product_label.png",
+    "title": "product_label",
+    "extracted_at": "2025-09-01T13:44:00",
+    "file_size_kb": 2100.5,
+    "language": "hr",
+    "status": "partial",
+    "content": {
+      "text": "Best Before 12/2025 Made in BiH",
+      "word_count": 6
+    },
+    "metadata": {
+      "pages": null,
+      "duration_sec": null,
+      "ocr_confidence": 0.906,
+      "author": null
+    },
+    "tags": [
+      "id",
+      "personal"
+    ]
+  },
+  {
+    "_id": "507f1f77bcf86cd799439002",
+    "source_type": "audio",
+    "filename": "interview_student.mp3",
+    "title": "interview_student",
+    "extracted_at": "2025-10-16T03:16:00",
+    "file_size_kb": 1686.3,
+    "language": "en",
+    "status": "processed",
+    "content": {
+      "text": "So my thesis is about multimodal deception detection using...",
+      "word_count": 9
+    },
+    "metadata": {
+      "pages": null,
+      "duration_sec": 1311.6,
+      "ocr_confidence": null,
+      "author": null
+    },
+    "tags": [
+      "meeting"
+    ]
+  },
+  {
+    "_id": "507f1f77bcf86cd799439003",
+    "source_type": "pdf",
+    "filename": "contract_agreement_v3.pdf",
+    "title": "Contract Agreement v3",
+    "extracted_at": "2025-09-07T05:14:00",
+    "file_size_kb": 4147.9,
+    "language": "hr",
+    "status": "processed",
+    "content": {
+      "text": "Ukupno za uplatu: 245.60 KM. Datum: 12.03.2025",
+      "word_count": 7
+    },
+    "metadata": {
+      "pages": 19,
+      "duration_sec": null,
+      "ocr_confidence": null,
+      "author": "Alex Johnson"
+    },
+    "tags": [
+      "finance",
+      "sales"
+    ]
+  },
+  {
+    "_id": "507f1f77bcf86cd799439004",
+    "source_type": "image",
+    "filename": "receipt_scan_001.png",
+    "title": "receipt_scan_001",
+    "extracted_at": "2025-11-25T16:44:00",
+    "file_size_kb": 3180.2,
+    "language": "hr",
+    "status": "processed",
+    "content": {
+      "text": "Ćevapi 10KM Burek 8KM Kafa 2KM",
+      "word_count": 6
+    },
+    "metadata": {
+      "pages": null,
+      "duration_sec": null,
+      "ocr_confidence": 0.706,
+      "author": null
+    },
+    "tags": []
+  },
+  {
+    "_id": "507f1f77bcf86cd799439005",
+    "source_type": "image",
+    "filename": "handwritten_notes.png",
+    "title": "handwritten_notes",
+    "extracted_at": "2025-10-12T09:14:00",
+    "file_size_kb": 2314.0,
+    "language": "de",
+    "status": "processed",
+    "content": {
+      "text": "Best Before 12/2025 Made in BiH",
+      "word_count": 6
+    },
+    "metadata": {
+      "pages": null,
+      "duration_sec": null,
+      "ocr_confidence": 0.647,
+      "author": null
+    },
+    "tags": [
+      "id",
+      "personal"
+    ]
+  },
+  {
+    "_id": "507f1f77bcf86cd799439006",
+    "source_type": "web",
+    "filename": "hackernews_discussion.html",
+    "title": "hackernews discussion",
+    "extracted_at": "2025-10-22T04:29:00",
+    "file_size_kb": 4714.8,
+    "language": "hr",
+    "status": "processed",
+    "content": {
+      "text": "Sarajevo — Nova mjera Vijeća ministara usvojena je jučer.",
+      "word_count": 9
+    },
+    "metadata": {
+      "pages": null,
+      "duration_sec": null,
+      "ocr_confidence": null,
+      "author": "editor@klix.ba"
+    },
+    "tags": [
+      "tech",
+      "community"
+    ]
+  },
+  {
+    "_id": "507f1f77bcf86cd799439007",
+    "source_type": "image",
+    "filename": "whiteboard_photo.png",
+    "title": "whiteboard_photo",
+    "extracted_at": "2025-09-29T12:32:00",
+    "file_size_kb": 1317.4,
+    "language": "de",
+    "status": "partial",
+    "content": {
+      "text": "Best Before 12/2025 Made in BiH",
+      "word_count": 6
+    },
+    "metadata": {
+      "pages": null,
+      "duration_sec": null,
+      "ocr_confidence": 0.726,
+      "author": null
+    },
+    "tags": [
+      "receipt",
+      "expense"
+    ]
+  },
+  {
+    "_id": "507f1f77bcf86cd799439008",
+    "source_type": "pdf",
+    "filename": "quarterly_sales_summary.pdf",
+    "title": "Quarterly Sales Summary",
+    "extracted_at": "2025-11-07T16:35:00",
+    "file_size_kb": 3961.4,
+    "language": "en",
+    "status": "processed",
+    "content": {
+      "text": "The quarterly revenue increased by 12% compared to last year.",
+      "word_count": 10
+    },
+    "metadata": {
+      "pages": 13,
+      "duration_sec": null,
+      "ocr_confidence": null,
+      "author": "Amra S."
+    },
+    "tags": [
+      "finance",
+      "sales"
+    ]
+  },
+  {
+    "_id": "507f1f77bcf86cd799439009",
+    "source_type": "audio",
+    "filename": "podcast_ep12.mp3",
+    "title": "podcast_ep12",
+    "extracted_at": "2025-12-02T16:32:00",
+    "file_size_kb": 795.0,
+    "language": null,
+    "status": "processed",
+    "content": {
+      "text": "Dobar dan svima, danas ćemo govoriti o neuronskim mrežama.",
+      "word_count": 9
+    },
+    "metadata": {
+      "pages": null,
+      "duration_sec": 2607.9,
+      "ocr_confidence": null,
+      "author": null
+    },
+    "tags": [
+      "support",
+      "customer"
+    ]
+  },
+  {
+    "_id": "507f1f77bcf86cd799439010",
+    "source_type": "pdf",
+    "filename": "annual_budget_proposal.pdf",
+    "title": "Annual Budget Proposal",
+    "extracted_at": "2025-12-29T00:58:00",
+    "file_size_kb": 998.6,
+    "language": "bs",
+    "status": "processed",
+    "content": {
+      "text": "Abstract: This paper explores NLP techniques for low-resource languages.",
+      "word_count": 9
+    },
+    "metadata": {
+      "pages": 18,
+      "duration_sec": null,
+      "ocr_confidence": null,
+      "author": null
+    },
+    "tags": [
+      "research",
+      "nlp"
+    ]
+  },
+  {
+    "_id": "507f1f77bcf86cd799439011",
+    "source_type": "web",
+    "filename": "klix.ba_article_-_politika.html",
+    "title": "klix.ba article - politika",
+    "extracted_at": "2025-12-23T02:05:00",
+    "file_size_kb": 4394.2,
+    "language": "hr",
+    "status": "processed",
+    "content": {
+      "text": "Sarajevo — Nova mjera Vijeća ministara usvojena je jučer.",
+      "word_count": 9
+    },
+    "metadata": {
+      "pages": null,
+      "duration_sec": null,
+      "ocr_confidence": null,
+      "author": "Staff Writer"
+    },
+    "tags": [
+      "reference"
+    ]
+  },
+  {
+    "_id": "507f1f77bcf86cd799439012",
+    "source_type": "pdf",
+    "filename": "invoice_00123.pdf",
+    "title": "Invoice 00123",
+    "extracted_at": "2025-12-29T01:48:00",
+    "file_size_kb": 4734.5,
+    "language": "de",
+    "status": "processed",
+    "content": {
+      "text": "The quarterly revenue increased by 12% compared to last year.",
+      "word_count": 10
+    },
+    "metadata": {
+      "pages": 20,
+      "duration_sec": null,
+      "ocr_confidence": null,
+      "author": "Marko Petrović"
+    },
+    "tags": [
+      "budget",
+      "finance"
+    ]
+  },
+  {
+    "_id": "507f1f77bcf86cd799439013",
+    "source_type": "web",
+    "filename": "hackernews_discussion.html",
+    "title": "hackernews discussion",
+    "extracted_at": "2025-11-15T15:00:00",
+    "file_size_kb": 2260.2,
+    "language": "en",
+    "status": "processed",
+    "content": {
+      "text": "Bosnia and Herzegovina is a country in Southeast Europe.",
+      "word_count": 9
+    },
+    "metadata": {
+      "pages": null,
+      "duration_sec": null,
+      "ocr_confidence": null,
+      "author": "Staff Writer"
+    },
+    "tags": [
+      "news",
+      "politics"
+    ]
+  },
+  {
+    "_id": "507f1f77bcf86cd799439014",
+    "source_type": "image",
+    "filename": "receipt_scan_001.png",
+    "title": "receipt_scan_001",
+    "extracted_at": "2025-09-18T07:59:00",
+    "file_size_kb": 358.9,
+    "language": "sr",
+    "status": "failed",
+    "content": {
+      "text": "STORE TOTAL 15.40 KM THANK YOU",
+      "word_count": 6
+    },
+    "metadata": {
+      "pages": null,
+      "duration_sec": null,
+      "ocr_confidence": 0.644,
+      "author": null
+    },
+    "tags": []
+  },
+  {
+    "_id": "507f1f77bcf86cd799439015",
+    "source_type": "web",
+    "filename": "avaz.ba_news.html",
+    "title": "avaz.ba news",
+    "extracted_at": "2025-10-31T07:03:00",
+    "file_size_kb": 956.1,
+    "language": "sr",
+    "status": "processed",
+    "content": {
+      "text": "Bosnia and Herzegovina is a country in Southeast Europe.",
+      "word_count": 9
+    },
+    "metadata": {
+      "pages": null,
+      "duration_sec": null,
+      "ocr_confidence": null,
+      "author": "editor@klix.ba"
+    },
+    "tags": [
+      "news",
+      "politics"
+    ]
+  },
+  {
+    "_id": "507f1f77bcf86cd799439016",
+    "source_type": "web",
+    "filename": "hackernews_discussion.html",
+    "title": "hackernews discussion",
+    "extracted_at": "2025-10-02T10:28:00",
+    "file_size_kb": 955.1,
+    "language": "sr",
+    "status": "failed",
+    "content": {
+      "text": "Sarajevo — Nova mjera Vijeća ministara usvojena je jučer.",
+      "word_count": 9
+    },
+    "metadata": {
+      "pages": null,
+      "duration_sec": null,
+      "ocr_confidence": null,
+      "author": "editor@klix.ba"
+    },
+    "tags": [
+      "news",
+      "politics"
+    ]
+  },
+  {
+    "_id": "507f1f77bcf86cd799439017",
+    "source_type": "pdf",
+    "filename": "sarajevo_tourism_report_2024.pdf",
+    "title": "Sarajevo Tourism Report 2024",
+    "extracted_at": "2025-12-25T09:10:00",
+    "file_size_kb": 4244.2,
+    "language": "sr",
+    "status": "partial",
+    "content": {
+      "text": "Ukupno za uplatu: 245.60 KM. Datum: 12.03.2025",
+      "word_count": 7
+    },
+    "metadata": {
+      "pages": 16,
+      "duration_sec": null,
+      "ocr_confidence": null,
+      "author": "Amra S."
+    },
+    "tags": [
+      "report",
+      "tourism"
+    ]
+  },
+  {
+    "_id": "507f1f77bcf86cd799439018",
+    "source_type": "web",
+    "filename": "hackernews_discussion.html",
+    "title": "hackernews discussion",
+    "extracted_at": "2025-11-02T12:12:00",
+    "file_size_kb": 3484.5,
+    "language": "de",
+    "status": "processed",
+    "content": {
+      "text": "Bosnia and Herzegovina is a country in Southeast Europe.",
+      "word_count": 9
+    },
+    "metadata": {
+      "pages": null,
+      "duration_sec": null,
+      "ocr_confidence": null,
+      "author": null
+    },
+    "tags": [
+      "news"
+    ]
+  },
+  {
+    "_id": "507f1f77bcf86cd799439019",
+    "source_type": "pdf",
+    "filename": "sarajevo_tourism_report_2024.pdf",
+    "title": "Sarajevo Tourism Report 2024",
+    "extracted_at": "2025-09-11T13:04:00",
+    "file_size_kb": 255.5,
+    "language": "de",
+    "status": "failed",
+    "content": {
+      "text": "Abstract: This paper explores NLP techniques for low-resource languages.",
+      "word_count": 9
+    },
+    "metadata": {
+      "pages": 6,
+      "duration_sec": null,
+      "ocr_confidence": null,
+      "author": "  John Doe  "
+    },
+    "tags": [
+      "finance",
+      "sales"
+    ]
+  },
+  {
+    "_id": "507f1f77bcf86cd799439020",
+    "source_type": "image",
+    "filename": "menu_restaurant_baščaršija.png",
+    "title": "menu_restaurant_baščaršija",
+    "extracted_at": "2025-10-25T05:37:00",
+    "file_size_kb": 2850.5,
+    "language": "en",
+    "status": "failed",
+    "content": {
+      "text": "STORE TOTAL 15.40 KM THANK YOU",
+      "word_count": 6
+    },
+    "metadata": {
+      "pages": null,
+      "duration_sec": null,
+      "ocr_confidence": 0.823,
+      "author": null
+    },
+    "tags": []
+  },
+  {
+    "_id": "507f1f77bcf86cd799439021",
+    "source_type": "audio",
+    "filename": "podcast_ep12.mp3",
+    "title": "podcast_ep12",
+    "extracted_at": "2025-10-09T22:20:00",
+    "file_size_kb": 1574.3,
+    "language": "bs",
+    "status": "processed",
+    "content": {
+      "text": "So my thesis is about multimodal deception detection using...",
+      "word_count": 9
+    },
+    "metadata": {
+      "pages": null,
+      "duration_sec": 2427.9,
+      "ocr_confidence": null,
+      "author": null
+    },
+    "tags": [
+      "lecture",
+      "education"
+    ]
+  },
+  {
+    "_id": "507f1f77bcf86cd799439022",
+    "source_type": "web",
+    "filename": "balkaninsight_report.html",
+    "title": "balkaninsight report",
+    "extracted_at": "2025-12-22T10:56:00",
+    "file_size_kb": 370.9,
+    "language": "hr",
+    "status": "processed",
+    "content": {
+      "text": "Regional stability remains a key concern for EU officials.",
+      "word_count": 9
+    },
+    "metadata": {
+      "pages": null,
+      "duration_sec": null,
+      "ocr_confidence": null,
+      "author": null
+    },
+    "tags": [
+      "tech",
+      "community"
+    ]
+  },
+  {
+    "_id": "507f1f77bcf86cd799439023",
+    "source_type": "audio",
+    "filename": "interview_student.mp3",
+    "title": "interview_student",
+    "extracted_at": "2025-12-15T01:19:00",
+    "file_size_kb": 3519.2,
+    "language": "de",
+    "status": "processed",
+    "content": {
+      "text": "Action items: follow up with vendor, send report by Friday.",
+      "word_count": 10
+    },
+    "metadata": {
+      "pages": null,
+      "duration_sec": 57.9,
+      "ocr_confidence": null,
+      "author": null
+    },
+    "tags": [
+      "interview",
+      "research"
+    ]
+  },
+  {
+    "_id": "507f1f77bcf86cd799439024",
+    "source_type": "audio",
+    "filename": "lecture_recording_w4.mp3",
+    "title": "lecture_recording_w4",
+    "extracted_at": "2025-09-28T05:40:00",
+    "file_size_kb": 781.5,
+    "language": "bs",
+    "status": "processed",
+    "content": {
+      "text": "Dobar dan svima, danas ćemo govoriti o neuronskim mrežama.",
+      "word_count": 9
+    },
+    "metadata": {
+      "pages": null,
+      "duration_sec": 2591.9,
+      "ocr_confidence": null,
+      "author": null
+    },
+    "tags": [
+      "support",
+      "customer"
+    ]
+  },
+  {
+    "_id": "507f1f77bcf86cd799439025",
+    "source_type": "web",
+    "filename": "hackernews_discussion.html",
+    "title": "hackernews discussion",
+    "extracted_at": "2025-12-08T12:40:00",
+    "file_size_kb": null,
+    "language": "hr",
+    "status": "processed",
+    "content": {
+      "text": "Sarajevo — Nova mjera Vijeća ministara usvojena je jučer.",
+      "word_count": 9
+    },
+    "metadata": {
+      "pages": null,
+      "duration_sec": null,
+      "ocr_confidence": null,
+      "author": null
+    },
+    "tags": [
+      "news"
+    ]
+  },
+  {
+    "_id": "507f1f77bcf86cd799439026",
+    "source_type": "web",
+    "filename": "balkaninsight_report.html",
+    "title": "balkaninsight report",
+    "extracted_at": "2025-12-16T19:37:00",
+    "file_size_kb": 563.8,
+    "language": "bs",
+    "status": "failed",
+    "content": {
+      "text": "Bosnia and Herzegovina is a country in Southeast Europe.",
+      "word_count": 9
+    },
+    "metadata": {
+      "pages": null,
+      "duration_sec": null,
+      "ocr_confidence": null,
+      "author": null
+    },
+    "tags": [
+      "news"
+    ]
+  },
+  {
+    "_id": "507f1f77bcf86cd799439027",
+    "source_type": "web",
+    "filename": "avaz.ba_news.html",
+    "title": "avaz.ba news",
+    "extracted_at": "2025-09-28T05:15:00",
+    "file_size_kb": 4495.4,
+    "language": "en",
+    "status": "processed",
+    "content": {
+      "text": "Sarajevo — Nova mjera Vijeća ministara usvojena je jučer.",
+      "word_count": 9
+    },
+    "metadata": {
+      "pages": null,
+      "duration_sec": null,
+      "ocr_confidence": null,
+      "author": null
+    },
+    "tags": [
+      "tech",
+      "community"
+    ]
+  },
+  {
+    "_id": "507f1f77bcf86cd799439028",
+    "source_type": "web",
+    "filename": "balkaninsight_report.html",
+    "title": "balkaninsight report",
+    "extracted_at": "2025-09-04T13:47:00",
+    "file_size_kb": 1187.5,
+    "language": "bs",
+    "status": "processed",
+    "content": {
+      "text": "Predsjednik je komentirao ekonomsku situaciju u regiji.",
+      "word_count": 7
+    },
+    "metadata": {
+      "pages": null,
+      "duration_sec": null,
+      "ocr_confidence": null,
+      "author": null
+    },
+    "tags": [
+      "reference"
+    ]
+  },
+  {
+    "_id": "507f1f77bcf86cd799439029",
+    "source_type": "image",
+    "filename": "passport_copy.png",
+    "title": "passport_copy",
+    "extracted_at": "2025-12-14T22:22:00",
+    "file_size_kb": 544.9,
+    "language": "sr",
+    "status": "processed",
+    "content": {
+      "text": "Q4 GOALS: 1. Ship v2 2. Hire 3. Expand",
+      "word_count": 9
+    },
+    "metadata": {
+      "pages": null,
+      "duration_sec": null,
+      "ocr_confidence": 0.648,
+      "author": null
+    },
+    "tags": [
+      "notes",
+      "meeting"
+    ]
+  },
+  {
+    "_id": "507f1f77bcf86cd799439030",
+    "source_type": "image",
+    "filename": "receipt_scan_001.png",
+    "title": "receipt_scan_001",
+    "extracted_at": "2025-11-05T20:43:00",
+    "file_size_kb": 1644.7,
+    "language": "hr",
+    "status": "failed",
+    "content": {
+      "text": "Best Before 12/2025 Made in BiH",
+      "word_count": 6
+    },
+    "metadata": {
+      "pages": null,
+      "duration_sec": null,
+      "ocr_confidence": 0.705,
+      "author": null
+    },
+    "tags": [
+      "id",
+      "personal"
+    ]
+  },
+  {
+    "_id": "507f1f77bcf86cd799439031",
+    "source_type": "pdf",
+    "filename": "quarterly_sales_summary.pdf",
+    "title": "Quarterly Sales Summary",
+    "extracted_at": "2025-10-27T03:32:00",
+    "file_size_kb": 4812.9,
+    "language": "en",
+    "status": "processed",
+    "content": {
+      "text": "Invoice number INV-00123 for services rendered in October 2024.",
+      "word_count": 9
+    },
+    "metadata": {
+      "pages": 20,
+      "duration_sec": null,
+      "ocr_confidence": null,
+      "author": "Unknown"
+    },
+    "tags": [
+      "legal"
+    ]
+  },
+  {
+    "_id": "507f1f77bcf86cd799439032",
+    "source_type": "image",
+    "filename": "passport_copy.png",
+    "title": "passport_copy",
+    "extracted_at": "2025-12-31T07:47:00",
+    "file_size_kb": 13.4,
+    "language": "de",
+    "status": "processed",
+    "content": {
+      "text": "STORE TOTAL 15.40 KM THANK YOU",
+      "word_count": 6
+    },
+    "metadata": {
+      "pages": null,
+      "duration_sec": null,
+      "ocr_confidence": 0.852,
+      "author": null
+    },
+    "tags": [
+      "id",
+      "personal"
+    ]
+  },
+  {
+    "_id": "507f1f77bcf86cd799439033",
+    "source_type": "web",
+    "filename": "klix.ba_article_-_politika.html",
+    "title": "klix.ba article - politika",
+    "extracted_at": "2025-11-25T21:20:00",
+    "file_size_kb": 3318.6,
+    "language": "hr",
+    "status": "partial",
+    "content": {
+      "text": "Show HN: I built a tool for parsing PDFs with LLMs.",
+      "word_count": 11
+    },
+    "metadata": {
+      "pages": null,
+      "duration_sec": null,
+      "ocr_confidence": null,
+      "author": null
+    },
+    "tags": [
+      "tech",
+      "community"
+    ]
+  },
+  {
+    "_id": "507f1f77bcf86cd799439034",
+    "source_type": "image",
+    "filename": "whiteboard_photo.png",
+    "title": "whiteboard_photo",
+    "extracted_at": "2025-10-09T20:35:00",
+    "file_size_kb": 1898.8,
+    "language": "bs",
+    "status": "processed",
+    "content": {
+      "text": "Ćevapi 10KM Burek 8KM Kafa 2KM",
+      "word_count": 6
+    },
+    "metadata": {
+      "pages": null,
+      "duration_sec": null,
+      "ocr_confidence": 0.821,
+      "author": null
+    },
+    "tags": [
+      "id",
+      "personal"
+    ]
+  },
+  {
+    "_id": "507f1f77bcf86cd799439035",
+    "source_type": "audio",
+    "filename": "interview_student.mp3",
+    "title": "interview_student",
+    "extracted_at": "2025-09-29T00:30:00",
+    "file_size_kb": 3035.3,
+    "language": "sr",
+    "status": "processed",
+    "content": {
+      "text": "Action items: follow up with vendor, send report by Friday.",
+      "word_count": 10
+    },
+    "metadata": {
+      "pages": null,
+      "duration_sec": 1608.5,
+      "ocr_confidence": null,
+      "author": null
+    },
+    "tags": [
+      "lecture",
+      "education"
+    ]
+  },
+  {
+    "_id": "507f1f77bcf86cd799439036",
+    "source_type": "audio",
+    "filename": "customer_call_support.mp3",
+    "title": "customer_call_support",
+    "extracted_at": "2025-09-26T12:01:00",
+    "file_size_kb": 4093.0,
+    "language": "hr",
+    "status": "processed",
+    "content": {
+      "text": "Hello, I'd like to report an issue with my recent order.",
+      "word_count": 11
+    },
+    "metadata": {
+      "pages": null,
+      "duration_sec": 832.0,
+      "ocr_confidence": null,
+      "author": null
+    },
+    "tags": [
+      "interview",
+      "research"
+    ]
+  },
+  {
+    "_id": "507f1f77bcf86cd799439037",
+    "source_type": "web",
+    "filename": "balkaninsight_report.html",
+    "title": "balkaninsight report",
+    "extracted_at": "2025-09-20T04:44:00",
+    "file_size_kb": 4431.3,
+    "language": "sr",
+    "status": "processed",
+    "content": {
+      "text": "Sarajevo — Nova mjera Vijeća ministara usvojena je jučer.",
+      "word_count": 9
+    },
+    "metadata": {
+      "pages": null,
+      "duration_sec": null,
+      "ocr_confidence": null,
+      "author": "Staff Writer"
+    },
+    "tags": [
+      "news",
+      "politics"
+    ]
+  },
+  {
+    "_id": "507f1f77bcf86cd799439038",
+    "source_type": "web",
+    "filename": "avaz.ba_news.html",
+    "title": "avaz.ba news",
+    "extracted_at": "2025-10-29T12:51:00",
+    "file_size_kb": 3481.1,
+    "language": "de",
+    "status": "partial",
+    "content": {
+      "text": "Predsjednik je komentirao ekonomsku situaciju u regiji.",
+      "word_count": 7
+    },
+    "metadata": {
+      "pages": null,
+      "duration_sec": null,
+      "ocr_confidence": null,
+      "author": "Redakcija"
+    },
+    "tags": [
+      "news",
+      "eu"
+    ]
+  },
+  {
+    "_id": "507f1f77bcf86cd799439039",
+    "source_type": "audio",
+    "filename": "voice_memo_meeting.mp3",
+    "title": "voice_memo_meeting",
+    "extracted_at": "2025-09-22T07:55:00",
+    "file_size_kb": 4460.6,
+    "language": "de",
+    "status": "partial",
+    "content": {
+      "text": "Hello, I'd like to report an issue with my recent order.",
+      "word_count": 11
+    },
+    "metadata": {
+      "pages": null,
+      "duration_sec": 1621.9,
+      "ocr_confidence": null,
+      "author": null
+    },
+    "tags": [
+      "meeting"
+    ]
+  },
+  {
+    "_id": "507f1f77bcf86cd799439040",
+    "source_type": "audio",
+    "filename": "interview_student.mp3",
+    "title": "interview_student",
+    "extracted_at": "2025-12-01T17:15:00",
+    "file_size_kb": 2608.9,
+    "language": "hr",
+    "status": "processed",
+    "content": {
+      "text": "Welcome back to the podcast, today we discuss AI regulation.",
+      "word_count": 10
+    },
+    "metadata": {
+      "pages": null,
+      "duration_sec": 1600.3,
+      "ocr_confidence": null,
+      "author": null
+    },
+    "tags": [
+      "podcast",
+      "ai"
+    ]
+  },
+  {
+    "_id": "507f1f77bcf86cd799439041",
+    "source_type": "audio",
+    "filename": "customer_call_support.mp3",
+    "title": "customer_call_support",
+    "extracted_at": "2025-10-23T18:34:00",
+    "file_size_kb": 1160.2,
+    "language": "bs",
+    "status": "partial",
+    "content": {
+      "text": "Dobar dan svima, danas ćemo govoriti o neuronskim mrežama.",
+      "word_count": 9
+    },
+    "metadata": {
+      "pages": null,
+      "duration_sec": 259.3,
+      "ocr_confidence": null,
+      "author": null
+    },
+    "tags": [
+      "meeting"
+    ]
+  },
+  {
+    "_id": "507f1f77bcf86cd799439042",
+    "source_type": "pdf",
+    "filename": "meeting_minutes_-_it_dept.pdf",
+    "title": "Meeting Minutes - IT Dept",
+    "extracted_at": "2025-09-01T19:19:00",
+    "file_size_kb": 3850.1,
+    "language": "en",
+    "status": "partial",
+    "content": {
+      "text": "Attendees: Alex, Marko, Amir. Discussed curriculum updates.",
+      "word_count": 7
+    },
+    "metadata": {
+      "pages": 25,
+      "duration_sec": null,
+      "ocr_confidence": null,
+      "author": "Amra S."
+    },
+    "tags": [
+      "legal"
+    ]
+  },
+  {
+    "_id": "507f1f77bcf86cd799439043",
+    "source_type": "image",
+    "filename": "menu_restaurant_baščaršija.png",
+    "title": "menu_restaurant_baščaršija",
+    "extracted_at": "2025-12-17T22:58:00",
+    "file_size_kb": 2430.8,
+    "language": "sr",
+    "status": "processed",
+    "content": {
+      "text": "Q4 GOALS: 1. Ship v2 2. Hire 3. Expand",
+      "word_count": 9
+    },
+    "metadata": {
+      "pages": null,
+      "duration_sec": null,
+      "ocr_confidence": 0.869,
+      "author": null
+    },
+    "tags": []
+  },
+  {
+    "_id": "507f1f77bcf86cd799439044",
+    "source_type": "pdf",
+    "filename": "contract_agreement_v3.pdf",
+    "title": "Contract Agreement v3",
+    "extracted_at": "2025-10-19T18:13:00",
+    "file_size_kb": 140.4,
+    "language": "bs",
+    "status": "partial",
+    "content": {
+      "text": "Proposed budget allocation: 40% salaries, 30% infrastructure.",
+      "word_count": 7
+    },
+    "metadata": {
+      "pages": 15,
+      "duration_sec": null,
+      "ocr_confidence": null,
+      "author": "Unknown"
+    },
+    "tags": [
+      "research",
+      "nlp"
+    ]
+  },
+  {
+    "_id": "507f1f77bcf86cd799439045",
+    "source_type": "audio",
+    "filename": "voice_memo_meeting.mp3",
+    "title": "voice_memo_meeting",
+    "extracted_at": "2025-12-06T01:03:00",
+    "file_size_kb": 4160.5,
+    "language": "en",
+    "status": "processed",
+    "content": {
+      "text": "Welcome back to the podcast, today we discuss AI regulation.",
+      "word_count": 10
+    },
+    "metadata": {
+      "pages": null,
+      "duration_sec": 1709.0,
+      "ocr_confidence": null,
+      "author": null
+    },
+    "tags": [
+      "interview",
+      "research"
+    ]
+  },
+  {
+    "_id": "507f1f77bcf86cd799439046",
+    "source_type": "pdf",
+    "filename": "sarajevo_tourism_report_2024.pdf",
+    "title": "Sarajevo Tourism Report 2024",
+    "extracted_at": "2025-11-25T11:36:00",
+    "file_size_kb": 1000.8,
+    "language": null,
+    "status": "processed",
+    "content": {
+      "text": "Ukupno za uplatu: 245.60 KM. Datum: 12.03.2025",
+      "word_count": 7
+    },
+    "metadata": {
+      "pages": 5,
+      "duration_sec": null,
+      "ocr_confidence": null,
+      "author": "Amra S."
+    },
+    "tags": [
+      "expense"
+    ]
+  },
+  {
+    "_id": "507f1f77bcf86cd799439047",
+    "source_type": "audio",
+    "filename": "podcast_ep12.mp3",
+    "title": "podcast_ep12",
+    "extracted_at": "2025-09-15T02:01:00",
+    "file_size_kb": 4818.9,
+    "language": "bs",
+    "status": "processed",
+    "content": {
+      "text": "So my thesis is about multimodal deception detection using...",
+      "word_count": 9
+    },
+    "metadata": {
+      "pages": null,
+      "duration_sec": 3474.1,
+      "ocr_confidence": null,
+      "author": null
+    },
+    "tags": [
+      "support",
+      "customer"
+    ]
+  },
+  {
+    "_id": "507f1f77bcf86cd799439048",
+    "source_type": "web",
+    "filename": "wikipedia_bosnia_and_herzegovina.html",
+    "title": "wikipedia Bosnia and Herzegovina",
+    "extracted_at": "2025-12-19T05:38:00",
+    "file_size_kb": null,
+    "language": "bs",
+    "status": "processed",
+    "content": {
+      "text": "Predsjednik je komentirao ekonomsku situaciju u regiji.",
+      "word_count": 7
+    },
+    "metadata": {
+      "pages": null,
+      "duration_sec": null,
+      "ocr_confidence": null,
+      "author": null
+    },
+    "tags": [
+      "news",
+      "eu"
+    ]
+  },
+  {
+    "_id": "507f1f77bcf86cd799439049",
+    "source_type": "pdf",
+    "filename": "research_paper_draft.pdf",
+    "title": "Research Paper Draft",
+    "extracted_at": "2025-12-15T23:06:00",
+    "file_size_kb": 1856.0,
+    "language": "hr",
+    "status": "partial",
+    "content": {
+      "text": "Proposed budget allocation: 40% salaries, 30% infrastructure.",
+      "word_count": 7
+    },
+    "metadata": {
+      "pages": 1,
+      "duration_sec": null,
+      "ocr_confidence": null,
+      "author": null
+    },
+    "tags": [
+      "research",
+      "nlp"
+    ]
+  },
+  {
+    "_id": "507f1f77bcf86cd799439050",
+    "source_type": "web",
+    "filename": "avaz.ba_news.html",
+    "title": "avaz.ba news",
+    "extracted_at": "2025-11-08T23:29:00",
+    "file_size_kb": 2611.1,
+    "language": "de",
+    "status": "partial",
+    "content": {
+      "text": "Bosnia and Herzegovina is a country in Southeast Europe.",
+      "word_count": 9
+    },
+    "metadata": {
+      "pages": null,
+      "duration_sec": null,
+      "ocr_confidence": null,
+      "author": null
+    },
+    "tags": [
+      "news",
+      "eu"
+    ]
+  },
+  {
+    "_id": "507f1f77bcf86cd799439051",
+    "source_type": "audio",
+    "filename": "podcast_ep12.mp3",
+    "title": "podcast_ep12",
+    "extracted_at": "2025-11-13T03:42:00",
+    "file_size_kb": 437.9,
+    "language": "bs",
+    "status": "partial",
+    "content": {
+      "text": "So my thesis is about multimodal deception detection using...",
+      "word_count": 9
+    },
+    "metadata": {
+      "pages": null,
+      "duration_sec": 2709.2,
+      "ocr_confidence": null,
+      "author": null
+    },
+    "tags": [
+      "podcast",
+      "ai"
+    ]
+  },
+  {
+    "_id": "507f1f77bcf86cd799439052",
+    "source_type": "pdf",
+    "filename": "receipt_-_office_supplies.pdf",
+    "title": "Receipt - Office Supplies",
+    "extracted_at": "2025-11-29T16:35:00",
+    "file_size_kb": 1064.5,
+    "language": "hr",
+    "status": "processed",
+    "content": {
+      "text": "Invoice number INV-00123 for services rendered in October 2024.",
+      "word_count": 9
+    },
+    "metadata": {
+      "pages": 9,
+      "duration_sec": null,
+      "ocr_confidence": null,
+      "author": null
+    },
+    "tags": [
+      "meeting"
+    ]
+  },
+  {
+    "_id": "507f1f77bcf86cd799439053",
+    "source_type": "pdf",
+    "filename": "meeting_minutes_-_it_dept.pdf",
+    "title": "Meeting Minutes - IT Dept",
+    "extracted_at": "2025-10-28T08:05:00",
+    "file_size_kb": 2778.1,
+    "language": "sr",
+    "status": "processed",
+    "content": {
+      "text": "Abstract: This paper explores NLP techniques for low-resource languages.",
+      "word_count": 9
+    },
+    "metadata": {
+      "pages": 21,
+      "duration_sec": null,
+      "ocr_confidence": null,
+      "author": null
+    },
+    "tags": [
+      "meeting"
+    ]
+  },
+  {
+    "_id": "507f1f77bcf86cd799439054",
+    "source_type": "web",
+    "filename": "avaz.ba_news.html",
+    "title": "avaz.ba news",
+    "extracted_at": "2025-10-17T06:29:00",
+    "file_size_kb": 1848.3,
+    "language": "hr",
+    "status": "processed",
+    "content": {
+      "text": "Show HN: I built a tool for parsing PDFs with LLMs.",
+      "word_count": 11
+    },
+    "metadata": {
+      "pages": null,
+      "duration_sec": null,
+      "ocr_confidence": null,
+      "author": null
+    },
+    "tags": [
+      "tech",
+      "community"
+    ]
+  },
+  {
+    "_id": "507f1f77bcf86cd799439055",
+    "source_type": "audio",
+    "filename": "interview_student.mp3",
+    "title": "interview_student",
+    "extracted_at": "2025-12-04T23:17:00",
+    "file_size_kb": 1581.2,
+    "language": "bs",
+    "status": "failed",
+    "content": {
+      "text": "Dobar dan svima, danas ćemo govoriti o neuronskim mrežama.",
+      "word_count": 9
+    },
+    "metadata": {
+      "pages": null,
+      "duration_sec": 713.8,
+      "ocr_confidence": null,
+      "author": null
+    },
+    "tags": [
+      "support",
+      "customer"
+    ]
+  },
+  {
+    "_id": "507f1f77bcf86cd799439056",
+    "source_type": "audio",
+    "filename": "lecture_recording_w4.mp3",
+    "title": "lecture_recording_w4",
+    "extracted_at": "2025-09-06T09:35:00",
+    "file_size_kb": 1807.6,
+    "language": "de",
+    "status": "processed",
+    "content": {
+      "text": "So my thesis is about multimodal deception detection using...",
+      "word_count": 9
+    },
+    "metadata": {
+      "pages": null,
+      "duration_sec": 481.9,
+      "ocr_confidence": null,
+      "author": null
+    },
+    "tags": [
+      "interview",
+      "research"
+    ]
+  },
+  {
+    "_id": "507f1f77bcf86cd799439057",
+    "source_type": "web",
+    "filename": "klix.ba_article_-_politika.html",
+    "title": "klix.ba article - politika",
+    "extracted_at": "2025-10-03T23:07:00",
+    "file_size_kb": 2349.6,
+    "language": "bs",
+    "status": "processed",
+    "content": {
+      "text": "Sarajevo — Nova mjera Vijeća ministara usvojena je jučer.",
+      "word_count": 9
+    },
+    "metadata": {
+      "pages": null,
+      "duration_sec": null,
+      "ocr_confidence": null,
+      "author": null
+    },
+    "tags": [
+      "reference"
+    ]
+  },
+  {
+    "_id": "507f1f77bcf86cd799439058",
+    "source_type": "web",
+    "filename": "klix.ba_article_-_politika.html",
+    "title": "klix.ba article - politika",
+    "extracted_at": "2025-09-11T15:07:00",
+    "file_size_kb": 272.8,
+    "language": "de",
+    "status": "failed",
+    "content": {
+      "text": "Regional stability remains a key concern for EU officials.",
+      "word_count": 9
+    },
+    "metadata": {
+      "pages": null,
+      "duration_sec": null,
+      "ocr_confidence": null,
+      "author": null
+    },
+    "tags": [
+      "reference"
+    ]
+  },
+  {
+    "_id": "507f1f77bcf86cd799439059",
+    "source_type": "image",
+    "filename": "handwritten_notes.png",
+    "title": "handwritten_notes",
+    "extracted_at": "2025-11-19T09:39:00",
+    "file_size_kb": 2216.4,
+    "language": "sr",
+    "status": "processed",
+    "content": {
+      "text": "Ćevapi 10KM Burek 8KM Kafa 2KM",
+      "word_count": 6
+    },
+    "metadata": {
+      "pages": null,
+      "duration_sec": null,
+      "ocr_confidence": 0.684,
+      "author": null
+    },
+    "tags": [
+      "notes",
+      "meeting"
+    ]
+  }
+]

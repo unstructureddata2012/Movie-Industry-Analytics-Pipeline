@@ -1,0 +1,1142 @@
+[
+  {
+    "_id": "3d6d5f37ab13117b9f40eb74",
+    "title": "Annual Report 2024 — IBU",
+    "source_type": "pdf",
+    "extracted_at": "2025-02-11T03:00:00",
+    "file_size_kb": 283.4,
+    "language": "en",
+    "status": "processed",
+    "content": {
+      "text": "Univerzitet je osnovao program za razmjenu studenata sa 15 partnera.",
+      "word_count": 10
+    },
+    "metadata": {
+      "author": "Hodžić, Amina",
+      "pages": 48,
+      "duration_sec": null,
+      "ocr_confidence": null
+    }
+  },
+  {
+    "_id": "4bd4f2e5596c6d73a1b09913",
+    "title": "Campus Map Scan",
+    "source_type": "image",
+    "extracted_at": "2024-09-27T21:00:00",
+    "file_size_kb": 517.9,
+    "language": " bs ",
+    "status": "extracted",
+    "content": {
+      "text": "The algorithm achieved 94.2% accuracy on the test set.",
+      "word_count": 9
+    },
+    "metadata": {
+      "author": "  Smith, John ",
+      "pages": null,
+      "duration_sec": null,
+      "ocr_confidence": 0.61
+    }
+  },
+  {
+    "_id": "ab913cf6186525361ed6a2a6",
+    "title": "Lecture Recording — Week 3",
+    "source_type": "audio",
+    "extracted_at": "2024-10-26T07:00:00",
+    "file_size_kb": 682.3,
+    "language": " bs ",
+    "status": "extracted",
+    "content": {
+      "text": "Sarajevo's Old Town features Ottoman-era architecture dating to the 15th century.",
+      "word_count": 11
+    },
+    "metadata": {
+      "author": "Kovačević, Marko ",
+      "pages": null,
+      "duration_sec": 2586.2,
+      "ocr_confidence": null
+    }
+  },
+  {
+    "_id": "ee913316bb2bd7ba2273fbce",
+    "title": "IBU Homepage Snapshot",
+    "source_type": "web",
+    "extracted_at": "2025-02-27T17:00:00",
+    "file_size_kb": 715.3,
+    "language": null,
+    "status": null,
+    "content": {
+      "text": "U izvještaju se navodi da je budžet za 2024. godinu 12.500 KM.",
+      "word_count": 12
+    },
+    "metadata": {
+      "author": "Doe, Jane",
+      "pages": null,
+      "duration_sec": null,
+      "ocr_confidence": null
+    }
+  },
+  {
+    "_id": "06fc331d755996ef61435125",
+    "title": "Financial Statement Q3",
+    "source_type": "pdf",
+    "extracted_at": "2024-09-02T05:00:00",
+    "file_size_kb": 203.5,
+    "language": null,
+    "status": "reviewed",
+    "content": {
+      "text": "Die Bibliothek enthält über 50.000 Bände in verschiedenen Sprachen.",
+      "word_count": 9
+    },
+    "metadata": {
+      "author": "Bešić,  Adnan",
+      "pages": 49,
+      "duration_sec": null,
+      "ocr_confidence": null
+    }
+  },
+  {
+    "_id": "7ee2d6b305f90cb01da5fd46",
+    "title": "Handwritten Exam Page 1",
+    "source_type": "image",
+    "extracted_at": "2024-11-26T03:00:00",
+    "file_size_kb": 443.6,
+    "language": "bs",
+    "status": "extracted",
+    "content": {
+      "text": "Student enrollment dropped by 8% compared to the previous academic year.",
+      "word_count": 11
+    },
+    "metadata": {
+      "author": null,
+      "pages": null,
+      "duration_sec": null,
+      "ocr_confidence": 0.73
+    }
+  },
+  {
+    "_id": "d4c489f32c9447770fe55818",
+    "title": "Interview with Alumni",
+    "source_type": "audio",
+    "extracted_at": "2024-11-07T01:00:00",
+    "file_size_kb": 1168.3,
+    "language": "EN",
+    "status": "extracted",
+    "content": {
+      "text": "Cijena karte za konferenciju iznosi 150 KM po osobi.",
+      "word_count": 9
+    },
+    "metadata": {
+      "author": " Hadžić, Lejla",
+      "pages": null,
+      "duration_sec": 1381.4,
+      "ocr_confidence": null
+    }
+  },
+  {
+    "_id": "7ce0d2e02b8b92326c56fd01",
+    "title": "Moodle Course Page — IT 2012",
+    "source_type": "web",
+    "extracted_at": "2025-01-20T09:00:00",
+    "file_size_kb": null,
+    "language": "  en",
+    "status": "extracted",
+    "content": {
+      "text": "The web scraping pipeline extracted 2,340 pages in under 10 minutes.",
+      "word_count": 11
+    },
+    "metadata": {
+      "author": "Bešić,  Adnan",
+      "pages": null,
+      "duration_sec": null,
+      "ocr_confidence": null
+    }
+  },
+  {
+    "_id": "2ca68f659d143465950a101e",
+    "title": "Student Enrollment Analysis",
+    "source_type": "pdf",
+    "extracted_at": "2024-09-18T01:00:00",
+    "file_size_kb": 1029.3,
+    "language": "sr",
+    "status": "extracted",
+    "content": {
+      "text": "Ministarstvo obrazovanja je donijelo novu uredbu 15.03.2024 o reformi.",
+      "word_count": 9
+    },
+    "metadata": {
+      "author": "Hodžić, Amina",
+      "pages": 7,
+      "duration_sec": null,
+      "ocr_confidence": null
+    }
+  },
+  {
+    "_id": "177ed5047a628383caba18d7",
+    "title": "Historical Photo Archive",
+    "source_type": "image",
+    "extracted_at": "2024-12-07T08:00:00",
+    "file_size_kb": 456.8,
+    "language": "EN",
+    "status": "processed",
+    "content": {
+      "text": "OCR confidence was low due to poor scan quality and handwriting.",
+      "word_count": 11
+    },
+    "metadata": {
+      "author": "Bešić,  Adnan",
+      "pages": null,
+      "duration_sec": null,
+      "ocr_confidence": 0.68
+    }
+  },
+  {
+    "_id": "691bf404c1bbf74327a9fc2e",
+    "title": "Faculty Meeting Minutes Audio",
+    "source_type": "audio",
+    "extracted_at": "2024-11-08T22:00:00",
+    "file_size_kb": 221.9,
+    "language": "bs",
+    "status": "processed",
+    "content": {
+      "text": "Predmet IT 2012 pokriva obradu nestrukturiranih podataka.",
+      "word_count": 7
+    },
+    "metadata": {
+      "author": "Kovačević, Marko ",
+      "pages": null,
+      "duration_sec": 2633.0,
+      "ocr_confidence": null
+    }
+  },
+  {
+    "_id": "1f2c959799181ce912882411",
+    "title": "Wikipedia — Sarajevo",
+    "source_type": "web",
+    "extracted_at": "2024-10-12T14:00:00",
+    "file_size_kb": 832.0,
+    "language": null,
+    "status": "processed",
+    "content": {
+      "text": "Faculty members published 23 papers in Scopus-indexed journals.",
+      "word_count": 8
+    },
+    "metadata": {
+      "author": "Hodžić, Amina",
+      "pages": null,
+      "duration_sec": null,
+      "ocr_confidence": null
+    }
+  },
+  {
+    "_id": "0baf55ef34dc1b898dca3743",
+    "title": "Research Ethics Policy",
+    "source_type": "pdf",
+    "extracted_at": "2024-10-27T21:00:00",
+    "file_size_kb": 989.7,
+    "language": null,
+    "status": "processed",
+    "content": {
+      "text": "The image resolution is 300 DPI, sufficient for text extraction.",
+      "word_count": 10
+    },
+    "metadata": {
+      "author": "Johnson, Alex",
+      "pages": 21,
+      "duration_sec": null,
+      "ocr_confidence": null
+    }
+  },
+  {
+    "_id": "2eda14052c64175abbf45222",
+    "title": "Whiteboard Notes — ML Lecture",
+    "source_type": "image",
+    "extracted_at": "2024-12-12T08:00:00",
+    "file_size_kb": 1054.1,
+    "language": "bs",
+    "status": "extracted",
+    "content": {
+      "text": "Audio transcription used Whisper large-v3 with word-level timestamps.",
+      "word_count": 8
+    },
+    "metadata": {
+      "author": "Doe, Jane",
+      "pages": null,
+      "duration_sec": null,
+      "ocr_confidence": 0.72
+    }
+  },
+  {
+    "_id": "65491465541476e167577529",
+    "title": "Student Presentation — Capstone",
+    "source_type": "audio",
+    "extracted_at": "2025-02-15T15:00:00",
+    "file_size_kb": 332.6,
+    "language": null,
+    "status": "processed",
+    "content": {
+      "text": "<p>This page contains <b>HTML tags</b> that need cleaning.</p>",
+      "word_count": 8
+    },
+    "metadata": {
+      "author": "Tanović,   Selma",
+      "pages": null,
+      "duration_sec": 910.5,
+      "ocr_confidence": null
+    }
+  },
+  {
+    "_id": "5a9882fc1c5d08820fc72c48",
+    "title": "News Article — Education Reform",
+    "source_type": "web",
+    "extracted_at": "2025-01-22T17:00:00",
+    "file_size_kb": 1079.4,
+    "language": "de",
+    "status": null,
+    "content": {
+      "text": "Prosječna ocjena studenata na ispitu bila je 7.3 od 10.",
+      "word_count": 10
+    },
+    "metadata": {
+      "author": "Kovačević, Marko ",
+      "pages": null,
+      "duration_sec": null,
+      "ocr_confidence": null
+    }
+  },
+  {
+    "_id": "89daedeed1a16618ea27aef9",
+    "title": "Curriculum Gap Analysis",
+    "source_type": "pdf",
+    "extracted_at": "2024-12-12T11:00:00",
+    "file_size_kb": 602.3,
+    "language": "sr",
+    "status": "extracted",
+    "content": {
+      "text": "The MongoDB aggregation pipeline processed 10,000 documents in 3.2 seconds.",
+      "word_count": 10
+    },
+    "metadata": {
+      "author": "Osmanović, Omar",
+      "pages": 49,
+      "duration_sec": null,
+      "ocr_confidence": null
+    }
+  },
+  {
+    "_id": "d604bb06a07fbcf0788167e4",
+    "title": "Receipt Scan — Conference",
+    "source_type": "image",
+    "extracted_at": "2024-09-13T03:00:00",
+    "file_size_kb": 518.1,
+    "language": "hr",
+    "status": "processed",
+    "content": {
+      "text": "Na ovaj link možete pristupiti: https://ibu.edu.ba/programs",
+      "word_count": 6
+    },
+    "metadata": {
+      "author": "Osmanović, Omar",
+      "pages": null,
+      "duration_sec": null,
+      "ocr_confidence": 0.62
+    }
+  },
+  {
+    "_id": "2fc04fef57a4fae002c2d92a",
+    "title": "Podcast — AI in Education",
+    "source_type": "audio",
+    "extracted_at": "2024-12-07T19:00:00",
+    "file_size_kb": 1165.9,
+    "language": "EN",
+    "status": "reviewed",
+    "content": {
+      "text": "Temperatura u Sarajevu danas je 22°C, oblačno sa mogućnošću kiše.",
+      "word_count": 10
+    },
+    "metadata": {
+      "author": " Hadžić, Lejla",
+      "pages": null,
+      "duration_sec": 3103.0,
+      "ocr_confidence": null
+    }
+  },
+  {
+    "_id": "558caf05e2af96cf9e370253",
+    "title": "Job Posting — Junior Developer",
+    "source_type": "web",
+    "extracted_at": "2024-09-03T21:00:00",
+    "file_size_kb": 926.9,
+    "language": "bs",
+    "status": "reviewed",
+    "content": {
+      "text": "The neural network has 12 layers with a total of 110M parameters.",
+      "word_count": 12
+    },
+    "metadata": {
+      "author": " Hadžić, Lejla",
+      "pages": null,
+      "duration_sec": null,
+      "ocr_confidence": null
+    }
+  },
+  {
+    "_id": "054dfbfceb8d276286fdd9b3",
+    "title": "Faculty Performance Review",
+    "source_type": "pdf",
+    "extracted_at": "2024-11-27T03:00:00",
+    "file_size_kb": 555.4,
+    "language": "de",
+    "status": "processed",
+    "content": {
+      "text": "Univerzitet je osnovao program za razmjenu studenata sa 15 partnera.",
+      "word_count": 10
+    },
+    "metadata": {
+      "author": null,
+      "pages": 47,
+      "duration_sec": null,
+      "ocr_confidence": null
+    }
+  },
+  {
+    "_id": "c824b8635db166cb0a163b3a",
+    "title": "Building Floor Plan",
+    "source_type": "image",
+    "extracted_at": "2025-03-04T08:00:00",
+    "file_size_kb": 1096.9,
+    "language": " bs ",
+    "status": "extracted",
+    "content": {
+      "text": "The algorithm achieved 94.2% accuracy on the test set.",
+      "word_count": 9
+    },
+    "metadata": {
+      "author": "Osmanović, Omar",
+      "pages": null,
+      "duration_sec": null,
+      "ocr_confidence": 0.94
+    }
+  },
+  {
+    "_id": "d771b04463d02b747323fa7e",
+    "title": "Oral Exam Recording",
+    "source_type": "audio",
+    "extracted_at": "2024-11-16T20:00:00",
+    "file_size_kb": 200.4,
+    "language": " bs ",
+    "status": "processed",
+    "content": {
+      "text": "Sarajevo's Old Town features Ottoman-era architecture dating to the 15th century.",
+      "word_count": 11
+    },
+    "metadata": {
+      "author": "Kovačević, Marko ",
+      "pages": null,
+      "duration_sec": 2752.2,
+      "ocr_confidence": null
+    }
+  },
+  {
+    "_id": "e425d39ae9610b246c05edc2",
+    "title": "Blog Post — Study Tips for Students",
+    "source_type": "web",
+    "extracted_at": "2025-01-17T16:00:00",
+    "file_size_kb": null,
+    "language": "en",
+    "status": "reviewed",
+    "content": {
+      "text": "U izvještaju se navodi da je budžet za 2024. godinu 12.500 KM.",
+      "word_count": 12
+    },
+    "metadata": {
+      "author": "Kovačević, Marko ",
+      "pages": null,
+      "duration_sec": null,
+      "ocr_confidence": null
+    }
+  },
+  {
+    "_id": "2de223b1e98f6be255db31ee",
+    "title": "IT Infrastructure Audit",
+    "source_type": "pdf",
+    "extracted_at": "2024-09-29T11:00:00",
+    "file_size_kb": 304.2,
+    "language": "de",
+    "status": "extracted",
+    "content": {
+      "text": "Die Bibliothek enthält über 50.000 Bände in verschiedenen Sprachen.",
+      "word_count": 9
+    },
+    "metadata": {
+      "author": "Doe, Jane",
+      "pages": 37,
+      "duration_sec": null,
+      "ocr_confidence": null
+    }
+  },
+  {
+    "_id": "591d408b468596c76c6153c3",
+    "title": "Student ID Card Scan",
+    "source_type": "image",
+    "extracted_at": "2024-09-21T02:00:00",
+    "file_size_kb": 923.7,
+    "language": "EN",
+    "status": "extracted",
+    "content": {
+      "text": "Student enrollment dropped by 8% compared to the previous academic year.",
+      "word_count": 11
+    },
+    "metadata": {
+      "author": "  Smith, John ",
+      "pages": null,
+      "duration_sec": null,
+      "ocr_confidence": 0.65
+    }
+  },
+  {
+    "_id": "f7b18f65baf096ad1e1abfb0",
+    "title": "Conference Talk — NLP 2024",
+    "source_type": "audio",
+    "extracted_at": "2024-12-31T17:00:00",
+    "file_size_kb": 1049.5,
+    "language": "hr",
+    "status": "extracted",
+    "content": {
+      "text": "Cijena karte za konferenciju iznosi 150 KM po osobi.",
+      "word_count": 9
+    },
+    "metadata": {
+      "author": "Hodžić, Amina",
+      "pages": null,
+      "duration_sec": 1540.6,
+      "ocr_confidence": null
+    }
+  },
+  {
+    "_id": "12b6bcecbee41212003b9ec5",
+    "title": "Government Portal — Visa Info",
+    "source_type": "web",
+    "extracted_at": "2024-10-25T17:00:00",
+    "file_size_kb": 1194.3,
+    "language": "sr",
+    "status": null,
+    "content": {
+      "text": "The web scraping pipeline extracted 2,340 pages in under 10 minutes.",
+      "word_count": 11
+    },
+    "metadata": {
+      "author": "Hodžić, Amina",
+      "pages": null,
+      "duration_sec": null,
+      "ocr_confidence": null
+    }
+  },
+  {
+    "_id": "b05df9f03deca3130f42df54",
+    "title": "Erasmus Mobility Guide",
+    "source_type": "pdf",
+    "extracted_at": "2025-02-14T11:00:00",
+    "file_size_kb": 162.8,
+    "language": "EN",
+    "status": null,
+    "content": {
+      "text": "Ministarstvo obrazovanja je donijelo novu uredbu 15.03.2024 o reformi.",
+      "word_count": 9
+    },
+    "metadata": {
+      "author": " Hadžić, Lejla",
+      "pages": 15,
+      "duration_sec": null,
+      "ocr_confidence": null
+    }
+  },
+  {
+    "_id": "260da37548d8ea01510fa054",
+    "title": "Poster — BHAAAS Conference",
+    "source_type": "image",
+    "extracted_at": "2024-09-17T10:00:00",
+    "file_size_kb": 291.5,
+    "language": "en",
+    "status": "extracted",
+    "content": {
+      "text": "OCR confidence was low due to poor scan quality and handwriting.",
+      "word_count": 11
+    },
+    "metadata": {
+      "author": "Kovačević, Marko ",
+      "pages": null,
+      "duration_sec": null,
+      "ocr_confidence": 0.69
+    }
+  },
+  {
+    "_id": "ec8114aa1c98f16467a00631",
+    "title": "Lab Session Audio — Python",
+    "source_type": "audio",
+    "extracted_at": "2024-09-19T22:00:00",
+    "file_size_kb": 1088.4,
+    "language": "en",
+    "status": "extracted",
+    "content": {
+      "text": "Predmet IT 2012 pokriva obradu nestrukturiranih podataka.",
+      "word_count": 7
+    },
+    "metadata": {
+      "author": "Doe, Jane",
+      "pages": null,
+      "duration_sec": 3098.9,
+      "ocr_confidence": null
+    }
+  },
+  {
+    "_id": "8fe395c9bc51ee78495a12a2",
+    "title": "Tourism Page — Visit Sarajevo",
+    "source_type": "web",
+    "extracted_at": "2024-09-19T16:00:00",
+    "file_size_kb": 592.8,
+    "language": "sr",
+    "status": "processed",
+    "content": {
+      "text": "Faculty members published 23 papers in Scopus-indexed journals.",
+      "word_count": 8
+    },
+    "metadata": {
+      "author": "Hodžić, Amina",
+      "pages": null,
+      "duration_sec": null,
+      "ocr_confidence": null
+    }
+  },
+  {
+    "_id": "402182cd44d84535abbcdf7b",
+    "title": "Academic Integrity Policy",
+    "source_type": "pdf",
+    "extracted_at": "2025-01-17T04:00:00",
+    "file_size_kb": 306.7,
+    "language": "  en",
+    "status": null,
+    "content": {
+      "text": "The image resolution is 300 DPI, sufficient for text extraction.",
+      "word_count": 10
+    },
+    "metadata": {
+      "author": "Kovačević, Marko ",
+      "pages": 31,
+      "duration_sec": null,
+      "ocr_confidence": null
+    }
+  },
+  {
+    "_id": "eaa908e524b33cc2fbb9e76d",
+    "title": "Diploma Scan Sample",
+    "source_type": "image",
+    "extracted_at": "2024-12-14T06:00:00",
+    "file_size_kb": 528.6,
+    "language": "bs",
+    "status": "processed",
+    "content": {
+      "text": "Audio transcription used Whisper large-v3 with word-level timestamps.",
+      "word_count": 8
+    },
+    "metadata": {
+      "author": "  Smith, John ",
+      "pages": null,
+      "duration_sec": null,
+      "ocr_confidence": 0.77
+    }
+  },
+  {
+    "_id": "04ad69fdf15056241bc16f31",
+    "title": "Thesis Defence Recording",
+    "source_type": "audio",
+    "extracted_at": "2024-12-29T23:00:00",
+    "file_size_kb": 495.1,
+    "language": "en",
+    "status": "extracted",
+    "content": {
+      "text": "<p>This page contains <b>HTML tags</b> that need cleaning.</p>",
+      "word_count": 8
+    },
+    "metadata": {
+      "author": "  Smith, John ",
+      "pages": null,
+      "duration_sec": 1241.3,
+      "ocr_confidence": null
+    }
+  },
+  {
+    "_id": "ee66a4ca9765538840cfa541",
+    "title": "Stack Overflow — pandas merge",
+    "source_type": "web",
+    "extracted_at": "2024-09-28T07:00:00",
+    "file_size_kb": 549.4,
+    "language": "sr",
+    "status": "extracted",
+    "content": {
+      "text": "Prosječna ocjena studenata na ispitu bila je 7.3 od 10.",
+      "word_count": 10
+    },
+    "metadata": {
+      "author": "Doe, Jane",
+      "pages": null,
+      "duration_sec": null,
+      "ocr_confidence": null
+    }
+  },
+  {
+    "_id": "c0ecb5c552a11ec3d1e4e9e6",
+    "title": "Data Protection Impact Assessment",
+    "source_type": "pdf",
+    "extracted_at": "2024-12-18T05:00:00",
+    "file_size_kb": 1051.9,
+    "language": "de",
+    "status": "processed",
+    "content": {
+      "text": "The MongoDB aggregation pipeline processed 10,000 documents in 3.2 seconds.",
+      "word_count": 10
+    },
+    "metadata": {
+      "author": "Tanović,   Selma",
+      "pages": 5,
+      "duration_sec": null,
+      "ocr_confidence": null
+    }
+  },
+  {
+    "_id": "d97895eebd476f1b15f5c870",
+    "title": "Library Blueprint",
+    "source_type": "image",
+    "extracted_at": "2024-12-23T17:00:00",
+    "file_size_kb": 1199.2,
+    "language": "bs",
+    "status": "processed",
+    "content": {
+      "text": "Na ovaj link možete pristupiti: https://ibu.edu.ba/programs",
+      "word_count": 6
+    },
+    "metadata": {
+      "author": "Johnson, Alex",
+      "pages": null,
+      "duration_sec": null,
+      "ocr_confidence": 0.93
+    }
+  },
+  {
+    "_id": "a3043818dbaf3abeeced339a",
+    "title": "Career Fair Panel Discussion",
+    "source_type": "audio",
+    "extracted_at": "2024-09-24T07:00:00",
+    "file_size_kb": 588.0,
+    "language": "hr",
+    "status": null,
+    "content": {
+      "text": "Temperatura u Sarajevu danas je 22°C, oblačno sa mogućnošću kiše.",
+      "word_count": 10
+    },
+    "metadata": {
+      "author": null,
+      "pages": null,
+      "duration_sec": 3116.8,
+      "ocr_confidence": null
+    }
+  },
+  {
+    "_id": "0932451482eaaf5345b868fd",
+    "title": "GitHub README — Project Template",
+    "source_type": "web",
+    "extracted_at": "2024-09-16T05:00:00",
+    "file_size_kb": 332.9,
+    "language": null,
+    "status": null,
+    "content": {
+      "text": "The neural network has 12 layers with a total of 110M parameters.",
+      "word_count": 12
+    },
+    "metadata": {
+      "author": "Johnson, Alex",
+      "pages": null,
+      "duration_sec": null,
+      "ocr_confidence": null
+    }
+  },
+  {
+    "_id": "e09cdc467b4b6812c77dac81",
+    "title": "Strategic Plan 2025–2030",
+    "source_type": "pdf",
+    "extracted_at": "2025-03-20T14:00:00",
+    "file_size_kb": 1149.6,
+    "language": "de",
+    "status": "processed",
+    "content": {
+      "text": "Univerzitet je osnovao program za razmjenu studenata sa 15 partnera.",
+      "word_count": 10
+    },
+    "metadata": {
+      "author": null,
+      "pages": 36,
+      "duration_sec": null,
+      "ocr_confidence": null
+    }
+  },
+  {
+    "_id": "f81c4debdb7cd4982d7e1145",
+    "title": "Handwritten Exam Page 2",
+    "source_type": "image",
+    "extracted_at": "2025-02-17T22:00:00",
+    "file_size_kb": null,
+    "language": "EN",
+    "status": "processed",
+    "content": {
+      "text": "The algorithm achieved 94.2% accuracy on the test set.",
+      "word_count": 9
+    },
+    "metadata": {
+      "author": "Osmanović, Omar",
+      "pages": null,
+      "duration_sec": null,
+      "ocr_confidence": 0.98
+    }
+  },
+  {
+    "_id": "6c5540a906dac3decbeca925",
+    "title": "Guest Lecture — Cybersecurity",
+    "source_type": "audio",
+    "extracted_at": "2025-01-27T23:00:00",
+    "file_size_kb": 390.1,
+    "language": " bs ",
+    "status": "processed",
+    "content": {
+      "text": "Sarajevo's Old Town features Ottoman-era architecture dating to the 15th century.",
+      "word_count": 11
+    },
+    "metadata": {
+      "author": "Johnson, Alex",
+      "pages": null,
+      "duration_sec": 209.0,
+      "ocr_confidence": null
+    }
+  },
+  {
+    "_id": "49643a451d085d081dbb7e8b",
+    "title": "Weather Forecast — Sarajevo",
+    "source_type": "web",
+    "extracted_at": "2025-01-01T16:00:00",
+    "file_size_kb": 1153.7,
+    "language": " bs ",
+    "status": "extracted",
+    "content": {
+      "text": "U izvještaju se navodi da je budžet za 2024. godinu 12.500 KM.",
+      "word_count": 12
+    },
+    "metadata": {
+      "author": "Osmanović, Omar",
+      "pages": null,
+      "duration_sec": null,
+      "ocr_confidence": null
+    }
+  },
+  {
+    "_id": "2c925ccac57e2cdda7c6de09",
+    "title": "Laboratory Safety Manual",
+    "source_type": "pdf",
+    "extracted_at": "2024-09-21T05:00:00",
+    "file_size_kb": 816.8,
+    "language": "bs",
+    "status": "extracted",
+    "content": {
+      "text": "Die Bibliothek enthält über 50.000 Bände in verschiedenen Sprachen.",
+      "word_count": 9
+    },
+    "metadata": {
+      "author": "Kovačević, Marko ",
+      "pages": 16,
+      "duration_sec": null,
+      "ocr_confidence": null
+    }
+  },
+  {
+    "_id": "547b341f192a4f1ee3e36b3d",
+    "title": "Lab Equipment Photo",
+    "source_type": "image",
+    "extracted_at": "2024-12-13T03:00:00",
+    "file_size_kb": 721.5,
+    "language": "  en",
+    "status": "extracted",
+    "content": {
+      "text": "Student enrollment dropped by 8% compared to the previous academic year.",
+      "word_count": 11
+    },
+    "metadata": {
+      "author": "Doe, Jane",
+      "pages": null,
+      "duration_sec": null,
+      "ocr_confidence": 0.84
+    }
+  },
+  {
+    "_id": "c22eb196653d879c0af5ce6c",
+    "title": "Workshop — Docker Basics",
+    "source_type": "audio",
+    "extracted_at": "2024-12-17T21:00:00",
+    "file_size_kb": 393.3,
+    "language": "  en",
+    "status": "extracted",
+    "content": {
+      "text": "Cijena karte za konferenciju iznosi 150 KM po osobi.",
+      "word_count": 9
+    },
+    "metadata": {
+      "author": "Kovačević, Marko ",
+      "pages": null,
+      "duration_sec": 960.9,
+      "ocr_confidence": null
+    }
+  },
+  {
+    "_id": "712b423612bdff7bd805b5ed",
+    "title": "Restaurant Menu — Ćevabdžinica",
+    "source_type": "web",
+    "extracted_at": "2025-02-19T22:00:00",
+    "file_size_kb": 487.0,
+    "language": null,
+    "status": "reviewed",
+    "content": {
+      "text": "The web scraping pipeline extracted 2,340 pages in under 10 minutes.",
+      "word_count": 11
+    },
+    "metadata": {
+      "author": "Doe, Jane",
+      "pages": null,
+      "duration_sec": null,
+      "ocr_confidence": null
+    }
+  },
+  {
+    "_id": "7f6c6dbe7882404f11163a94",
+    "title": "Grant Application NLP-2024",
+    "source_type": "pdf",
+    "extracted_at": "2025-02-19T20:00:00",
+    "file_size_kb": 1116.2,
+    "language": "de",
+    "status": "reviewed",
+    "content": {
+      "text": "Ministarstvo obrazovanja je donijelo novu uredbu 15.03.2024 o reformi.",
+      "word_count": 9
+    },
+    "metadata": {
+      "author": "Tanović,   Selma",
+      "pages": 5,
+      "duration_sec": null,
+      "ocr_confidence": null
+    }
+  },
+  {
+    "_id": "3cfab3ca3290744fce156ec9",
+    "title": "Event Flyer — Tech Week",
+    "source_type": "image",
+    "extracted_at": "2024-09-03T14:00:00",
+    "file_size_kb": 106.4,
+    "language": "  en",
+    "status": "extracted",
+    "content": {
+      "text": "OCR confidence was low due to poor scan quality and handwriting.",
+      "word_count": 11
+    },
+    "metadata": {
+      "author": "Kovačević, Marko ",
+      "pages": null,
+      "duration_sec": null,
+      "ocr_confidence": 0.68
+    }
+  },
+  {
+    "_id": "f6b1bbde81061e8df192f031",
+    "title": "Advising Session Recording",
+    "source_type": "audio",
+    "extracted_at": "2024-11-07T04:00:00",
+    "file_size_kb": 456.0,
+    "language": null,
+    "status": "processed",
+    "content": {
+      "text": "Predmet IT 2012 pokriva obradu nestrukturiranih podataka.",
+      "word_count": 7
+    },
+    "metadata": {
+      "author": "  Smith, John ",
+      "pages": null,
+      "duration_sec": 593.2,
+      "ocr_confidence": null
+    }
+  },
+  {
+    "_id": "dc24022d88cecf881b2c7327",
+    "title": "E-commerce Product Page",
+    "source_type": "web",
+    "extracted_at": "2025-01-18T22:00:00",
+    "file_size_kb": 644.2,
+    "language": "de",
+    "status": "processed",
+    "content": {
+      "text": "Faculty members published 23 papers in Scopus-indexed journals.",
+      "word_count": 8
+    },
+    "metadata": {
+      "author": "Kovačević, Marko ",
+      "pages": null,
+      "duration_sec": null,
+      "ocr_confidence": null
+    }
+  },
+  {
+    "_id": "984de6b468f12fb1be5a413a",
+    "title": "Thesis Guidelines MSc",
+    "source_type": "pdf",
+    "extracted_at": "2025-02-18T17:00:00",
+    "file_size_kb": 332.1,
+    "language": "de",
+    "status": "processed",
+    "content": {
+      "text": "The image resolution is 300 DPI, sufficient for text extraction.",
+      "word_count": 10
+    },
+    "metadata": {
+      "author": "  Smith, John ",
+      "pages": 7,
+      "duration_sec": null,
+      "ocr_confidence": null
+    }
+  },
+  {
+    "_id": "f6ee1c5abdcbc6fae8010f5c",
+    "title": "Certificate Template Scan",
+    "source_type": "image",
+    "extracted_at": "2025-03-10T17:00:00",
+    "file_size_kb": 733.7,
+    "language": "hr",
+    "status": "reviewed",
+    "content": {
+      "text": "Audio transcription used Whisper large-v3 with word-level timestamps.",
+      "word_count": 8
+    },
+    "metadata": {
+      "author": "Hodžić, Amina",
+      "pages": null,
+      "duration_sec": null,
+      "ocr_confidence": 0.88
+    }
+  },
+  {
+    "_id": "f72948800c788ccf1d0867f1",
+    "title": "Research Seminar Audio",
+    "source_type": "audio",
+    "extracted_at": "2024-10-23T21:00:00",
+    "file_size_kb": 316.3,
+    "language": "de",
+    "status": null,
+    "content": {
+      "text": "<p>This page contains <b>HTML tags</b> that need cleaning.</p>",
+      "word_count": 8
+    },
+    "metadata": {
+      "author": " Hadžić, Lejla",
+      "pages": null,
+      "duration_sec": 3272.1,
+      "ocr_confidence": null
+    }
+  },
+  {
+    "_id": "f9f649d8b8bca4e6cec001cc",
+    "title": "University Rankings 2024",
+    "source_type": "web",
+    "extracted_at": "2024-09-14T02:00:00",
+    "file_size_kb": 24.2,
+    "language": null,
+    "status": "extracted",
+    "content": {
+      "text": "Prosječna ocjena studenata na ispitu bila je 7.3 od 10.",
+      "word_count": 10
+    },
+    "metadata": {
+      "author": "Hodžić, Amina",
+      "pages": null,
+      "duration_sec": null,
+      "ocr_confidence": null
+    }
+  },
+  {
+    "_id": "70caa728edc6905697aad6d0",
+    "title": "Annual Report 2024 — IBU",
+    "source_type": "pdf",
+    "extracted_at": "2025-03-17T04:00:00",
+    "file_size_kb": 541.4,
+    "language": "de",
+    "status": "processed",
+    "content": {
+      "text": "The MongoDB aggregation pipeline processed 10,000 documents in 3.2 seconds.",
+      "word_count": 10
+    },
+    "metadata": {
+      "author": "Osmanović, Omar",
+      "pages": 46,
+      "duration_sec": null,
+      "ocr_confidence": null
+    }
+  },
+  {
+    "_id": "92dceca6986e7be7bfbae9c5",
+    "title": "Parking Permit Scan",
+    "source_type": "image",
+    "extracted_at": "2024-12-19T17:00:00",
+    "file_size_kb": 1135.2,
+    "language": "en",
+    "status": "extracted",
+    "content": {
+      "text": "Na ovaj link možete pristupiti: https://ibu.edu.ba/programs",
+      "word_count": 6
+    },
+    "metadata": {
+      "author": "  Smith, John ",
+      "pages": null,
+      "duration_sec": null,
+      "ocr_confidence": 0.87
+    }
+  },
+  {
+    "_id": "df1eb74e84c5a259ea3de5a7",
+    "title": "Town Hall Meeting Recording",
+    "source_type": "audio",
+    "extracted_at": "2024-10-09T17:00:00",
+    "file_size_kb": 672.0,
+    "language": "en",
+    "status": "extracted",
+    "content": {
+      "text": "Temperatura u Sarajevu danas je 22°C, oblačno sa mogućnošću kiše.",
+      "word_count": 10
+    },
+    "metadata": {
+      "author": "Bešić,  Adnan",
+      "pages": null,
+      "duration_sec": 1564.3,
+      "ocr_confidence": null
+    }
+  },
+  {
+    "_id": "614da547480217bf8835087e",
+    "title": "Online Course Catalog",
+    "source_type": "web",
+    "extracted_at": "2024-09-11T09:00:00",
+    "file_size_kb": 267.9,
+    "language": null,
+    "status": "reviewed",
+    "content": {
+      "text": "The neural network has 12 layers with a total of 110M parameters.",
+      "word_count": 12
+    },
+    "metadata": {
+      "author": "Johnson, Alex",
+      "pages": null,
+      "duration_sec": null,
+      "ocr_confidence": null
+    }
+  }
+]
