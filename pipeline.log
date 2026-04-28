@@ -767,3 +767,532 @@
 2026-04-21 00:58:44,810 - INFO - Outlier report columns: 12
 2026-04-21 00:58:44,810 - INFO - COMPLETED
 2026-04-21 00:58:44,810 - INFO - Pipeline finished successfully
+2026-04-22 21:41:06,551 | INFO | Missing value report generated for 38 columns
+2026-04-22 21:47:34,594 | INFO | Missing value report generated for 38 columns
+2026-04-22 22:01:02,053 | INFO | clean_title: 98 titles modified
+2026-04-22 22:01:02,054 | INFO | clean_language_code: normalised to lowercase
+2026-04-22 22:01:02,058 | INFO | clean_overview_text: overview column cleaned
+2026-04-22 22:01:02,059 | INFO | extract_year_from_release_date: extracted 720 years
+2026-04-22 22:22:24,459 | INFO | drop_exact_duplicates: removed 572 rows
+2026-04-22 22:22:28,697 | INFO | drop_duplicate_ids (id): removed 202 rows
+2026-04-22 22:25:02,716 | INFO | convert_dates: 11 rows could not be parsed (NaT)
+2026-04-22 22:25:02,719 | INFO | convert_numeric_columns: popularity -> float32
+2026-04-22 22:25:02,720 | INFO | convert_numeric_columns: vote_average -> float32
+2026-04-22 22:25:02,721 | INFO | convert_numeric_columns: vote_count -> Int64
+2026-04-22 22:25:02,721 | INFO | convert_numeric_columns: id -> Int64
+2026-04-22 22:25:02,722 | INFO | convert_category_columns: original_language -> category
+2026-04-22 22:31:44,818 | INFO | validate_vote_average_range: PASSED
+2026-04-22 22:31:44,820 | INFO | validate_release_year_range: PASSED
+2026-04-22 22:31:44,821 | INFO | validate_no_duplicate_ids (id): PASSED
+2026-04-22 22:31:44,822 | INFO | validate_language_codes: PASSED
+2026-04-22 22:33:21,179 | INFO | validate_vote_average_range: PASSED
+2026-04-22 22:33:21,180 | INFO | validate_release_year_range: PASSED
+2026-04-22 22:33:21,181 | INFO | validate_no_duplicate_ids (id): PASSED
+2026-04-22 22:33:21,181 | INFO | validate_language_codes: PASSED
+2026-04-22 22:35:47,346 | INFO | drop_rows_missing_title: dropped 0 rows
+2026-04-22 22:37:17,362 | INFO | drop_rows_missing_title: dropped 0 rows
+2026-04-22 22:37:35,886 | INFO | validate_no_null_titles: PASSED
+2026-04-22 22:37:35,887 | INFO | validate_vote_average_range: PASSED
+2026-04-22 22:37:35,888 | INFO | validate_release_year_range: PASSED
+2026-04-22 22:37:35,888 | INFO | validate_no_duplicate_ids (id): PASSED
+2026-04-22 22:37:35,889 | INFO | validate_language_codes: PASSED
+2026-04-22 23:03:19,883 - INFO - Fetching page 1
+2026-04-22 23:03:19,883 - ERROR - API request failed
+2026-04-22 23:03:20,742 - INFO - Loaded audio: Interstellar – Building A Black Hole – Official Warner Bros. [MfGfZwQ_qaY]_trailer.mp3 (MP3)
+2026-04-22 23:03:20,905 - INFO - Loaded audio: Interstellar - Christopher Nolan - Official Warner Bros. [WqNirxasldY]_triler.mp3 (MP3)
+2026-04-22 23:03:21,057 - INFO - Loaded audio: Inception _ The Dream Sequence _ HBO Max [mpj9dL7swwk]_trailer.mp3 (MP3)
+2026-04-22 23:03:21,225 - INFO - Loaded audio: Interstellar – Building A Black Hole – Official Warner Bros. [MfGfZwQ_qaY]_trailer.mp3 (MP3)
+2026-04-22 23:03:21,225 - INFO - Trimmed audio: 5000ms -> 15000ms (was 219684ms, now 10000ms)
+2026-04-22 23:03:21,226 - INFO - Concatenated 2 clips, total: 20000ms
+2026-04-22 23:03:21,248 - INFO - Volume adjusted by +6.0 dB
+2026-04-22 23:03:21,262 - INFO - Applied fade-in 2000ms / fade-out 3000ms
+2026-04-22 23:03:21,264 - INFO - Exported audio -> data/processed/audio/Interstellar – Building A Black Hole – Official Warner Bros. [MfGfZwQ_qaY]_trailer_trimmed.wav (1722.7 KB)
+2026-04-22 23:03:21,360 - INFO - Exported audio -> data/processed/audio/Interstellar – Building A Black Hole – Official Warner Bros. [MfGfZwQ_qaY]_trailer_trimmed.mp3 (235.8 KB)
+2026-04-22 23:03:21,526 - INFO - Loaded audio: Interstellar – Building A Black Hole – Official Warner Bros. [MfGfZwQ_qaY]_trailer.mp3 (MP3)
+2026-04-22 23:03:21,816 - INFO - Exported audio -> data/processed/audio/Interstellar – Building A Black Hole – Official Warner Bros. [MfGfZwQ_qaY]_trailer.flac (11310.6 KB)
+2026-04-22 23:03:21,983 - INFO - Loaded audio: Interstellar - Christopher Nolan - Official Warner Bros. [WqNirxasldY]_triler.mp3 (MP3)
+2026-04-22 23:03:21,984 - INFO - Trimmed audio: 5000ms -> 15000ms (was 205822ms, now 10000ms)
+2026-04-22 23:03:21,984 - INFO - Concatenated 2 clips, total: 20000ms
+2026-04-22 23:03:22,005 - INFO - Volume adjusted by +6.0 dB
+2026-04-22 23:03:22,020 - INFO - Applied fade-in 2000ms / fade-out 3000ms
+2026-04-22 23:03:22,021 - INFO - Exported audio -> data/processed/audio/Interstellar - Christopher Nolan - Official Warner Bros. [WqNirxasldY]_triler_trimmed.wav (1722.7 KB)
+2026-04-22 23:03:22,118 - INFO - Exported audio -> data/processed/audio/Interstellar - Christopher Nolan - Official Warner Bros. [WqNirxasldY]_triler_trimmed.mp3 (235.8 KB)
+2026-04-22 23:03:22,287 - INFO - Loaded audio: Interstellar - Christopher Nolan - Official Warner Bros. [WqNirxasldY]_triler.mp3 (MP3)
+2026-04-22 23:03:22,564 - INFO - Exported audio -> data/processed/audio/Interstellar - Christopher Nolan - Official Warner Bros. [WqNirxasldY]_triler.flac (12335.1 KB)
+2026-04-22 23:03:22,719 - INFO - Loaded audio: Inception _ The Dream Sequence _ HBO Max [mpj9dL7swwk]_trailer.mp3 (MP3)
+2026-04-22 23:03:22,720 - INFO - Trimmed audio: 5000ms -> 15000ms (was 192401ms, now 10000ms)
+2026-04-22 23:03:22,720 - INFO - Concatenated 2 clips, total: 20000ms
+2026-04-22 23:03:22,742 - INFO - Volume adjusted by +6.0 dB
+2026-04-22 23:03:22,755 - INFO - Applied fade-in 2000ms / fade-out 3000ms
+2026-04-22 23:03:22,755 - INFO - Exported audio -> data/processed/audio/Inception _ The Dream Sequence _ HBO Max [mpj9dL7swwk]_trailer_trimmed.wav (1722.7 KB)
+2026-04-22 23:03:22,844 - INFO - Exported audio -> data/processed/audio/Inception _ The Dream Sequence _ HBO Max [mpj9dL7swwk]_trailer_trimmed.mp3 (235.8 KB)
+2026-04-22 23:03:22,997 - INFO - Loaded audio: Inception _ The Dream Sequence _ HBO Max [mpj9dL7swwk]_trailer.mp3 (MP3)
+2026-04-22 23:03:23,251 - INFO - Exported audio -> data/processed/audio/Inception _ The Dream Sequence _ HBO Max [mpj9dL7swwk]_trailer.flac (10375.5 KB)
+2026-04-22 23:03:24,490 - INFO - Loaded video: Interstellar – Building A Black Hole – Official Warner Bros._trailer.mp4
+2026-04-22 23:03:24,632 - INFO - Saved frame at t=5.0s -> data/processed/frames/Interstellar – Building A Black Hole – Official Warner Bros._trailer_thumb.png
+2026-04-22 23:03:25,325 - INFO - Extracted 22 keyframes from Interstellar – Building A Black Hole – Official Warner Bros._trailer.mp4 (every 10.0s)
+2026-04-22 23:03:25,373 - INFO - Loaded video: Interstellar – Building A Black Hole – Official Warner Bros._trailer.mp4
+2026-04-22 23:03:26,715 - INFO - Extracted audio -> data/processed/audio/Interstellar – Building A Black Hole – Official Warner Bros._trailer.mp3 (3433.3 KB)
+2026-04-22 23:03:26,770 - INFO - Loaded video: Inception _ The Dream Sequence _ HBO Max_trailer.mp4
+2026-04-22 23:03:26,859 - INFO - Saved frame at t=5.0s -> data/processed/frames/Inception _ The Dream Sequence _ HBO Max_trailer_thumb.png
+2026-04-22 23:03:27,568 - INFO - Extracted 20 keyframes from Inception _ The Dream Sequence _ HBO Max_trailer.mp4 (every 10.0s)
+2026-04-22 23:03:27,622 - INFO - Loaded video: Inception _ The Dream Sequence _ HBO Max_trailer.mp4
+2026-04-22 23:03:28,672 - INFO - Extracted audio -> data/processed/audio/Inception _ The Dream Sequence _ HBO Max_trailer.mp3 (3007.2 KB)
+2026-04-22 23:03:28,722 - INFO - Loaded video: Interstellar - Christopher Nolan - Official Warner Bros._trailer.mp4
+2026-04-22 23:03:28,806 - INFO - Saved frame at t=5.0s -> data/processed/frames/Interstellar - Christopher Nolan - Official Warner Bros._trailer_thumb.png
+2026-04-22 23:03:29,498 - INFO - Extracted 21 keyframes from Interstellar - Christopher Nolan - Official Warner Bros._trailer.mp4 (every 10.0s)
+2026-04-22 23:03:29,547 - INFO - Loaded video: Interstellar - Christopher Nolan - Official Warner Bros._trailer.mp4
+2026-04-22 23:03:30,774 - INFO - Extracted audio -> data/processed/audio/Interstellar - Christopher Nolan - Official Warner Bros._trailer.mp3 (3217.0 KB)
+2026-04-22 23:03:47,919 - INFO - Fetching page 1
+2026-04-22 23:03:47,919 - ERROR - API request failed
+2026-04-22 23:03:48,452 - INFO - Loaded audio: Interstellar – Building A Black Hole – Official Warner Bros. [MfGfZwQ_qaY]_trailer.mp3 (MP3)
+2026-04-22 23:03:48,625 - INFO - Loaded audio: Interstellar - Christopher Nolan - Official Warner Bros. [WqNirxasldY]_triler.mp3 (MP3)
+2026-04-22 23:03:48,782 - INFO - Loaded audio: Inception _ The Dream Sequence _ HBO Max [mpj9dL7swwk]_trailer.mp3 (MP3)
+2026-04-22 23:03:48,950 - INFO - Loaded audio: Interstellar – Building A Black Hole – Official Warner Bros. [MfGfZwQ_qaY]_trailer.mp3 (MP3)
+2026-04-22 23:03:48,951 - INFO - Trimmed audio: 5000ms -> 15000ms (was 219684ms, now 10000ms)
+2026-04-22 23:03:48,951 - INFO - Concatenated 2 clips, total: 20000ms
+2026-04-22 23:03:48,976 - INFO - Volume adjusted by +6.0 dB
+2026-04-22 23:03:48,991 - INFO - Applied fade-in 2000ms / fade-out 3000ms
+2026-04-22 23:03:48,992 - INFO - Exported audio -> data/processed/audio/Interstellar – Building A Black Hole – Official Warner Bros. [MfGfZwQ_qaY]_trailer_trimmed.wav (1722.7 KB)
+2026-04-22 23:03:49,095 - INFO - Exported audio -> data/processed/audio/Interstellar – Building A Black Hole – Official Warner Bros. [MfGfZwQ_qaY]_trailer_trimmed.mp3 (235.8 KB)
+2026-04-22 23:03:49,265 - INFO - Loaded audio: Interstellar – Building A Black Hole – Official Warner Bros. [MfGfZwQ_qaY]_trailer.mp3 (MP3)
+2026-04-22 23:03:49,553 - INFO - Exported audio -> data/processed/audio/Interstellar – Building A Black Hole – Official Warner Bros. [MfGfZwQ_qaY]_trailer.flac (11310.6 KB)
+2026-04-22 23:03:49,721 - INFO - Loaded audio: Interstellar - Christopher Nolan - Official Warner Bros. [WqNirxasldY]_triler.mp3 (MP3)
+2026-04-22 23:03:49,721 - INFO - Trimmed audio: 5000ms -> 15000ms (was 205822ms, now 10000ms)
+2026-04-22 23:03:49,721 - INFO - Concatenated 2 clips, total: 20000ms
+2026-04-22 23:03:49,743 - INFO - Volume adjusted by +6.0 dB
+2026-04-22 23:03:49,758 - INFO - Applied fade-in 2000ms / fade-out 3000ms
+2026-04-22 23:03:49,759 - INFO - Exported audio -> data/processed/audio/Interstellar - Christopher Nolan - Official Warner Bros. [WqNirxasldY]_triler_trimmed.wav (1722.7 KB)
+2026-04-22 23:03:49,855 - INFO - Exported audio -> data/processed/audio/Interstellar - Christopher Nolan - Official Warner Bros. [WqNirxasldY]_triler_trimmed.mp3 (235.8 KB)
+2026-04-22 23:03:50,022 - INFO - Loaded audio: Interstellar - Christopher Nolan - Official Warner Bros. [WqNirxasldY]_triler.mp3 (MP3)
+2026-04-22 23:03:50,298 - INFO - Exported audio -> data/processed/audio/Interstellar - Christopher Nolan - Official Warner Bros. [WqNirxasldY]_triler.flac (12335.1 KB)
+2026-04-22 23:03:50,453 - INFO - Loaded audio: Inception _ The Dream Sequence _ HBO Max [mpj9dL7swwk]_trailer.mp3 (MP3)
+2026-04-22 23:03:50,453 - INFO - Trimmed audio: 5000ms -> 15000ms (was 192401ms, now 10000ms)
+2026-04-22 23:03:50,453 - INFO - Concatenated 2 clips, total: 20000ms
+2026-04-22 23:03:50,474 - INFO - Volume adjusted by +6.0 dB
+2026-04-22 23:03:50,487 - INFO - Applied fade-in 2000ms / fade-out 3000ms
+2026-04-22 23:03:50,488 - INFO - Exported audio -> data/processed/audio/Inception _ The Dream Sequence _ HBO Max [mpj9dL7swwk]_trailer_trimmed.wav (1722.7 KB)
+2026-04-22 23:03:50,578 - INFO - Exported audio -> data/processed/audio/Inception _ The Dream Sequence _ HBO Max [mpj9dL7swwk]_trailer_trimmed.mp3 (235.8 KB)
+2026-04-22 23:03:50,731 - INFO - Loaded audio: Inception _ The Dream Sequence _ HBO Max [mpj9dL7swwk]_trailer.mp3 (MP3)
+2026-04-22 23:03:50,984 - INFO - Exported audio -> data/processed/audio/Inception _ The Dream Sequence _ HBO Max [mpj9dL7swwk]_trailer.flac (10375.5 KB)
+2026-04-22 23:03:51,396 - INFO - Loaded video: Interstellar – Building A Black Hole – Official Warner Bros._trailer.mp4
+2026-04-22 23:03:51,511 - INFO - Saved frame at t=5.0s -> data/processed/frames/Interstellar – Building A Black Hole – Official Warner Bros._trailer_thumb.png
+2026-04-22 23:03:52,203 - INFO - Extracted 22 keyframes from Interstellar – Building A Black Hole – Official Warner Bros._trailer.mp4 (every 10.0s)
+2026-04-22 23:03:52,252 - INFO - Loaded video: Interstellar – Building A Black Hole – Official Warner Bros._trailer.mp4
+2026-04-22 23:03:53,624 - INFO - Extracted audio -> data/processed/audio/Interstellar – Building A Black Hole – Official Warner Bros._trailer.mp3 (3433.3 KB)
+2026-04-22 23:03:53,680 - INFO - Loaded video: Inception _ The Dream Sequence _ HBO Max_trailer.mp4
+2026-04-22 23:03:53,768 - INFO - Saved frame at t=5.0s -> data/processed/frames/Inception _ The Dream Sequence _ HBO Max_trailer_thumb.png
+2026-04-22 23:03:54,485 - INFO - Extracted 20 keyframes from Inception _ The Dream Sequence _ HBO Max_trailer.mp4 (every 10.0s)
+2026-04-22 23:03:54,540 - INFO - Loaded video: Inception _ The Dream Sequence _ HBO Max_trailer.mp4
+2026-04-22 23:03:55,601 - INFO - Extracted audio -> data/processed/audio/Inception _ The Dream Sequence _ HBO Max_trailer.mp3 (3007.2 KB)
+2026-04-22 23:03:55,651 - INFO - Loaded video: Interstellar - Christopher Nolan - Official Warner Bros._trailer.mp4
+2026-04-22 23:03:55,738 - INFO - Saved frame at t=5.0s -> data/processed/frames/Interstellar - Christopher Nolan - Official Warner Bros._trailer_thumb.png
+2026-04-22 23:03:56,436 - INFO - Extracted 21 keyframes from Interstellar - Christopher Nolan - Official Warner Bros._trailer.mp4 (every 10.0s)
+2026-04-22 23:03:56,486 - INFO - Loaded video: Interstellar - Christopher Nolan - Official Warner Bros._trailer.mp4
+2026-04-22 23:03:57,724 - INFO - Extracted audio -> data/processed/audio/Interstellar - Christopher Nolan - Official Warner Bros._trailer.mp3 (3217.0 KB)
+2026-04-22 23:04:33,325 - INFO - Fetching page 1
+2026-04-22 23:04:33,325 - ERROR - API request failed
+2026-04-22 23:04:33,823 - INFO - Loaded audio: Interstellar – Building A Black Hole – Official Warner Bros. [MfGfZwQ_qaY]_trailer.mp3 (MP3)
+2026-04-22 23:04:33,993 - INFO - Loaded audio: Interstellar - Christopher Nolan - Official Warner Bros. [WqNirxasldY]_triler.mp3 (MP3)
+2026-04-22 23:04:34,148 - INFO - Loaded audio: Inception _ The Dream Sequence _ HBO Max [mpj9dL7swwk]_trailer.mp3 (MP3)
+2026-04-22 23:04:34,315 - INFO - Loaded audio: Interstellar – Building A Black Hole – Official Warner Bros. [MfGfZwQ_qaY]_trailer.mp3 (MP3)
+2026-04-22 23:04:34,315 - INFO - Trimmed audio: 5000ms -> 15000ms (was 219684ms, now 10000ms)
+2026-04-22 23:04:34,316 - INFO - Concatenated 2 clips, total: 20000ms
+2026-04-22 23:04:34,338 - INFO - Volume adjusted by +6.0 dB
+2026-04-22 23:04:34,353 - INFO - Applied fade-in 2000ms / fade-out 3000ms
+2026-04-22 23:04:34,354 - INFO - Exported audio -> data/processed/audio/Interstellar – Building A Black Hole – Official Warner Bros. [MfGfZwQ_qaY]_trailer_trimmed.wav (1722.7 KB)
+2026-04-22 23:04:34,465 - INFO - Exported audio -> data/processed/audio/Interstellar – Building A Black Hole – Official Warner Bros. [MfGfZwQ_qaY]_trailer_trimmed.mp3 (235.8 KB)
+2026-04-22 23:04:34,631 - INFO - Loaded audio: Interstellar – Building A Black Hole – Official Warner Bros. [MfGfZwQ_qaY]_trailer.mp3 (MP3)
+2026-04-22 23:04:34,917 - INFO - Exported audio -> data/processed/audio/Interstellar – Building A Black Hole – Official Warner Bros. [MfGfZwQ_qaY]_trailer.flac (11310.6 KB)
+2026-04-22 23:04:35,085 - INFO - Loaded audio: Interstellar - Christopher Nolan - Official Warner Bros. [WqNirxasldY]_triler.mp3 (MP3)
+2026-04-22 23:04:35,085 - INFO - Trimmed audio: 5000ms -> 15000ms (was 205822ms, now 10000ms)
+2026-04-22 23:04:35,085 - INFO - Concatenated 2 clips, total: 20000ms
+2026-04-22 23:04:35,106 - INFO - Volume adjusted by +6.0 dB
+2026-04-22 23:04:35,121 - INFO - Applied fade-in 2000ms / fade-out 3000ms
+2026-04-22 23:04:35,122 - INFO - Exported audio -> data/processed/audio/Interstellar - Christopher Nolan - Official Warner Bros. [WqNirxasldY]_triler_trimmed.wav (1722.7 KB)
+2026-04-22 23:04:35,219 - INFO - Exported audio -> data/processed/audio/Interstellar - Christopher Nolan - Official Warner Bros. [WqNirxasldY]_triler_trimmed.mp3 (235.8 KB)
+2026-04-22 23:04:35,385 - INFO - Loaded audio: Interstellar - Christopher Nolan - Official Warner Bros. [WqNirxasldY]_triler.mp3 (MP3)
+2026-04-22 23:04:35,663 - INFO - Exported audio -> data/processed/audio/Interstellar - Christopher Nolan - Official Warner Bros. [WqNirxasldY]_triler.flac (12335.1 KB)
+2026-04-22 23:04:35,819 - INFO - Loaded audio: Inception _ The Dream Sequence _ HBO Max [mpj9dL7swwk]_trailer.mp3 (MP3)
+2026-04-22 23:04:35,820 - INFO - Trimmed audio: 5000ms -> 15000ms (was 192401ms, now 10000ms)
+2026-04-22 23:04:35,820 - INFO - Concatenated 2 clips, total: 20000ms
+2026-04-22 23:04:35,841 - INFO - Volume adjusted by +6.0 dB
+2026-04-22 23:04:35,854 - INFO - Applied fade-in 2000ms / fade-out 3000ms
+2026-04-22 23:04:35,855 - INFO - Exported audio -> data/processed/audio/Inception _ The Dream Sequence _ HBO Max [mpj9dL7swwk]_trailer_trimmed.wav (1722.7 KB)
+2026-04-22 23:04:35,946 - INFO - Exported audio -> data/processed/audio/Inception _ The Dream Sequence _ HBO Max [mpj9dL7swwk]_trailer_trimmed.mp3 (235.8 KB)
+2026-04-22 23:04:36,100 - INFO - Loaded audio: Inception _ The Dream Sequence _ HBO Max [mpj9dL7swwk]_trailer.mp3 (MP3)
+2026-04-22 23:04:36,355 - INFO - Exported audio -> data/processed/audio/Inception _ The Dream Sequence _ HBO Max [mpj9dL7swwk]_trailer.flac (10375.5 KB)
+2026-04-22 23:04:36,697 - INFO - Loaded video: Interstellar – Building A Black Hole – Official Warner Bros._trailer.mp4
+2026-04-22 23:04:36,795 - INFO - Saved frame at t=5.0s -> data/processed/frames/Interstellar – Building A Black Hole – Official Warner Bros._trailer_thumb.png
+2026-04-22 23:04:37,480 - INFO - Extracted 22 keyframes from Interstellar – Building A Black Hole – Official Warner Bros._trailer.mp4 (every 10.0s)
+2026-04-22 23:04:37,529 - INFO - Loaded video: Interstellar – Building A Black Hole – Official Warner Bros._trailer.mp4
+2026-04-22 23:04:38,901 - INFO - Extracted audio -> data/processed/audio/Interstellar – Building A Black Hole – Official Warner Bros._trailer.mp3 (3433.3 KB)
+2026-04-22 23:04:38,955 - INFO - Loaded video: Inception _ The Dream Sequence _ HBO Max_trailer.mp4
+2026-04-22 23:04:39,046 - INFO - Saved frame at t=5.0s -> data/processed/frames/Inception _ The Dream Sequence _ HBO Max_trailer_thumb.png
+2026-04-22 23:04:39,766 - INFO - Extracted 20 keyframes from Inception _ The Dream Sequence _ HBO Max_trailer.mp4 (every 10.0s)
+2026-04-22 23:04:39,820 - INFO - Loaded video: Inception _ The Dream Sequence _ HBO Max_trailer.mp4
+2026-04-22 23:04:40,901 - INFO - Extracted audio -> data/processed/audio/Inception _ The Dream Sequence _ HBO Max_trailer.mp3 (3007.2 KB)
+2026-04-22 23:04:40,951 - INFO - Loaded video: Interstellar - Christopher Nolan - Official Warner Bros._trailer.mp4
+2026-04-22 23:04:41,037 - INFO - Saved frame at t=5.0s -> data/processed/frames/Interstellar - Christopher Nolan - Official Warner Bros._trailer_thumb.png
+2026-04-22 23:04:41,739 - INFO - Extracted 21 keyframes from Interstellar - Christopher Nolan - Official Warner Bros._trailer.mp4 (every 10.0s)
+2026-04-22 23:04:41,788 - INFO - Loaded video: Interstellar - Christopher Nolan - Official Warner Bros._trailer.mp4
+2026-04-22 23:04:43,025 - INFO - Extracted audio -> data/processed/audio/Interstellar - Christopher Nolan - Official Warner Bros._trailer.mp3 (3217.0 KB)
+2026-04-22 23:05:25,527 - INFO - Fetching page 1
+2026-04-22 23:05:25,527 - ERROR - API request failed
+2026-04-22 23:05:26,168 - INFO - Loaded audio: Interstellar – Building A Black Hole – Official Warner Bros. [MfGfZwQ_qaY]_trailer.mp3 (MP3)
+2026-04-22 23:05:26,335 - INFO - Loaded audio: Interstellar - Christopher Nolan - Official Warner Bros. [WqNirxasldY]_triler.mp3 (MP3)
+2026-04-22 23:05:26,488 - INFO - Loaded audio: Inception _ The Dream Sequence _ HBO Max [mpj9dL7swwk]_trailer.mp3 (MP3)
+2026-04-22 23:05:26,675 - INFO - Loaded audio: Interstellar – Building A Black Hole – Official Warner Bros. [MfGfZwQ_qaY]_trailer.mp3 (MP3)
+2026-04-22 23:05:26,676 - INFO - Trimmed audio: 5000ms -> 15000ms (was 219684ms, now 10000ms)
+2026-04-22 23:05:26,676 - INFO - Concatenated 2 clips, total: 20000ms
+2026-04-22 23:05:26,700 - INFO - Volume adjusted by +6.0 dB
+2026-04-22 23:05:26,717 - INFO - Applied fade-in 2000ms / fade-out 3000ms
+2026-04-22 23:05:26,720 - INFO - Exported audio -> data/processed/audio/Interstellar – Building A Black Hole – Official Warner Bros. [MfGfZwQ_qaY]_trailer_trimmed.wav (1722.7 KB)
+2026-04-22 23:05:26,823 - INFO - Exported audio -> data/processed/audio/Interstellar – Building A Black Hole – Official Warner Bros. [MfGfZwQ_qaY]_trailer_trimmed.mp3 (235.8 KB)
+2026-04-22 23:05:26,990 - INFO - Loaded audio: Interstellar – Building A Black Hole – Official Warner Bros. [MfGfZwQ_qaY]_trailer.mp3 (MP3)
+2026-04-22 23:05:27,289 - INFO - Exported audio -> data/processed/audio/Interstellar – Building A Black Hole – Official Warner Bros. [MfGfZwQ_qaY]_trailer.flac (11310.6 KB)
+2026-04-22 23:05:27,458 - INFO - Loaded audio: Interstellar - Christopher Nolan - Official Warner Bros. [WqNirxasldY]_triler.mp3 (MP3)
+2026-04-22 23:05:27,458 - INFO - Trimmed audio: 5000ms -> 15000ms (was 205822ms, now 10000ms)
+2026-04-22 23:05:27,459 - INFO - Concatenated 2 clips, total: 20000ms
+2026-04-22 23:05:27,481 - INFO - Volume adjusted by +6.0 dB
+2026-04-22 23:05:27,496 - INFO - Applied fade-in 2000ms / fade-out 3000ms
+2026-04-22 23:05:27,497 - INFO - Exported audio -> data/processed/audio/Interstellar - Christopher Nolan - Official Warner Bros. [WqNirxasldY]_triler_trimmed.wav (1722.7 KB)
+2026-04-22 23:05:27,594 - INFO - Exported audio -> data/processed/audio/Interstellar - Christopher Nolan - Official Warner Bros. [WqNirxasldY]_triler_trimmed.mp3 (235.8 KB)
+2026-04-22 23:05:27,760 - INFO - Loaded audio: Interstellar - Christopher Nolan - Official Warner Bros. [WqNirxasldY]_triler.mp3 (MP3)
+2026-04-22 23:05:28,037 - INFO - Exported audio -> data/processed/audio/Interstellar - Christopher Nolan - Official Warner Bros. [WqNirxasldY]_triler.flac (12335.1 KB)
+2026-04-22 23:05:28,193 - INFO - Loaded audio: Inception _ The Dream Sequence _ HBO Max [mpj9dL7swwk]_trailer.mp3 (MP3)
+2026-04-22 23:05:28,193 - INFO - Trimmed audio: 5000ms -> 15000ms (was 192401ms, now 10000ms)
+2026-04-22 23:05:28,193 - INFO - Concatenated 2 clips, total: 20000ms
+2026-04-22 23:05:28,214 - INFO - Volume adjusted by +6.0 dB
+2026-04-22 23:05:28,226 - INFO - Applied fade-in 2000ms / fade-out 3000ms
+2026-04-22 23:05:28,227 - INFO - Exported audio -> data/processed/audio/Inception _ The Dream Sequence _ HBO Max [mpj9dL7swwk]_trailer_trimmed.wav (1722.7 KB)
+2026-04-22 23:05:28,318 - INFO - Exported audio -> data/processed/audio/Inception _ The Dream Sequence _ HBO Max [mpj9dL7swwk]_trailer_trimmed.mp3 (235.8 KB)
+2026-04-22 23:05:28,471 - INFO - Loaded audio: Inception _ The Dream Sequence _ HBO Max [mpj9dL7swwk]_trailer.mp3 (MP3)
+2026-04-22 23:05:28,722 - INFO - Exported audio -> data/processed/audio/Inception _ The Dream Sequence _ HBO Max [mpj9dL7swwk]_trailer.flac (10375.5 KB)
+2026-04-22 23:05:29,318 - INFO - Loaded video: Interstellar – Building A Black Hole – Official Warner Bros._trailer.mp4
+2026-04-22 23:05:29,426 - INFO - Saved frame at t=5.0s -> data/processed/frames/Interstellar – Building A Black Hole – Official Warner Bros._trailer_thumb.png
+2026-04-22 23:05:30,116 - INFO - Extracted 22 keyframes from Interstellar – Building A Black Hole – Official Warner Bros._trailer.mp4 (every 10.0s)
+2026-04-22 23:05:30,164 - INFO - Loaded video: Interstellar – Building A Black Hole – Official Warner Bros._trailer.mp4
+2026-04-22 23:05:31,546 - INFO - Extracted audio -> data/processed/audio/Interstellar – Building A Black Hole – Official Warner Bros._trailer.mp3 (3433.3 KB)
+2026-04-22 23:05:31,601 - INFO - Loaded video: Inception _ The Dream Sequence _ HBO Max_trailer.mp4
+2026-04-22 23:05:31,691 - INFO - Saved frame at t=5.0s -> data/processed/frames/Inception _ The Dream Sequence _ HBO Max_trailer_thumb.png
+2026-04-22 23:05:32,423 - INFO - Extracted 20 keyframes from Inception _ The Dream Sequence _ HBO Max_trailer.mp4 (every 10.0s)
+2026-04-22 23:05:32,477 - INFO - Loaded video: Inception _ The Dream Sequence _ HBO Max_trailer.mp4
+2026-04-22 23:05:33,541 - INFO - Extracted audio -> data/processed/audio/Inception _ The Dream Sequence _ HBO Max_trailer.mp3 (3007.2 KB)
+2026-04-22 23:05:33,591 - INFO - Loaded video: Interstellar - Christopher Nolan - Official Warner Bros._trailer.mp4
+2026-04-22 23:05:33,676 - INFO - Saved frame at t=5.0s -> data/processed/frames/Interstellar - Christopher Nolan - Official Warner Bros._trailer_thumb.png
+2026-04-22 23:05:34,371 - INFO - Extracted 21 keyframes from Interstellar - Christopher Nolan - Official Warner Bros._trailer.mp4 (every 10.0s)
+2026-04-22 23:05:34,420 - INFO - Loaded video: Interstellar - Christopher Nolan - Official Warner Bros._trailer.mp4
+2026-04-22 23:05:35,637 - INFO - Extracted audio -> data/processed/audio/Interstellar - Christopher Nolan - Official Warner Bros._trailer.mp3 (3217.0 KB)
+2026-04-22 23:05:35,786 - INFO - === Lab 9: Data Cleaning ===
+2026-04-22 23:05:35,786 - WARNING - tmdb_movies.csv not found
+2026-04-22 23:05:35,786 - INFO - Pipeline finished successfully
+2026-04-22 23:08:52,376 - INFO - Fetching page 1
+2026-04-22 23:08:52,376 - ERROR - API request failed
+2026-04-22 23:08:52,901 - INFO - Loaded audio: Interstellar – Building A Black Hole – Official Warner Bros. [MfGfZwQ_qaY]_trailer.mp3 (MP3)
+2026-04-22 23:08:53,070 - INFO - Loaded audio: Interstellar - Christopher Nolan - Official Warner Bros. [WqNirxasldY]_triler.mp3 (MP3)
+2026-04-22 23:08:53,225 - INFO - Loaded audio: Inception _ The Dream Sequence _ HBO Max [mpj9dL7swwk]_trailer.mp3 (MP3)
+2026-04-22 23:08:53,392 - INFO - Loaded audio: Interstellar – Building A Black Hole – Official Warner Bros. [MfGfZwQ_qaY]_trailer.mp3 (MP3)
+2026-04-22 23:08:53,392 - INFO - Trimmed audio: 5000ms -> 15000ms (was 219684ms, now 10000ms)
+2026-04-22 23:08:53,393 - INFO - Concatenated 2 clips, total: 20000ms
+2026-04-22 23:08:53,414 - INFO - Volume adjusted by +6.0 dB
+2026-04-22 23:08:53,429 - INFO - Applied fade-in 2000ms / fade-out 3000ms
+2026-04-22 23:08:53,430 - INFO - Exported audio -> data/processed/audio/Interstellar – Building A Black Hole – Official Warner Bros. [MfGfZwQ_qaY]_trailer_trimmed.wav (1722.7 KB)
+2026-04-22 23:08:53,527 - INFO - Exported audio -> data/processed/audio/Interstellar – Building A Black Hole – Official Warner Bros. [MfGfZwQ_qaY]_trailer_trimmed.mp3 (235.8 KB)
+2026-04-22 23:08:53,697 - INFO - Loaded audio: Interstellar – Building A Black Hole – Official Warner Bros. [MfGfZwQ_qaY]_trailer.mp3 (MP3)
+2026-04-22 23:08:53,988 - INFO - Exported audio -> data/processed/audio/Interstellar – Building A Black Hole – Official Warner Bros. [MfGfZwQ_qaY]_trailer.flac (11310.6 KB)
+2026-04-22 23:08:54,158 - INFO - Loaded audio: Interstellar - Christopher Nolan - Official Warner Bros. [WqNirxasldY]_triler.mp3 (MP3)
+2026-04-22 23:08:54,158 - INFO - Trimmed audio: 5000ms -> 15000ms (was 205822ms, now 10000ms)
+2026-04-22 23:08:54,159 - INFO - Concatenated 2 clips, total: 20000ms
+2026-04-22 23:08:54,181 - INFO - Volume adjusted by +6.0 dB
+2026-04-22 23:08:54,197 - INFO - Applied fade-in 2000ms / fade-out 3000ms
+2026-04-22 23:08:54,197 - INFO - Exported audio -> data/processed/audio/Interstellar - Christopher Nolan - Official Warner Bros. [WqNirxasldY]_triler_trimmed.wav (1722.7 KB)
+2026-04-22 23:08:54,302 - INFO - Exported audio -> data/processed/audio/Interstellar - Christopher Nolan - Official Warner Bros. [WqNirxasldY]_triler_trimmed.mp3 (235.8 KB)
+2026-04-22 23:08:54,474 - INFO - Loaded audio: Interstellar - Christopher Nolan - Official Warner Bros. [WqNirxasldY]_triler.mp3 (MP3)
+2026-04-22 23:08:54,757 - INFO - Exported audio -> data/processed/audio/Interstellar - Christopher Nolan - Official Warner Bros. [WqNirxasldY]_triler.flac (12335.1 KB)
+2026-04-22 23:08:54,916 - INFO - Loaded audio: Inception _ The Dream Sequence _ HBO Max [mpj9dL7swwk]_trailer.mp3 (MP3)
+2026-04-22 23:08:54,916 - INFO - Trimmed audio: 5000ms -> 15000ms (was 192401ms, now 10000ms)
+2026-04-22 23:08:54,917 - INFO - Concatenated 2 clips, total: 20000ms
+2026-04-22 23:08:54,939 - INFO - Volume adjusted by +6.0 dB
+2026-04-22 23:08:54,953 - INFO - Applied fade-in 2000ms / fade-out 3000ms
+2026-04-22 23:08:54,954 - INFO - Exported audio -> data/processed/audio/Inception _ The Dream Sequence _ HBO Max [mpj9dL7swwk]_trailer_trimmed.wav (1722.7 KB)
+2026-04-22 23:08:55,049 - INFO - Exported audio -> data/processed/audio/Inception _ The Dream Sequence _ HBO Max [mpj9dL7swwk]_trailer_trimmed.mp3 (235.8 KB)
+2026-04-22 23:08:55,206 - INFO - Loaded audio: Inception _ The Dream Sequence _ HBO Max [mpj9dL7swwk]_trailer.mp3 (MP3)
+2026-04-22 23:08:55,465 - INFO - Exported audio -> data/processed/audio/Inception _ The Dream Sequence _ HBO Max [mpj9dL7swwk]_trailer.flac (10375.5 KB)
+2026-04-22 23:08:55,810 - INFO - Loaded video: Interstellar – Building A Black Hole – Official Warner Bros._trailer.mp4
+2026-04-22 23:08:55,910 - INFO - Saved frame at t=5.0s -> data/processed/frames/Interstellar – Building A Black Hole – Official Warner Bros._trailer_thumb.png
+2026-04-22 23:08:56,599 - INFO - Extracted 22 keyframes from Interstellar – Building A Black Hole – Official Warner Bros._trailer.mp4 (every 10.0s)
+2026-04-22 23:08:56,649 - INFO - Loaded video: Interstellar – Building A Black Hole – Official Warner Bros._trailer.mp4
+2026-04-22 23:08:58,012 - INFO - Extracted audio -> data/processed/audio/Interstellar – Building A Black Hole – Official Warner Bros._trailer.mp3 (3433.3 KB)
+2026-04-22 23:08:58,069 - INFO - Loaded video: Inception _ The Dream Sequence _ HBO Max_trailer.mp4
+2026-04-22 23:08:58,159 - INFO - Saved frame at t=5.0s -> data/processed/frames/Inception _ The Dream Sequence _ HBO Max_trailer_thumb.png
+2026-04-22 23:08:58,878 - INFO - Extracted 20 keyframes from Inception _ The Dream Sequence _ HBO Max_trailer.mp4 (every 10.0s)
+2026-04-22 23:08:58,933 - INFO - Loaded video: Inception _ The Dream Sequence _ HBO Max_trailer.mp4
+2026-04-22 23:09:00,006 - INFO - Extracted audio -> data/processed/audio/Inception _ The Dream Sequence _ HBO Max_trailer.mp3 (3007.2 KB)
+2026-04-22 23:09:00,058 - INFO - Loaded video: Interstellar - Christopher Nolan - Official Warner Bros._trailer.mp4
+2026-04-22 23:09:00,144 - INFO - Saved frame at t=5.0s -> data/processed/frames/Interstellar - Christopher Nolan - Official Warner Bros._trailer_thumb.png
+2026-04-22 23:09:00,846 - INFO - Extracted 21 keyframes from Interstellar - Christopher Nolan - Official Warner Bros._trailer.mp4 (every 10.0s)
+2026-04-22 23:09:00,897 - INFO - Loaded video: Interstellar - Christopher Nolan - Official Warner Bros._trailer.mp4
+2026-04-22 23:09:02,107 - INFO - Extracted audio -> data/processed/audio/Interstellar - Christopher Nolan - Official Warner Bros._trailer.mp3 (3217.0 KB)
+2026-04-22 23:09:02,263 - INFO - === Lab 9: Data Cleaning ===
+2026-04-22 23:09:02,263 - WARNING - tmdb_movies.csv not found
+2026-04-22 23:09:02,263 - INFO - Pipeline finished successfully
+2026-04-22 23:10:31,607 - INFO - Fetching page 1
+2026-04-22 23:10:31,607 - ERROR - API request failed
+2026-04-22 23:10:32,317 - INFO - Loaded audio: Interstellar – Building A Black Hole – Official Warner Bros. [MfGfZwQ_qaY]_trailer.mp3 (MP3)
+2026-04-22 23:10:32,486 - INFO - Loaded audio: Interstellar - Christopher Nolan - Official Warner Bros. [WqNirxasldY]_triler.mp3 (MP3)
+2026-04-22 23:10:32,640 - INFO - Loaded audio: Inception _ The Dream Sequence _ HBO Max [mpj9dL7swwk]_trailer.mp3 (MP3)
+2026-04-22 23:10:32,832 - INFO - Loaded audio: Interstellar – Building A Black Hole – Official Warner Bros. [MfGfZwQ_qaY]_trailer.mp3 (MP3)
+2026-04-22 23:10:32,832 - INFO - Trimmed audio: 5000ms -> 15000ms (was 219684ms, now 10000ms)
+2026-04-22 23:10:32,832 - INFO - Concatenated 2 clips, total: 20000ms
+2026-04-22 23:10:32,855 - INFO - Volume adjusted by +6.0 dB
+2026-04-22 23:10:32,888 - INFO - Applied fade-in 2000ms / fade-out 3000ms
+2026-04-22 23:10:32,891 - INFO - Exported audio -> data/processed/audio/Interstellar – Building A Black Hole – Official Warner Bros. [MfGfZwQ_qaY]_trailer_trimmed.wav (1722.7 KB)
+2026-04-22 23:10:32,990 - INFO - Exported audio -> data/processed/audio/Interstellar – Building A Black Hole – Official Warner Bros. [MfGfZwQ_qaY]_trailer_trimmed.mp3 (235.8 KB)
+2026-04-22 23:10:33,163 - INFO - Loaded audio: Interstellar – Building A Black Hole – Official Warner Bros. [MfGfZwQ_qaY]_trailer.mp3 (MP3)
+2026-04-22 23:10:33,454 - INFO - Exported audio -> data/processed/audio/Interstellar – Building A Black Hole – Official Warner Bros. [MfGfZwQ_qaY]_trailer.flac (11310.6 KB)
+2026-04-22 23:10:33,623 - INFO - Loaded audio: Interstellar - Christopher Nolan - Official Warner Bros. [WqNirxasldY]_triler.mp3 (MP3)
+2026-04-22 23:10:33,623 - INFO - Trimmed audio: 5000ms -> 15000ms (was 205822ms, now 10000ms)
+2026-04-22 23:10:33,623 - INFO - Concatenated 2 clips, total: 20000ms
+2026-04-22 23:10:33,646 - INFO - Volume adjusted by +6.0 dB
+2026-04-22 23:10:33,660 - INFO - Applied fade-in 2000ms / fade-out 3000ms
+2026-04-22 23:10:33,661 - INFO - Exported audio -> data/processed/audio/Interstellar - Christopher Nolan - Official Warner Bros. [WqNirxasldY]_triler_trimmed.wav (1722.7 KB)
+2026-04-22 23:10:33,759 - INFO - Exported audio -> data/processed/audio/Interstellar - Christopher Nolan - Official Warner Bros. [WqNirxasldY]_triler_trimmed.mp3 (235.8 KB)
+2026-04-22 23:10:33,927 - INFO - Loaded audio: Interstellar - Christopher Nolan - Official Warner Bros. [WqNirxasldY]_triler.mp3 (MP3)
+2026-04-22 23:10:34,208 - INFO - Exported audio -> data/processed/audio/Interstellar - Christopher Nolan - Official Warner Bros. [WqNirxasldY]_triler.flac (12335.1 KB)
+2026-04-22 23:10:34,368 - INFO - Loaded audio: Inception _ The Dream Sequence _ HBO Max [mpj9dL7swwk]_trailer.mp3 (MP3)
+2026-04-22 23:10:34,369 - INFO - Trimmed audio: 5000ms -> 15000ms (was 192401ms, now 10000ms)
+2026-04-22 23:10:34,369 - INFO - Concatenated 2 clips, total: 20000ms
+2026-04-22 23:10:34,410 - INFO - Volume adjusted by +6.0 dB
+2026-04-22 23:10:34,423 - INFO - Applied fade-in 2000ms / fade-out 3000ms
+2026-04-22 23:10:34,424 - INFO - Exported audio -> data/processed/audio/Inception _ The Dream Sequence _ HBO Max [mpj9dL7swwk]_trailer_trimmed.wav (1722.7 KB)
+2026-04-22 23:10:34,515 - INFO - Exported audio -> data/processed/audio/Inception _ The Dream Sequence _ HBO Max [mpj9dL7swwk]_trailer_trimmed.mp3 (235.8 KB)
+2026-04-22 23:10:34,667 - INFO - Loaded audio: Inception _ The Dream Sequence _ HBO Max [mpj9dL7swwk]_trailer.mp3 (MP3)
+2026-04-22 23:10:34,930 - INFO - Exported audio -> data/processed/audio/Inception _ The Dream Sequence _ HBO Max [mpj9dL7swwk]_trailer.flac (10375.5 KB)
+2026-04-22 23:10:35,567 - INFO - Loaded video: Interstellar – Building A Black Hole – Official Warner Bros._trailer.mp4
+2026-04-22 23:10:35,685 - INFO - Saved frame at t=5.0s -> data/processed/frames/Interstellar – Building A Black Hole – Official Warner Bros._trailer_thumb.png
+2026-04-22 23:10:36,386 - INFO - Extracted 22 keyframes from Interstellar – Building A Black Hole – Official Warner Bros._trailer.mp4 (every 10.0s)
+2026-04-22 23:10:36,436 - INFO - Loaded video: Interstellar – Building A Black Hole – Official Warner Bros._trailer.mp4
+2026-04-22 23:10:37,862 - INFO - Extracted audio -> data/processed/audio/Interstellar – Building A Black Hole – Official Warner Bros._trailer.mp3 (3433.3 KB)
+2026-04-22 23:10:37,922 - INFO - Loaded video: Inception _ The Dream Sequence _ HBO Max_trailer.mp4
+2026-04-22 23:10:38,016 - INFO - Saved frame at t=5.0s -> data/processed/frames/Inception _ The Dream Sequence _ HBO Max_trailer_thumb.png
+2026-04-22 23:10:38,766 - INFO - Extracted 20 keyframes from Inception _ The Dream Sequence _ HBO Max_trailer.mp4 (every 10.0s)
+2026-04-22 23:10:38,822 - INFO - Loaded video: Inception _ The Dream Sequence _ HBO Max_trailer.mp4
+2026-04-22 23:10:39,896 - INFO - Extracted audio -> data/processed/audio/Inception _ The Dream Sequence _ HBO Max_trailer.mp3 (3007.2 KB)
+2026-04-22 23:10:39,948 - INFO - Loaded video: Interstellar - Christopher Nolan - Official Warner Bros._trailer.mp4
+2026-04-22 23:10:40,036 - INFO - Saved frame at t=5.0s -> data/processed/frames/Interstellar - Christopher Nolan - Official Warner Bros._trailer_thumb.png
+2026-04-22 23:10:40,788 - INFO - Extracted 21 keyframes from Interstellar - Christopher Nolan - Official Warner Bros._trailer.mp4 (every 10.0s)
+2026-04-22 23:10:40,841 - INFO - Loaded video: Interstellar - Christopher Nolan - Official Warner Bros._trailer.mp4
+2026-04-22 23:10:42,098 - INFO - Extracted audio -> data/processed/audio/Interstellar - Christopher Nolan - Official Warner Bros._trailer.mp3 (3217.0 KB)
+2026-04-22 23:10:42,286 - INFO - === Lab 9: Data Cleaning ===
+2026-04-22 23:10:42,287 - WARNING - tmdb_movies.csv not found
+2026-04-22 23:10:42,287 - INFO - Pipeline finished successfully
+2026-04-22 23:11:48,259 - INFO - Fetching page 1
+2026-04-22 23:11:48,259 - ERROR - API request failed
+2026-04-22 23:11:48,868 - INFO - Loaded audio: Interstellar – Building A Black Hole – Official Warner Bros. [MfGfZwQ_qaY]_trailer.mp3 (MP3)
+2026-04-22 23:11:49,037 - INFO - Loaded audio: Interstellar - Christopher Nolan - Official Warner Bros. [WqNirxasldY]_triler.mp3 (MP3)
+2026-04-22 23:11:49,192 - INFO - Loaded audio: Inception _ The Dream Sequence _ HBO Max [mpj9dL7swwk]_trailer.mp3 (MP3)
+2026-04-22 23:11:49,361 - INFO - Loaded audio: Interstellar – Building A Black Hole – Official Warner Bros. [MfGfZwQ_qaY]_trailer.mp3 (MP3)
+2026-04-22 23:11:49,361 - INFO - Trimmed audio: 5000ms -> 15000ms (was 219684ms, now 10000ms)
+2026-04-22 23:11:49,361 - INFO - Concatenated 2 clips, total: 20000ms
+2026-04-22 23:11:49,384 - INFO - Volume adjusted by +6.0 dB
+2026-04-22 23:11:49,399 - INFO - Applied fade-in 2000ms / fade-out 3000ms
+2026-04-22 23:11:49,399 - INFO - Exported audio -> data/processed/audio/Interstellar – Building A Black Hole – Official Warner Bros. [MfGfZwQ_qaY]_trailer_trimmed.wav (1722.7 KB)
+2026-04-22 23:11:49,495 - INFO - Exported audio -> data/processed/audio/Interstellar – Building A Black Hole – Official Warner Bros. [MfGfZwQ_qaY]_trailer_trimmed.mp3 (235.8 KB)
+2026-04-22 23:11:49,661 - INFO - Loaded audio: Interstellar – Building A Black Hole – Official Warner Bros. [MfGfZwQ_qaY]_trailer.mp3 (MP3)
+2026-04-22 23:11:49,946 - INFO - Exported audio -> data/processed/audio/Interstellar – Building A Black Hole – Official Warner Bros. [MfGfZwQ_qaY]_trailer.flac (11310.6 KB)
+2026-04-22 23:11:50,113 - INFO - Loaded audio: Interstellar - Christopher Nolan - Official Warner Bros. [WqNirxasldY]_triler.mp3 (MP3)
+2026-04-22 23:11:50,113 - INFO - Trimmed audio: 5000ms -> 15000ms (was 205822ms, now 10000ms)
+2026-04-22 23:11:50,113 - INFO - Concatenated 2 clips, total: 20000ms
+2026-04-22 23:11:50,137 - INFO - Volume adjusted by +6.0 dB
+2026-04-22 23:11:50,151 - INFO - Applied fade-in 2000ms / fade-out 3000ms
+2026-04-22 23:11:50,151 - INFO - Exported audio -> data/processed/audio/Interstellar - Christopher Nolan - Official Warner Bros. [WqNirxasldY]_triler_trimmed.wav (1722.7 KB)
+2026-04-22 23:11:50,253 - INFO - Exported audio -> data/processed/audio/Interstellar - Christopher Nolan - Official Warner Bros. [WqNirxasldY]_triler_trimmed.mp3 (235.8 KB)
+2026-04-22 23:11:50,429 - INFO - Loaded audio: Interstellar - Christopher Nolan - Official Warner Bros. [WqNirxasldY]_triler.mp3 (MP3)
+2026-04-22 23:11:50,747 - INFO - Exported audio -> data/processed/audio/Interstellar - Christopher Nolan - Official Warner Bros. [WqNirxasldY]_triler.flac (12335.1 KB)
+2026-04-22 23:11:50,910 - INFO - Loaded audio: Inception _ The Dream Sequence _ HBO Max [mpj9dL7swwk]_trailer.mp3 (MP3)
+2026-04-22 23:11:50,911 - INFO - Trimmed audio: 5000ms -> 15000ms (was 192401ms, now 10000ms)
+2026-04-22 23:11:50,911 - INFO - Concatenated 2 clips, total: 20000ms
+2026-04-22 23:11:50,935 - INFO - Volume adjusted by +6.0 dB
+2026-04-22 23:11:50,949 - INFO - Applied fade-in 2000ms / fade-out 3000ms
+2026-04-22 23:11:50,949 - INFO - Exported audio -> data/processed/audio/Inception _ The Dream Sequence _ HBO Max [mpj9dL7swwk]_trailer_trimmed.wav (1722.7 KB)
+2026-04-22 23:11:51,043 - INFO - Exported audio -> data/processed/audio/Inception _ The Dream Sequence _ HBO Max [mpj9dL7swwk]_trailer_trimmed.mp3 (235.8 KB)
+2026-04-22 23:11:51,201 - INFO - Loaded audio: Inception _ The Dream Sequence _ HBO Max [mpj9dL7swwk]_trailer.mp3 (MP3)
+2026-04-22 23:11:51,462 - INFO - Exported audio -> data/processed/audio/Inception _ The Dream Sequence _ HBO Max [mpj9dL7swwk]_trailer.flac (10375.5 KB)
+2026-04-22 23:11:52,109 - INFO - Loaded video: Interstellar – Building A Black Hole – Official Warner Bros._trailer.mp4
+2026-04-22 23:11:52,230 - INFO - Saved frame at t=5.0s -> data/processed/frames/Interstellar – Building A Black Hole – Official Warner Bros._trailer_thumb.png
+2026-04-22 23:11:52,952 - INFO - Extracted 22 keyframes from Interstellar – Building A Black Hole – Official Warner Bros._trailer.mp4 (every 10.0s)
+2026-04-22 23:11:53,003 - INFO - Loaded video: Interstellar – Building A Black Hole – Official Warner Bros._trailer.mp4
+2026-04-22 23:11:54,380 - INFO - Extracted audio -> data/processed/audio/Interstellar – Building A Black Hole – Official Warner Bros._trailer.mp3 (3433.3 KB)
+2026-04-22 23:11:54,439 - INFO - Loaded video: Inception _ The Dream Sequence _ HBO Max_trailer.mp4
+2026-04-22 23:11:54,532 - INFO - Saved frame at t=5.0s -> data/processed/frames/Inception _ The Dream Sequence _ HBO Max_trailer_thumb.png
+2026-04-22 23:11:55,299 - INFO - Extracted 20 keyframes from Inception _ The Dream Sequence _ HBO Max_trailer.mp4 (every 10.0s)
+2026-04-22 23:11:55,358 - INFO - Loaded video: Inception _ The Dream Sequence _ HBO Max_trailer.mp4
+2026-04-22 23:11:56,440 - INFO - Extracted audio -> data/processed/audio/Inception _ The Dream Sequence _ HBO Max_trailer.mp3 (3007.2 KB)
+2026-04-22 23:11:56,493 - INFO - Loaded video: Interstellar - Christopher Nolan - Official Warner Bros._trailer.mp4
+2026-04-22 23:11:56,582 - INFO - Saved frame at t=5.0s -> data/processed/frames/Interstellar - Christopher Nolan - Official Warner Bros._trailer_thumb.png
+2026-04-22 23:11:57,295 - INFO - Extracted 21 keyframes from Interstellar - Christopher Nolan - Official Warner Bros._trailer.mp4 (every 10.0s)
+2026-04-22 23:11:57,347 - INFO - Loaded video: Interstellar - Christopher Nolan - Official Warner Bros._trailer.mp4
+2026-04-22 23:11:58,616 - INFO - Extracted audio -> data/processed/audio/Interstellar - Christopher Nolan - Official Warner Bros._trailer.mp3 (3217.0 KB)
+2026-04-22 23:11:58,768 - INFO - === Lab 9: Data Cleaning ===
+2026-04-22 23:11:58,768 - WARNING - tmdb_movies.csv not found
+2026-04-22 23:11:58,768 - INFO - Pipeline finished successfully
+2026-04-22 23:13:52,127 - INFO - Fetching page 1
+2026-04-22 23:13:52,128 - ERROR - API request failed
+2026-04-22 23:13:52,811 - INFO - Loaded audio: Interstellar – Building A Black Hole – Official Warner Bros. [MfGfZwQ_qaY]_trailer.mp3 (MP3)
+2026-04-22 23:13:52,981 - INFO - Loaded audio: Interstellar - Christopher Nolan - Official Warner Bros. [WqNirxasldY]_triler.mp3 (MP3)
+2026-04-22 23:13:53,132 - INFO - Loaded audio: Inception _ The Dream Sequence _ HBO Max [mpj9dL7swwk]_trailer.mp3 (MP3)
+2026-04-22 23:13:53,301 - INFO - Loaded audio: Interstellar – Building A Black Hole – Official Warner Bros. [MfGfZwQ_qaY]_trailer.mp3 (MP3)
+2026-04-22 23:13:53,302 - INFO - Trimmed audio: 5000ms -> 15000ms (was 219684ms, now 10000ms)
+2026-04-22 23:13:53,302 - INFO - Concatenated 2 clips, total: 20000ms
+2026-04-22 23:13:53,326 - INFO - Volume adjusted by +6.0 dB
+2026-04-22 23:13:53,358 - INFO - Applied fade-in 2000ms / fade-out 3000ms
+2026-04-22 23:13:53,359 - INFO - Exported audio -> data/processed/audio/Interstellar – Building A Black Hole – Official Warner Bros. [MfGfZwQ_qaY]_trailer_trimmed.wav (1722.7 KB)
+2026-04-22 23:13:53,458 - INFO - Exported audio -> data/processed/audio/Interstellar – Building A Black Hole – Official Warner Bros. [MfGfZwQ_qaY]_trailer_trimmed.mp3 (235.8 KB)
+2026-04-22 23:13:53,627 - INFO - Loaded audio: Interstellar – Building A Black Hole – Official Warner Bros. [MfGfZwQ_qaY]_trailer.mp3 (MP3)
+2026-04-22 23:13:53,924 - INFO - Exported audio -> data/processed/audio/Interstellar – Building A Black Hole – Official Warner Bros. [MfGfZwQ_qaY]_trailer.flac (11310.6 KB)
+2026-04-22 23:13:54,092 - INFO - Loaded audio: Interstellar - Christopher Nolan - Official Warner Bros. [WqNirxasldY]_triler.mp3 (MP3)
+2026-04-22 23:13:54,092 - INFO - Trimmed audio: 5000ms -> 15000ms (was 205822ms, now 10000ms)
+2026-04-22 23:13:54,092 - INFO - Concatenated 2 clips, total: 20000ms
+2026-04-22 23:13:54,115 - INFO - Volume adjusted by +6.0 dB
+2026-04-22 23:13:54,130 - INFO - Applied fade-in 2000ms / fade-out 3000ms
+2026-04-22 23:13:54,131 - INFO - Exported audio -> data/processed/audio/Interstellar - Christopher Nolan - Official Warner Bros. [WqNirxasldY]_triler_trimmed.wav (1722.7 KB)
+2026-04-22 23:13:54,232 - INFO - Exported audio -> data/processed/audio/Interstellar - Christopher Nolan - Official Warner Bros. [WqNirxasldY]_triler_trimmed.mp3 (235.8 KB)
+2026-04-22 23:13:54,403 - INFO - Loaded audio: Interstellar - Christopher Nolan - Official Warner Bros. [WqNirxasldY]_triler.mp3 (MP3)
+2026-04-22 23:13:54,686 - INFO - Exported audio -> data/processed/audio/Interstellar - Christopher Nolan - Official Warner Bros. [WqNirxasldY]_triler.flac (12335.1 KB)
+2026-04-22 23:13:54,844 - INFO - Loaded audio: Inception _ The Dream Sequence _ HBO Max [mpj9dL7swwk]_trailer.mp3 (MP3)
+2026-04-22 23:13:54,844 - INFO - Trimmed audio: 5000ms -> 15000ms (was 192401ms, now 10000ms)
+2026-04-22 23:13:54,845 - INFO - Concatenated 2 clips, total: 20000ms
+2026-04-22 23:13:54,865 - INFO - Volume adjusted by +6.0 dB
+2026-04-22 23:13:54,877 - INFO - Applied fade-in 2000ms / fade-out 3000ms
+2026-04-22 23:13:54,878 - INFO - Exported audio -> data/processed/audio/Inception _ The Dream Sequence _ HBO Max [mpj9dL7swwk]_trailer_trimmed.wav (1722.7 KB)
+2026-04-22 23:13:54,969 - INFO - Exported audio -> data/processed/audio/Inception _ The Dream Sequence _ HBO Max [mpj9dL7swwk]_trailer_trimmed.mp3 (235.8 KB)
+2026-04-22 23:13:55,125 - INFO - Loaded audio: Inception _ The Dream Sequence _ HBO Max [mpj9dL7swwk]_trailer.mp3 (MP3)
+2026-04-22 23:13:55,380 - INFO - Exported audio -> data/processed/audio/Inception _ The Dream Sequence _ HBO Max [mpj9dL7swwk]_trailer.flac (10375.5 KB)
+2026-04-22 23:13:56,030 - INFO - Loaded video: Interstellar – Building A Black Hole – Official Warner Bros._trailer.mp4
+2026-04-22 23:13:56,154 - INFO - Saved frame at t=5.0s -> data/processed/frames/Interstellar – Building A Black Hole – Official Warner Bros._trailer_thumb.png
+2026-04-22 23:13:56,874 - INFO - Extracted 22 keyframes from Interstellar – Building A Black Hole – Official Warner Bros._trailer.mp4 (every 10.0s)
+2026-04-22 23:13:56,926 - INFO - Loaded video: Interstellar – Building A Black Hole – Official Warner Bros._trailer.mp4
+2026-04-22 23:13:58,330 - INFO - Extracted audio -> data/processed/audio/Interstellar – Building A Black Hole – Official Warner Bros._trailer.mp3 (3433.3 KB)
+2026-04-22 23:13:58,387 - INFO - Loaded video: Inception _ The Dream Sequence _ HBO Max_trailer.mp4
+2026-04-22 23:13:58,481 - INFO - Saved frame at t=5.0s -> data/processed/frames/Inception _ The Dream Sequence _ HBO Max_trailer_thumb.png
+2026-04-22 23:13:59,252 - INFO - Extracted 20 keyframes from Inception _ The Dream Sequence _ HBO Max_trailer.mp4 (every 10.0s)
+2026-04-22 23:13:59,309 - INFO - Loaded video: Inception _ The Dream Sequence _ HBO Max_trailer.mp4
+2026-04-22 23:14:00,397 - INFO - Extracted audio -> data/processed/audio/Inception _ The Dream Sequence _ HBO Max_trailer.mp3 (3007.2 KB)
+2026-04-22 23:14:00,449 - INFO - Loaded video: Interstellar - Christopher Nolan - Official Warner Bros._trailer.mp4
+2026-04-22 23:14:00,536 - INFO - Saved frame at t=5.0s -> data/processed/frames/Interstellar - Christopher Nolan - Official Warner Bros._trailer_thumb.png
+2026-04-22 23:14:01,245 - INFO - Extracted 21 keyframes from Interstellar - Christopher Nolan - Official Warner Bros._trailer.mp4 (every 10.0s)
+2026-04-22 23:14:01,297 - INFO - Loaded video: Interstellar - Christopher Nolan - Official Warner Bros._trailer.mp4
+2026-04-22 23:14:02,544 - INFO - Extracted audio -> data/processed/audio/Interstellar - Christopher Nolan - Official Warner Bros._trailer.mp3 (3217.0 KB)
+2026-04-22 23:14:02,701 - INFO - === Lab 9: Data Cleaning ===
+2026-04-22 23:14:02,704 - INFO - Loaded 901 rows from data/processed/analytics/tmdb_movies.csv
+2026-04-22 23:14:02,704 - INFO - === Starting cleaning pipeline: 901 rows ===
+2026-04-22 23:14:02,704 - INFO - Step 1: drop rows missing title
+2026-04-22 23:14:02,705 - INFO - drop_rows_missing_title: dropped 98 rows
+2026-04-22 23:14:02,705 - INFO - Step 2: replace zero-as-missing in financial columns
+2026-04-22 23:14:02,705 - INFO - Step 3: drop exact duplicates
+2026-04-22 23:14:02,707 - INFO - drop_exact_duplicates: removed 557 rows
+2026-04-22 23:14:02,707 - INFO - Step 4: drop duplicate IDs
+2026-04-22 23:14:02,707 - INFO - drop_duplicate_ids (id): removed 119 rows
+2026-04-22 23:14:02,707 - INFO - Step 5: clean string columns
+2026-04-22 23:14:02,707 - INFO - clean_title: 0 titles modified
+2026-04-22 23:14:02,707 - INFO - clean_language_code: normalised to lowercase
+2026-04-22 23:14:02,708 - INFO - clean_overview_text: overview column cleaned
+2026-04-22 23:14:02,708 - INFO - Step 6: extract release year from date string
+2026-04-22 23:14:02,708 - INFO - extract_year_from_release_date: extracted 116 years
+2026-04-22 23:14:02,708 - INFO - Step 7: fill missing overviews
+2026-04-22 23:14:02,708 - INFO - fill_missing_overview: filled 99 rows
+2026-04-22 23:14:02,708 - INFO - Step 8: fill numeric NaN with median
+2026-04-22 23:14:02,708 - INFO - fill_numeric_with_median: popularity -> filled 11 with 76.90
+2026-04-22 23:14:02,708 - INFO - fill_numeric_with_median: vote_average -> filled 99 with 6.60
+2026-04-22 23:14:02,708 - INFO - fill_numeric_with_median: vote_count -> filled 99 with 78.50
+2026-04-22 23:14:02,708 - INFO - Step 9: convert data types
+2026-04-22 23:14:02,709 - INFO - convert_dates: 11 rows could not be parsed (NaT)
+2026-04-22 23:14:02,709 - INFO - convert_numeric_columns: popularity -> float32
+2026-04-22 23:14:02,709 - INFO - convert_numeric_columns: vote_average -> float32
+2026-04-22 23:35:24,083 - INFO - Fetching page 1
+2026-04-22 23:35:24,083 - ERROR - API request failed
+2026-04-22 23:35:24,819 - INFO - Loaded audio: Interstellar – Building A Black Hole – Official Warner Bros. [MfGfZwQ_qaY]_trailer.mp3 (MP3)
+2026-04-22 23:35:24,990 - INFO - Loaded audio: Interstellar - Christopher Nolan - Official Warner Bros. [WqNirxasldY]_triler.mp3 (MP3)
+2026-04-22 23:35:25,143 - INFO - Loaded audio: Inception _ The Dream Sequence _ HBO Max [mpj9dL7swwk]_trailer.mp3 (MP3)
+2026-04-22 23:35:25,313 - INFO - Loaded audio: Interstellar – Building A Black Hole – Official Warner Bros. [MfGfZwQ_qaY]_trailer.mp3 (MP3)
+2026-04-22 23:35:25,314 - INFO - Trimmed audio: 5000ms -> 15000ms (was 219684ms, now 10000ms)
+2026-04-22 23:35:25,314 - INFO - Concatenated 2 clips, total: 20000ms
+2026-04-22 23:35:25,338 - INFO - Volume adjusted by +6.0 dB
+2026-04-22 23:35:25,365 - INFO - Applied fade-in 2000ms / fade-out 3000ms
+2026-04-22 23:35:25,366 - INFO - Exported audio -> data/processed/audio/Interstellar – Building A Black Hole – Official Warner Bros. [MfGfZwQ_qaY]_trailer_trimmed.wav (1722.7 KB)
+2026-04-22 23:35:25,463 - INFO - Exported audio -> data/processed/audio/Interstellar – Building A Black Hole – Official Warner Bros. [MfGfZwQ_qaY]_trailer_trimmed.mp3 (235.8 KB)
+2026-04-22 23:35:25,632 - INFO - Loaded audio: Interstellar – Building A Black Hole – Official Warner Bros. [MfGfZwQ_qaY]_trailer.mp3 (MP3)
+2026-04-22 23:35:25,922 - INFO - Exported audio -> data/processed/audio/Interstellar – Building A Black Hole – Official Warner Bros. [MfGfZwQ_qaY]_trailer.flac (11310.6 KB)
+2026-04-22 23:35:26,091 - INFO - Loaded audio: Interstellar - Christopher Nolan - Official Warner Bros. [WqNirxasldY]_triler.mp3 (MP3)
+2026-04-22 23:35:26,092 - INFO - Trimmed audio: 5000ms -> 15000ms (was 205822ms, now 10000ms)
+2026-04-22 23:35:26,092 - INFO - Concatenated 2 clips, total: 20000ms
+2026-04-22 23:35:26,113 - INFO - Volume adjusted by +6.0 dB
+2026-04-22 23:35:26,128 - INFO - Applied fade-in 2000ms / fade-out 3000ms
+2026-04-22 23:35:26,130 - INFO - Exported audio -> data/processed/audio/Interstellar - Christopher Nolan - Official Warner Bros. [WqNirxasldY]_triler_trimmed.wav (1722.7 KB)
+2026-04-22 23:35:26,229 - INFO - Exported audio -> data/processed/audio/Interstellar - Christopher Nolan - Official Warner Bros. [WqNirxasldY]_triler_trimmed.mp3 (235.8 KB)
+2026-04-22 23:35:26,399 - INFO - Loaded audio: Interstellar - Christopher Nolan - Official Warner Bros. [WqNirxasldY]_triler.mp3 (MP3)
+2026-04-22 23:35:26,678 - INFO - Exported audio -> data/processed/audio/Interstellar - Christopher Nolan - Official Warner Bros. [WqNirxasldY]_triler.flac (12335.1 KB)
+2026-04-22 23:35:26,836 - INFO - Loaded audio: Inception _ The Dream Sequence _ HBO Max [mpj9dL7swwk]_trailer.mp3 (MP3)
+2026-04-22 23:35:26,836 - INFO - Trimmed audio: 5000ms -> 15000ms (was 192401ms, now 10000ms)
+2026-04-22 23:35:26,836 - INFO - Concatenated 2 clips, total: 20000ms
+2026-04-22 23:35:26,860 - INFO - Volume adjusted by +6.0 dB
+2026-04-22 23:35:26,872 - INFO - Applied fade-in 2000ms / fade-out 3000ms
+2026-04-22 23:35:26,873 - INFO - Exported audio -> data/processed/audio/Inception _ The Dream Sequence _ HBO Max [mpj9dL7swwk]_trailer_trimmed.wav (1722.7 KB)
+2026-04-22 23:35:26,964 - INFO - Exported audio -> data/processed/audio/Inception _ The Dream Sequence _ HBO Max [mpj9dL7swwk]_trailer_trimmed.mp3 (235.8 KB)
+2026-04-22 23:35:27,117 - INFO - Loaded audio: Inception _ The Dream Sequence _ HBO Max [mpj9dL7swwk]_trailer.mp3 (MP3)
+2026-04-22 23:35:27,370 - INFO - Exported audio -> data/processed/audio/Inception _ The Dream Sequence _ HBO Max [mpj9dL7swwk]_trailer.flac (10375.5 KB)
+2026-04-22 23:35:28,238 - INFO - Loaded video: Interstellar – Building A Black Hole – Official Warner Bros._trailer.mp4
+2026-04-22 23:35:28,348 - INFO - Saved frame at t=5.0s -> data/processed/frames/Interstellar – Building A Black Hole – Official Warner Bros._trailer_thumb.png
+2026-04-22 23:35:29,036 - INFO - Extracted 22 keyframes from Interstellar – Building A Black Hole – Official Warner Bros._trailer.mp4 (every 10.0s)
+2026-04-22 23:35:29,086 - INFO - Loaded video: Interstellar – Building A Black Hole – Official Warner Bros._trailer.mp4
+2026-04-22 23:35:30,438 - INFO - Extracted audio -> data/processed/audio/Interstellar – Building A Black Hole – Official Warner Bros._trailer.mp3 (3433.3 KB)
+2026-04-22 23:35:30,494 - INFO - Loaded video: Inception _ The Dream Sequence _ HBO Max_trailer.mp4
+2026-04-22 23:35:30,584 - INFO - Saved frame at t=5.0s -> data/processed/frames/Inception _ The Dream Sequence _ HBO Max_trailer_thumb.png
+2026-04-22 23:35:31,301 - INFO - Extracted 20 keyframes from Inception _ The Dream Sequence _ HBO Max_trailer.mp4 (every 10.0s)
+2026-04-22 23:35:31,357 - INFO - Loaded video: Inception _ The Dream Sequence _ HBO Max_trailer.mp4
+2026-04-22 23:35:32,430 - INFO - Extracted audio -> data/processed/audio/Inception _ The Dream Sequence _ HBO Max_trailer.mp3 (3007.2 KB)
+2026-04-22 23:35:32,485 - INFO - Loaded video: Interstellar - Christopher Nolan - Official Warner Bros._trailer.mp4
+2026-04-22 23:35:32,574 - INFO - Saved frame at t=5.0s -> data/processed/frames/Interstellar - Christopher Nolan - Official Warner Bros._trailer_thumb.png
+2026-04-22 23:35:33,283 - INFO - Extracted 21 keyframes from Interstellar - Christopher Nolan - Official Warner Bros._trailer.mp4 (every 10.0s)
+2026-04-22 23:35:33,335 - INFO - Loaded video: Interstellar - Christopher Nolan - Official Warner Bros._trailer.mp4
+2026-04-22 23:35:34,533 - INFO - Extracted audio -> data/processed/audio/Interstellar - Christopher Nolan - Official Warner Bros._trailer.mp3 (3217.0 KB)
+2026-04-22 23:35:34,692 - INFO - === Lab 9: Data Cleaning ===
+2026-04-22 23:35:34,695 - INFO - Loaded 901 rows from data/processed/analytics/tmdb_movies.csv
+2026-04-22 23:35:34,695 - INFO - === Starting cleaning pipeline: 901 rows ===
+2026-04-22 23:35:34,695 - INFO - Step 1: drop rows missing title
+2026-04-22 23:35:34,696 - INFO - drop_rows_missing_title: dropped 98 rows
+2026-04-22 23:35:34,696 - INFO - Step 2: replace zero-as-missing in financial columns
+2026-04-22 23:35:34,697 - INFO - Step 3: drop exact duplicates
+2026-04-22 23:35:34,698 - INFO - drop_exact_duplicates: removed 557 rows
+2026-04-22 23:35:34,698 - INFO - Step 4: drop duplicate IDs
+2026-04-22 23:35:34,698 - INFO - drop_duplicate_ids (id): removed 119 rows
+2026-04-22 23:35:34,698 - INFO - Step 5: clean string columns
+2026-04-22 23:35:34,698 - INFO - clean_title: 0 titles modified
+2026-04-22 23:35:34,698 - INFO - clean_language_code: normalised to lowercase
+2026-04-22 23:35:34,699 - INFO - clean_overview_text: overview column cleaned
+2026-04-22 23:35:34,699 - INFO - Step 6: extract release year from date string
+2026-04-22 23:35:34,699 - INFO - extract_year_from_release_date: extracted 116 years
+2026-04-22 23:35:34,699 - INFO - Step 7: fill missing overviews
+2026-04-22 23:35:34,699 - INFO - fill_missing_overview: filled 99 rows
+2026-04-22 23:35:34,699 - INFO - Step 8: fill numeric NaN with median
+2026-04-22 23:35:34,699 - INFO - fill_numeric_with_median: popularity -> filled 11 with 76.90
+2026-04-22 23:35:34,699 - INFO - fill_numeric_with_median: vote_average -> filled 99 with 6.60
+2026-04-22 23:35:34,699 - INFO - fill_numeric_with_median: vote_count -> filled 99 with 78.50
+2026-04-22 23:35:34,699 - INFO - Step 9: convert data types
+2026-04-22 23:35:34,700 - INFO - convert_dates: 11 rows could not be parsed (NaT)
+2026-04-22 23:35:34,700 - INFO - convert_numeric_columns: popularity -> float32
+2026-04-22 23:35:34,700 - INFO - convert_numeric_columns: vote_average -> float32
+2026-04-22 23:35:34,700 - INFO - convert_numeric_columns: vote_count -> Int64
+2026-04-22 23:35:34,701 - INFO - convert_numeric_columns: id -> Int64
+2026-04-22 23:35:34,701 - INFO - convert_category_columns: original_language -> category
+2026-04-22 23:35:34,701 - INFO - Step 10: run validation
+2026-04-22 23:35:34,701 - INFO - validate_no_null_titles: PASSED
+2026-04-22 23:35:34,701 - INFO - validate_vote_average_range: PASSED
+2026-04-22 23:35:34,701 - INFO - validate_release_year_range: PASSED
+2026-04-22 23:35:34,701 - INFO - validate_no_duplicate_ids (id): PASSED
+2026-04-22 23:35:34,701 - INFO - validate_language_codes: PASSED
+2026-04-22 23:35:34,704 - INFO - Saved clean dataset to processed/cleaned/movies_clean.csv (127 rows)
+2026-04-22 23:35:34,704 - INFO - === Cleaning pipeline complete: 127 rows remain ===
+2026-04-22 23:35:34,704 - INFO - Cleaning complete: 127 rows saved to processed/cleaned/
+2026-04-22 23:35:34,704 - INFO - Pipeline finished successfully

@@ -25,7 +25,7 @@ from audio_processing.transcriber import (
 )
 from video_processing.loader       import inspect_video, extract_audio_from_video
 from video_processing.frame_extractor import extract_keyframes
-
+import pandas as pd
 from pathlib import Path
 import logging
 import numpy as np
@@ -41,6 +41,8 @@ from analytics import (
 
 logger = logging.getLogger(__name__)
 
+from cleaning.clean_pipeline import run_cleaning_pipeline
+from analytics.data_loader import load_from_csv  
 
 def run_analytics():
 
@@ -185,13 +187,33 @@ def run_audio_video_stage():
             logging.error(f'Video error: {e}')
 
     logging.info('=== Audio/Video Processing Stage Complete ===')
+
+
+def run_cleaning():
+   
+    logging.info('=== Lab 9: Data Cleaning ===')
+
+    # Load the raw CSV that was exported in Lab 8
+    raw_csv = Path('data/processed/analytics/tmdb_movies.csv')
+    if not raw_csv.exists():
+        logging.warning('tmdb_movies.csv not found')
+        return None
+
+    df_raw = pd.read_csv(raw_csv, low_memory=False)
+    logging.info('Loaded %d rows from %s', len(df_raw), raw_csv)
+
+    # Run the cleaning pipeline
+    df_clean = run_cleaning_pipeline(df_raw, save=True)
+    logging.info('Cleaning complete: %d rows saved to processed/cleaned/', len(df_clean))
+    return df_clean
+
 def run_pipeline():
-    movies = fetch_movies(3)
+    # movies = fetch_movies(3)
 
-    for movie in movies:
-        parsed = extract_movie_fields(movie)
+    # for movie in movies:
+    #     parsed = extract_movie_fields(movie)
 
-        save_to_mongo(parsed, "tmdb_api")
+    #     save_to_mongo(parsed, "tmdb_api")
 
     # pdf_standard = "../../data/raw/pdf/film_standard.pdf"
     # pdf_two_column = "../../data/raw/pdf/film_two_column.pdf"
@@ -334,7 +356,14 @@ def run_pipeline():
     # except Exception as e:
     #     logging.error(f"Multi-page scraping error: {e}")
     # run_audio_video_stage()
-    run_analytics()
+    # run_analytics()
+    logging.basicConfig(
+        filename='pipeline.log',
+        level=logging.INFO,
+        format='%(asctime)s | %(name)s | %(levelname)s | %(message)s'
+    )
+    run_cleaning()
+
     logging.info("Pipeline finished successfully")
     
 if __name__ == "__main__":
