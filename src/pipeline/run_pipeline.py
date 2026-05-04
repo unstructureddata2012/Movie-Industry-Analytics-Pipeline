@@ -44,6 +44,72 @@ logger = logging.getLogger(__name__)
 from cleaning.clean_pipeline import run_cleaning_pipeline
 from analytics.data_loader import load_from_csv  
 
+
+import pandas as pd
+ 
+from cleaning.clean_pipeline    import run_cleaning_pipeline
+from analytics.db_connector     import get_connection, populate_financials, query_financials
+from analytics.data_combiner    import merge_mysql_mongodb
+from analytics.aggregator       import genre_summary, yearly_trends
+from analytics.time_series      import parse_release_dates, build_monthly_series, rolling_averages
+from analytics.pivot_builder    import build_pivot_table
+from analytics.insight_reporter import run_all_questions
+ 
+logging.basicConfig(filename="pipeline.log", level=logging.INFO,
+    format="%(asctime)s | %(levelname)s | %(message)s")
+logger = logging.getLogger(__name__)
+ 
+ 
+def run_analytics_pipeline(cleaned_path, mysql_password=""):
+    """Run the full analytics step."""
+    logger.info("--- Lab 10 Analytics Pipeline Starting ---")
+    os.makedirs("data/processed/analytics", exist_ok=True)
+ 
+    df = pd.read_csv(cleaned_path)
+    logger.info("Loaded cleaned data: %d rows", len(df))
+ 
+    # MySQL: populate and query
+    try:
+        conn = get_connection(password=mysql_password, database="movies")
+        populate_financials(conn, df)
+        mysql_df = query_financials(conn)
+        logger.info("MySQL step complete")
+    except Exception as e:
+        logger.warning("MySQL step skipped: %s", e)
+        mysql_df = df[["id", "budget_usd", "revenue_usd"]].copy() \
+            if "id" in df.columns else pd.DataFrame()
+ 
+    # Parse dates
+    if "release_date" in df.columns:
+        df = parse_release_dates(df, date_col="release_date")
+ 
+    # Add primary genre
+    if "genre" in df.columns:
+        df["primary_genre"] = df["genre"].str.split(",").str[0].str.strip()
+ 
+    # Merge with MySQL if available
+    if not mysql_df.empty and "id" in mysql_df.columns:
+        df = merge_mysql_mongodb(df, mysql_df, on="id", how="left")
+ 
+    # Genre summary
+    if "primary_genre" in df.columns:
+        genre_df = genre_summary(df.dropna(subset=["vote_average"]))
+        genre_df.to_csv("data/processed/analytics/genre_analysis.csv", index=False)
+        logger.info("Genre analysis saved")
+ 
+    # Yearly trends
+    yearly_df = yearly_trends(df)
+    yearly_df.to_csv("data/processed/analytics/yearly_trends.csv", index=False)
+    logger.info("Yearly trends saved")
+ 
+    # Analytical questions
+    run_all_questions(df)
+ 
+    logger.info("--- Lab 10 Analytics Pipeline Complete ---")
+    return df
+ 
+
+
 def run_analytics():
 
     PROCESSED_DIR = Path("data/processed/analytics")
@@ -207,6 +273,7 @@ def run_cleaning():
     logging.info('Cleaning complete: %d rows saved to processed/cleaned/', len(df_clean))
     return df_clean
 
+
 def run_pipeline():
     # movies = fetch_movies(3)
 
@@ -362,9 +429,14 @@ def run_pipeline():
         level=logging.INFO,
         format='%(asctime)s | %(name)s | %(levelname)s | %(message)s'
     )
-    run_cleaning()
+    # run_cleaning()
 
     logging.info("Pipeline finished successfully")
     
+ 
 if __name__ == "__main__":
-    run_pipeline()
+    # cleaned_path = "../../processed/cleaned/movies_clean.csv"
+    BASE_DIR = Path(__file__).resolve().parents[2]
+    cleaned_path = BASE_DIR / "processed" / "cleaned" / "movies_clean.csv"
+    # run_pipeline()
+    run_analytics_pipeline(cleaned_path, mysql_password=" ")
