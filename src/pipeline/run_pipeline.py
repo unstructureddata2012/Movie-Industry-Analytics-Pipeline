@@ -54,7 +54,8 @@ from analytics.aggregator       import genre_summary, yearly_trends
 from analytics.time_series      import parse_release_dates, build_monthly_series, rolling_averages
 from analytics.pivot_builder    import build_pivot_table
 from analytics.insight_reporter import run_all_questions
- 
+from embeddings.chroma_store import get_chroma_client, get_collection, add_movies_to_collection
+
 logging.basicConfig(filename="pipeline.log", level=logging.INFO,
     format="%(asctime)s | %(levelname)s | %(message)s")
 logger = logging.getLogger(__name__)
@@ -273,6 +274,32 @@ def run_cleaning():
     logging.info('Cleaning complete: %d rows saved to processed/cleaned/', len(df_clean))
     return df_clean
 
+def run_embeddings_pipeline(df):
+    """
+    Generate embeddings for all movies and store them in ChromaDB.
+    This step runs after the analytics pipeline.
+    """
+    logging.info("Starting embeddings pipeline")
+
+    try:
+        # Add primary_genre if missing
+        if 'primary_genre' not in df.columns:
+            df['primary_genre'] = df['genres'].apply(
+                lambda x: str(x).split(',')[0].strip() if pd.notna(x) else 'Unknown'
+            )
+
+        # Set up ChromaDB
+        client = get_chroma_client()
+        collection = get_collection(client)
+
+        # Add movies (skips any already in the collection)
+        total = add_movies_to_collection(df, collection, batch_size=100)
+        logging.info(f"Embeddings pipeline complete. {total} movies in ChromaDB.")
+
+    except Exception as e:
+        logging.error(f"Embeddings pipeline failed: {e}")
+        raise
+
 
 def run_pipeline():
     # movies = fetch_movies(3)
@@ -437,6 +464,12 @@ def run_pipeline():
 if __name__ == "__main__":
     # cleaned_path = "../../processed/cleaned/movies_clean.csv"
     BASE_DIR = Path(__file__).resolve().parents[2]
-    cleaned_path = BASE_DIR / "processed" / "cleaned" / "movies_clean.csv"
+    cleaned_path = BASE_DIR / "data" / "processed" / "cleaned" / "movies_clean.csv"
     # run_pipeline()
-    run_analytics_pipeline(cleaned_path, mysql_password=" ")
+    # run_analytics_pipeline(cleaned_path, mysql_password=" ")
+    logging.info("Step 3: Embeddings pipeline")
+    df = pd.read_csv(cleaned_path)
+    run_embeddings_pipeline(df)
+
+
+    
