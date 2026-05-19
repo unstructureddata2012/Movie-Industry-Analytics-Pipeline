@@ -301,6 +301,33 @@ def run_embeddings_pipeline(df):
         raise
 
 
+def run_visualizations_pipeline(cleaned_path=None):
+    """Lab 12 – generate all static and interactive visualizations."""
+    logging.info("--- Lab 12 Visualization Pipeline Starting ---")
+    if cleaned_path is None:
+        BASE_DIR = Path(__file__).resolve().parents[2]
+        cleaned_path = BASE_DIR / "data" / "processed" / "cleaned" / "movies_clean.csv"
+
+    try:
+        import sys
+        BASE_DIR = Path(__file__).resolve().parents[2]
+        if str(BASE_DIR / "src") not in sys.path:
+            sys.path.insert(0, str(BASE_DIR / "src"))
+        import os
+        os.chdir(BASE_DIR)
+        from visualization.chart_generator import generate_all
+        results = generate_all(data_path=Path(cleaned_path))
+        logging.info(
+            "Visualization pipeline complete: %d static, %d interactive",
+            len(results.get("static", {})),
+            len(results.get("interactive", {})),
+        )
+        return results
+    except Exception as e:
+        logging.error("Visualization pipeline failed: %s", e)
+        raise
+
+
 def run_pipeline():
     # movies = fetch_movies(3)
 
